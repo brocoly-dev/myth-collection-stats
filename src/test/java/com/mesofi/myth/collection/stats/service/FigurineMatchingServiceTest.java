@@ -1,7 +1,7 @@
 package com.mesofi.myth.collection.stats.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 import com.mesofi.myth.collection.stats.config.StatsProp;
 import java.util.Arrays;
@@ -20,11 +20,15 @@ class FigurineMatchingServiceTest {
 
   @Mock StatsProp statsProp;
 
+  private static final int MIN_MATCHING_DISTANCE = 10;
+  private static final List<String> IGNORABLE_KEYWORDS =
+      List.of("Bandai", "Version", "Japan", "Saint", "Myth", "Cloth");
+
   @Test
   void findBestMatch_exactMatch_returnsExactMatch() {
 
-    when(statsProp.minMatchingDistance()).thenReturn(10);
-    when(statsProp.ignorableKeywords()).thenReturn(List.of("Bandai", "Version"));
+    when(statsProp.minMatchingDistance()).thenReturn(MIN_MATCHING_DISTANCE);
+    when(statsProp.ignorableKeywords()).thenReturn(IGNORABLE_KEYWORDS);
 
     List<String> figurineNames =
         Arrays.asList("Griffin Minos", "Griffin Minos ~Original Color Edition~");
@@ -34,5 +38,8 @@ class FigurineMatchingServiceTest {
 
     assertThat(result).isPresent();
     assertThat(result.get()).isEqualTo("Griffin Minos");
+
+    verify(statsProp, times(2)).minMatchingDistance();
+    verify(statsProp).ignorableKeywords();
   }
 }
