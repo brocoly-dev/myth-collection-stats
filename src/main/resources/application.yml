@@ -1,3 +1,10 @@
 spring:
   application:
     name: myth-collection-stats
+
+stats:
+  min-matching-distance: 10
+  ignorable-keywords:
+    - "Bandai"
+    - "Saint"
+    - "Myth"

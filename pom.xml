@@ -29,6 +29,7 @@
     <properties>
         <java.version>24</java.version>
         <spotless-maven-plugin.version>2.43.0</spotless-maven-plugin.version>
+        <commons-text.version>1.13.0</commons-text.version>
     </properties>
     <dependencies>
         <dependency>
@@ -64,6 +65,13 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>${commons-text.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

@@ -1,0 +1,5 @@
+stats:
+  ignorable-keywords:
+    - "Bandai"
+    - "SaintTest"
+    - "Myth"
