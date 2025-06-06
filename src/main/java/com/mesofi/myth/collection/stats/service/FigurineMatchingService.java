@@ -31,26 +31,29 @@ public class FigurineMatchingService {
   }
 
   /**
-   * Finds the best matching figurine from a collection based on string similarity analysis. This
-   * method preprocesses the target name by removing ignorable keywords, determines the appropriate
-   * LineUp classification, and uses Levenshtein distance to find the closest match within the same
-   * lineup category.
+   * Finds the best matching figurine from a list of figurines based on the target name.
    *
-   * @param figurines the collection of figurines to search through for potential matches
-   * @param targetName the name to match against figurine display names
-   * @return an Optional containing the best matching figurine if found and within acceptable
-   *     distance threshold, otherwise empty if no suitable match is found or distance exceeds the
-   *     configured minimum matching distance
+   * @param figurines the list of figurines to search through for the best match
+   * @param targetName the name of the figurine to find a match for
+   * @return an Optional containing the best matching figurine if found within the configured
+   *     distance threshold, or empty if no suitable match is found
    */
   public Optional<Figurine> findFigurineBestMatch(
       @Nonnull List<Figurine> figurines, @NotEmpty String targetName) {
 
+    // Preprocess the target name by removing ignorable keywords
     targetName = removeContainedWords(targetName, statsProp.ignorableKeywords());
+
+    // Determine the LineUp based on the target name
     LineUp lineUpFound = findLineUpBasedOnName(targetName);
-    boolean isOce = IsOceBasedOnName(targetName);
+
+    // If the target name contains "Original Color Edition" or "Original Color", remove it
+    boolean isOce = containsAnyWord(targetName, "Original");
+    if (isOce) {
+      targetName = removeContainedWords(targetName, List.of("Original", "Color"));
+    }
 
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
-
     int dist;
     int minDistance = Integer.MAX_VALUE;
     Figurine bestMatchFigurine = null;
@@ -60,7 +63,7 @@ public class FigurineMatchingService {
             .filter(f -> f.getLineUp() == lineUpFound)
             .filter(f -> f.isOce() == isOce)
             .toList()) {
-      dist = levenshtein.apply(targetName.toLowerCase(), f.getDisplayableName().toLowerCase());
+      dist = levenshtein.apply(targetName.toLowerCase(), f.getBaseName().toLowerCase());
       if (dist < minDistance) {
         minDistance = dist;
         bestMatchFigurine = f;
@@ -68,6 +71,7 @@ public class FigurineMatchingService {
     }
 
     Optional<Figurine> bestOptionalMatchFigurine = Optional.ofNullable(bestMatchFigurine);
+    // If the best match is found, check if the distance is within the configured threshold
     if (bestOptionalMatchFigurine.isPresent()) {
       if (minDistance > statsProp.minMatchingDistance()) {
         log.warn(
@@ -109,10 +113,6 @@ public class FigurineMatchingService {
     }
 
     return lineUp;
-  }
-
-  private boolean IsOceBasedOnName(String targetName) {
-    return containsAnyWord(targetName, "Original");
   }
 
   /**
