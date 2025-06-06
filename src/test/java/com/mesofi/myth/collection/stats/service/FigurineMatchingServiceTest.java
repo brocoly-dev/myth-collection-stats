@@ -3,6 +3,7 @@ package com.mesofi.myth.collection.stats.service;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 
+import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.stats.config.StatsProp;
 import java.util.Arrays;
 import java.util.List;
@@ -25,19 +26,24 @@ class FigurineMatchingServiceTest {
       List.of("Bandai", "Version", "Japan", "Saint", "Myth", "Cloth");
 
   @Test
-  void findBestMatch_exactMatch_returnsExactMatch() {
+  void findFigurineBestMatch_shouldReturnExactMatchWhenFindingFigurineBestMatchWithExactMatch() {
 
     when(statsProp.minMatchingDistance()).thenReturn(MIN_MATCHING_DISTANCE);
     when(statsProp.ignorableKeywords()).thenReturn(IGNORABLE_KEYWORDS);
 
-    List<String> figurineNames =
-        Arrays.asList("Griffin Minos", "Griffin Minos ~Original Color Edition~");
+    Figurine figurine1 = new Figurine();
+    figurine1.setDisplayableName("Griffin Minos");
+    Figurine figurine2 = new Figurine();
+    figurine2.setDisplayableName("Griffin Minos ~Original Color Edition~");
+
+    List<Figurine> figurineNames = Arrays.asList(figurine1, figurine2);
     String targetName = "Bandai Saint Myth Cloth EX Griffon Minos Japan version";
 
-    Optional<String> result = figurineMatchingService.findBestMatch(figurineNames, targetName);
+    Optional<Figurine> result =
+        figurineMatchingService.findFigurineBestMatch(figurineNames, targetName);
 
     assertThat(result).isPresent();
-    assertThat(result.get()).isEqualTo("Griffin Minos");
+    assertThat(result.get().getDisplayableName()).isEqualTo("Griffin Minos");
 
     verify(statsProp, times(2)).minMatchingDistance();
     verify(statsProp).ignorableKeywords();

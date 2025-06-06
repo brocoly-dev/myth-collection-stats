@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>24</java.version>
+        <myth-collection-core.version>1.0-SNAPSHOT</myth-collection-core.version>
         <spotless-maven-plugin.version>2.43.0</spotless-maven-plugin.version>
         <commons-text.version>1.13.0</commons-text.version>
     </properties>
@@ -66,6 +67,11 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <groupId>com.mesofi</groupId>
+            <artifactId>myth-collection-core</artifactId>
+            <version>${myth-collection-core.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
