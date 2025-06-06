@@ -1,9 +1,11 @@
 package com.mesofi.myth.collection.stats.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 import com.mesofi.myth.collection.core.model.Figurine;
+import com.mesofi.myth.collection.core.model.LineUp;
 import com.mesofi.myth.collection.stats.config.StatsProp;
 import java.util.Arrays;
 import java.util.List;
@@ -33,10 +35,15 @@ class FigurineMatchingServiceTest {
 
     Figurine figurine1 = new Figurine();
     figurine1.setDisplayableName("Griffin Minos");
+    figurine1.setLineUp(LineUp.MYTH_CLOTH);
     Figurine figurine2 = new Figurine();
     figurine2.setDisplayableName("Griffin Minos ~Original Color Edition~");
+    figurine2.setLineUp(LineUp.MYTH_CLOTH_EX);
+    Figurine figurine3 = new Figurine();
+    figurine3.setDisplayableName("Griffin Minos");
+    figurine3.setLineUp(LineUp.MYTH_CLOTH_EX);
 
-    List<Figurine> figurineNames = Arrays.asList(figurine1, figurine2);
+    List<Figurine> figurineNames = Arrays.asList(figurine1, figurine2, figurine3);
     String targetName = "Bandai Saint Myth Cloth EX Griffon Minos Japan version";
 
     Optional<Figurine> result =
@@ -44,6 +51,7 @@ class FigurineMatchingServiceTest {
 
     assertThat(result).isPresent();
     assertThat(result.get().getDisplayableName()).isEqualTo("Griffin Minos");
+    assertEquals(LineUp.MYTH_CLOTH_EX, result.get().getLineUp());
 
     verify(statsProp, times(2)).minMatchingDistance();
     verify(statsProp).ignorableKeywords();
