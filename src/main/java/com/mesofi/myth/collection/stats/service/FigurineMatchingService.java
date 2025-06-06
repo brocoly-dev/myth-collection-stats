@@ -47,6 +47,7 @@ public class FigurineMatchingService {
 
     targetName = removeContainedWords(targetName, statsProp.ignorableKeywords());
     LineUp lineUpFound = findLineUpBasedOnName(targetName);
+    boolean isOce = IsOceBasedOnName(targetName);
 
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
 
@@ -57,6 +58,7 @@ public class FigurineMatchingService {
         figurines.stream()
             .filter(Objects::nonNull)
             .filter(f -> f.getLineUp() == lineUpFound)
+            .filter(f -> f.isOce() == isOce)
             .toList()) {
       dist = levenshtein.apply(targetName.toLowerCase(), f.getDisplayableName().toLowerCase());
       if (dist < minDistance) {
@@ -107,6 +109,10 @@ public class FigurineMatchingService {
     }
 
     return lineUp;
+  }
+
+  private boolean IsOceBasedOnName(String targetName) {
+    return containsAnyWord(targetName, "Original");
   }
 
   /**

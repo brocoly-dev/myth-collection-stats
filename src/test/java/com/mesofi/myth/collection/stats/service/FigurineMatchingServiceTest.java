@@ -1,8 +1,9 @@
 package com.mesofi.myth.collection.stats.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.LineUp;
@@ -10,8 +11,11 @@ import com.mesofi.myth.collection.stats.config.StatsProp;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import org.junit.jupiter.api.Test;
+import java.util.stream.Stream;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -27,33 +31,73 @@ class FigurineMatchingServiceTest {
   private static final List<String> IGNORABLE_KEYWORDS =
       List.of("Bandai", "Version", "Japan", "Saint", "Myth", "Cloth");
 
-  @Test
-  void findFigurineBestMatch_shouldReturnExactMatchWhenFindingFigurineBestMatchWithExactMatch() {
-
+  @ParameterizedTest
+  @MethodSource("provideFigurineMatchingTestCases")
+  void findFigurineBestMatch_shouldReturnExpectedFigurineForGivenInput(
+      String inputString, Figurine expectedFigurine) {
+    // Arrange
     when(statsProp.minMatchingDistance()).thenReturn(MIN_MATCHING_DISTANCE);
     when(statsProp.ignorableKeywords()).thenReturn(IGNORABLE_KEYWORDS);
 
-    Figurine figurine1 = new Figurine();
-    figurine1.setDisplayableName("Griffin Minos");
-    figurine1.setLineUp(LineUp.MYTH_CLOTH);
-    Figurine figurine2 = new Figurine();
-    figurine2.setDisplayableName("Griffin Minos ~Original Color Edition~");
-    figurine2.setLineUp(LineUp.MYTH_CLOTH_EX);
-    Figurine figurine3 = new Figurine();
-    figurine3.setDisplayableName("Griffin Minos");
-    figurine3.setLineUp(LineUp.MYTH_CLOTH_EX);
+    List<Figurine> figurineNames = createFigurines();
 
-    List<Figurine> figurineNames = Arrays.asList(figurine1, figurine2, figurine3);
-    String targetName = "Bandai Saint Myth Cloth EX Griffon Minos Japan version";
-
+    // Act
     Optional<Figurine> result =
-        figurineMatchingService.findFigurineBestMatch(figurineNames, targetName);
+        figurineMatchingService.findFigurineBestMatch(figurineNames, inputString);
 
+    // Assert
     assertThat(result).isPresent();
-    assertThat(result.get().getDisplayableName()).isEqualTo("Griffin Minos");
-    assertEquals(LineUp.MYTH_CLOTH_EX, result.get().getLineUp());
+    assertFigurineEquals(result.get(), expectedFigurine);
 
     verify(statsProp, times(2)).minMatchingDistance();
     verify(statsProp).ignorableKeywords();
+  }
+
+  private static Stream<Arguments> provideFigurineMatchingTestCases() {
+    return Stream.of(
+        Arguments.of(
+            "Bandai Saint Myth Cloth EX Griffon Minos Japan version",
+            createExpectedFigurine("Griffin Minos", LineUp.MYTH_CLOTH_EX, false)),
+        Arguments.of(
+            "Bandai Saint Myth Cloth EX Griffon Minos ORIGINAL COLOR EDITION Japan version",
+            createExpectedFigurine(
+                "Griffin Minos ~Original Color Edition~", LineUp.MYTH_CLOTH_EX, true)),
+        Arguments.of(
+            "Bandai Saint Myth Cloth Griffon Minos Japan version",
+            createExpectedFigurine("Griffin Minos", LineUp.MYTH_CLOTH, false)));
+  }
+
+  private static Figurine createExpectedFigurine(
+      String displayableName, LineUp lineUp, boolean isOce) {
+    Figurine figurine = new Figurine();
+    figurine.setDisplayableName(displayableName);
+    figurine.setLineUp(lineUp);
+    figurine.setOce(isOce);
+    return figurine;
+  }
+
+  private void assertFigurineEquals(Figurine actual, Figurine expected) {
+    assertThat(actual.getDisplayableName()).isEqualTo(expected.getDisplayableName());
+    assertThat(actual.getLineUp()).isEqualTo(expected.getLineUp());
+    assertThat(actual.isOce()).isEqualTo(expected.isOce());
+  }
+
+  private List<Figurine> createFigurines() {
+    Figurine figurine1 = new Figurine();
+    figurine1.setDisplayableName("Griffin Minos");
+    figurine1.setLineUp(LineUp.MYTH_CLOTH);
+    figurine1.setOce(false);
+
+    Figurine figurine2 = new Figurine();
+    figurine2.setDisplayableName("Griffin Minos ~Original Color Edition~");
+    figurine2.setLineUp(LineUp.MYTH_CLOTH_EX);
+    figurine2.setOce(true);
+
+    Figurine figurine3 = new Figurine();
+    figurine3.setDisplayableName("Griffin Minos");
+    figurine3.setLineUp(LineUp.MYTH_CLOTH_EX);
+    figurine3.setOce(false);
+
+    return Arrays.asList(figurine1, figurine2, figurine3);
   }
 }
