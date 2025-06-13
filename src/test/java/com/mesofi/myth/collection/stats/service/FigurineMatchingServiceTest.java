@@ -29,7 +29,21 @@ class FigurineMatchingServiceTest {
 
   private static final int MIN_MATCHING_DISTANCE = 10;
   private static final List<String> IGNORABLE_KEYWORDS =
-      List.of("Bandai", "Version", "Japan", "Saint", "Myth", "Cloth", "~", "...", "Edition");
+      List.of(
+          "Saint Seiya",
+          "Bandai",
+          "Version",
+          "Japan",
+          "Saint",
+          "Myth",
+          "Cloth",
+          "Edition",
+          "Surplice",
+          "~",
+          "...",
+          "-",
+          "(",
+          ")");
 
   @ParameterizedTest
   @MethodSource("provideFigurineMatchingTestCases")
@@ -79,7 +93,27 @@ class FigurineMatchingServiceTest {
                 "Griffin Minos",
                 "Griffin Minos ~Original Color Edition~",
                 LineUp.MYTH_CLOTH_EX,
-                true)));
+                true)),
+        Arguments.of(
+            "Myth Cloth Griffon Minos",
+            createExpectedFigurine("Griffin Minos", "Griffin Minos", LineUp.MYTH_CLOTH, false)),
+        // https://www.nin-nin-game.com/
+        Arguments.of(
+            "Saint Seiya Myth Cloth EX - Griffon Minos (Surplice)",
+            createExpectedFigurine("Griffin Minos", "Griffin Minos", LineUp.MYTH_CLOTH_EX, false)),
+        Arguments.of(
+            "Saint Seiya Myth Cloth EX Minos Griffon Original Color",
+            createExpectedFigurine(
+                "Griffin Minos",
+                "Griffin Minos ~Original Color Edition~",
+                LineUp.MYTH_CLOTH_EX,
+                true)),
+        Arguments.of(
+            "Saint Seiya Myth Cloth - Griffon Minos",
+            createExpectedFigurine("Griffin Minos", "Griffin Minos", LineUp.MYTH_CLOTH, false)),
+        Arguments.of(
+            "Saint Seiya Myth Cloth - Griffon Minos [Used]",
+            createExpectedFigurine("Griffin Minos", "Griffin Minos", LineUp.MYTH_CLOTH, false)));
   }
 
   private static Figurine createExpectedFigurine(

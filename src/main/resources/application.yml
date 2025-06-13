@@ -3,6 +3,7 @@ spring:
     name: myth-collection-stats
 
 stats:
+  timeout: 10000
   min-matching-distance: 10
   ignorable-keywords:
     - "Bandai"
