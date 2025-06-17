@@ -19,6 +19,7 @@ public class ScraperHandlerFactory {
     handlers.put(Store.HOBBY_GENKI, new HobbyGenkiScraperHandler());
     handlers.put(Store.JUNGLE, new JungleScraperHandler());
     handlers.put(Store.MYKOMBINI, new MykombiniScraperHandler());
+    handlers.put(Store.ANIME_EXPORT, new AnimeExportScraperHandler());
   }
 
   public ScraperHandler getHandler(Store store) {

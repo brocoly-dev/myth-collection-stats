@@ -36,7 +36,7 @@ public class StoreScraperService {
   public List<StoreFigurineInfo> findAllFigurines(Store store) {
     List<StoreFigurineInfo> allFigurines = new ArrayList<>();
     List<StoreFigurineInfo> figurines;
-    for (int i = 1; ; i++) {
+    for (int i = scraperFactory.getHandler(store).initialPageNumber(); ; i++) {
       figurines = scrapeFigurines(store, i);
       if (figurines.isEmpty()) {
         break;
@@ -66,11 +66,10 @@ public class StoreScraperService {
               .headers(scraper.customHeaders())
               .get();
 
-      Elements productItems = scraper.getFigurineElements(document);
+      Elements figurineElements = scraper.getFigurineElements(document);
+      log.info("Found {} figurines", figurineElements.size());
 
-      log.info("Found {} product items", productItems.size());
-
-      for (Element item : productItems) {
+      for (Element item : figurineElements) {
         try {
           scraper.extractFigurineInfo(item).ifPresent(figurines::add);
         } catch (Exception e) {

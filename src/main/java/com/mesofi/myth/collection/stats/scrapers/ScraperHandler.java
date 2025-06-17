@@ -59,6 +59,15 @@ public interface ScraperHandler {
   String getFigurineLinkCssSelector();
 
   /**
+   * Get the initial page number for pagination when scraping figurine data.
+   *
+   * @return the initial page number, defaults to 1
+   */
+  default int initialPageNumber() {
+    return 1;
+  }
+
+  /**
    * Extracts the figurine name from a product link element by parsing the href attribute. The
    * method uses a regex pattern to extract the name portion from the URL structure, then converts
    * hyphens to spaces and trims whitespace to create a readable name.
@@ -93,20 +102,25 @@ public interface ScraperHandler {
   }
 
   /**
-   * Retrieves and optionally filters figurine elements from the document. This method selects all
-   * figurine elements using the configured CSS selector and applies filtering based on the
-   * removeUnwantedFigurines() configuration. When filtering is enabled, figurines that do not
-   * contain "myth cloth" or "cloth myth" in their names are removed from the collection.
+   * Retrieves and processes figurine elements from the provided HTML document. This method uses the
+   * configured CSS selector to extract figurine elements and optionally filters out unwanted
+   * figurines based on the removeUnwantedFigurines() setting.
    *
    * @param document the HTML document to extract figurine elements from
-   * @return Elements collection containing the figurine elements, filtered if configured
+   * @return Elements collection containing the figurine elements, filtered if configured, or an
+   *     empty Elements collection if no CSS selector is configured
    */
   default Elements getFigurineElements(Document document) {
-    Elements figurines = document.select(getFigurinesCssSelector());
-    if (removeUnwantedFigurines()) {
-      removeUnwantedFigurines(figurines);
-    }
-    return figurines;
+    return Optional.ofNullable(getFigurinesCssSelector())
+        .map(
+            cssSelector -> {
+              Elements figurines = document.select(cssSelector);
+              if (removeUnwantedFigurines()) {
+                removeUnwantedFigurines(figurines);
+              }
+              return figurines;
+            })
+        .orElse(new Elements());
   }
 
   /**
@@ -220,7 +234,7 @@ public interface ScraperHandler {
    * @return an Optional containing the link element, or empty if no matching element is found
    */
   private Optional<Element> findFigurineLinkElement(Element figurineElement) {
-    return Optional.ofNullable(figurineElement.selectFirst(getFigurineLinkCssSelector()));
+    return Optional.ofNullable(getFigurineLinkCssSelector()).map(figurineElement::selectFirst);
   }
 
   /**
@@ -232,19 +246,16 @@ public interface ScraperHandler {
    *     found
    */
   private Optional<BigDecimal> extractRetailPrice(Element figurineElement) {
-    Element priceElement = figurineElement.selectFirst(getFigurinePriceCssSelector());
-    if (priceElement == null) {
-      return Optional.empty();
-    }
-
-    String symbol = getCurrency().getSymbol();
-    // Remove currency symbol and commas, extract numbers
-    String regex = "[" + Pattern.quote(symbol) + ",\\s,a-zA-Z]";
-    String cleanPrice = priceElement.text().replaceAll(regex, "");
-    if (cleanPrice.matches("\\d+.*")) {
-      return Optional.of(new BigDecimal(cleanPrice));
-    }
-    return Optional.empty();
+    return Optional.ofNullable(getFigurinePriceCssSelector())
+        .map(figurineElement::selectFirst)
+        .map(
+            priceElement -> {
+              String symbol = getCurrency().getSymbol();
+              // Remove currency symbol and commas, extract numbers
+              String regex = "[" + Pattern.quote(symbol) + ",\\s,a-zA-Z]";
+              String cleanPrice = priceElement.text().replaceAll(regex, "");
+              return cleanPrice.matches("\\d+.*") ? new BigDecimal(cleanPrice) : null;
+            });
   }
 
   /**
@@ -258,6 +269,9 @@ public interface ScraperHandler {
     String productUrl = "";
     if (productLinkElement.hasAttr("href")) {
       productUrl = productLinkElement.attr("href");
+      if (!productUrl.startsWith("/")) {
+        productUrl = "/" + productUrl;
+      }
       if (!productUrl.startsWith("http")) {
         productUrl = getSearchBaseUrl() + productUrl;
       }
