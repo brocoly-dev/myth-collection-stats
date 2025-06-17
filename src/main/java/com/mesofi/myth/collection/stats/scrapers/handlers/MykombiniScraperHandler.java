@@ -46,6 +46,12 @@ public class MykombiniScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
+  public String getFigurineAvailabilityCssSelector() {
+    return "div a.exclusive.ajax_add_to_cart_button";
+  }
+
+  /** {@inheritDoc} */
+  @Override
   public Optional<String> getFigurineName(Element productLinkElement) {
     return Optional.of(productLinkElement.attr("title"));
   }

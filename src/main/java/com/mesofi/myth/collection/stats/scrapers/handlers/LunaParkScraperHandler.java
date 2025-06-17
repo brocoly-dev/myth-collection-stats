@@ -45,6 +45,12 @@ public class LunaParkScraperHandler implements ScraperHandler {
   }
 
   /** {@inheritDoc} */
+  @Override
+  public Optional<Boolean> isFigurineAvailable(Element figurineElement) {
+    return Optional.of(true);
+  }
+
+  /** {@inheritDoc} */
   public boolean removeUnwantedFigurines() {
     return true;
   }

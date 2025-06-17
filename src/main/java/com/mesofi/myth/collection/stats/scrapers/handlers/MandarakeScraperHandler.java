@@ -50,6 +50,12 @@ public class MandarakeScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
+  public Optional<Boolean> isFigurineAvailable(Element figurineElement) {
+    return Optional.of(true);
+  }
+
+  /** {@inheritDoc} */
+  @Override
   public Map<String, String> customHeaders() {
     Map<String, String> headersMap = new HashMap<>();
     headersMap.put(

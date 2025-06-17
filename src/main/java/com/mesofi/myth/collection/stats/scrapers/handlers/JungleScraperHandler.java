@@ -46,6 +46,12 @@ public class JungleScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
+  public Optional<Boolean> isFigurineAvailable(Element figurineElement) {
+    return Optional.of(true);
+  }
+
+  /** {@inheritDoc} */
+  @Override
   public Optional<String> getFigurineName(Element productLinkElement) {
     if (productLinkElement.childNodeSize() == 0) {
       return Optional.empty();

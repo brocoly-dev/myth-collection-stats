@@ -18,12 +18,12 @@ class LunaParkScraperServiceTest {
   void testScrapeFigurines() {
     // This is an integration test that actually calls the website
     // Consider mocking for unit tests
-    // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.LUNA_PARK);
+    List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.LUNA_PARK);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.HOBBY_GENKI);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.NIN_NIN_GAME);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.MANDARAKE);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.JUNGLE);
-    List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.MYKOMBINI);
+    // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.MYKOMBINI);
 
     assertThat(figurines).isNotNull();
     // The website should have some results for "Myth cloth"
@@ -37,8 +37,11 @@ class LunaParkScraperServiceTest {
     figurines.forEach(
         figurine ->
             System.out.printf(
-                "Name: %s, Price: %s, URL: %s%n",
-                figurine.getRawName(), figurine.getRetailPrice(), figurine.getProductUrl()));
+                "Name: %s, Price: %s, Available: %s, URL: %s%n",
+                figurine.getRawName(),
+                figurine.getRetailPrice(),
+                figurine.getAvailable(),
+                figurine.getProductUrl()));
     System.out.println("Total figurines found: " + figurines.size());
   }
 }

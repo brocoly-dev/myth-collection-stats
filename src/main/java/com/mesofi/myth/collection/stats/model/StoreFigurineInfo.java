@@ -10,5 +10,5 @@ public class StoreFigurineInfo {
   private String rawName;
   private BigDecimal retailPrice;
   private String productUrl;
-  private boolean isAvailable;
+  private Boolean available;
 }

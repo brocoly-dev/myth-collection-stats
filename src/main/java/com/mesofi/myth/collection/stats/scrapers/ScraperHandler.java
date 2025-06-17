@@ -83,6 +83,16 @@ public interface ScraperHandler {
   String getFigurinePriceCssSelector();
 
   /**
+   * Get the CSS selector for the figurine availability status.
+   *
+   * @return the CSS selector for the figurine availability, or null if availability checking is not
+   *     supported (figurines are considered available by default)
+   */
+  default String getFigurineAvailabilityCssSelector() {
+    return null; // by default the figurine is available.
+  }
+
+  /**
    * Retrieves and optionally filters figurine elements from the document. This method selects all
    * figurine elements using the configured CSS selector and applies filtering based on the
    * removeUnwantedFigurines() configuration. When filtering is enabled, figurines that do not
@@ -155,6 +165,8 @@ public interface ScraperHandler {
     Optional<BigDecimal> retailPrice = extractRetailPrice(figurineElement);
     // Extract product URL from the link href
     Optional<String> productUrl = extractFigurineUrl(optionalLinkElement.get());
+    // Extract availability status from the figurine element
+    Optional<Boolean> availability = isFigurineAvailable(figurineElement);
 
     // Build the figurine info object
     return figurineName.map(
@@ -163,8 +175,23 @@ public interface ScraperHandler {
                 .rawName(name)
                 .retailPrice(retailPrice.orElse(null))
                 .productUrl(productUrl.orElse(null))
-                .isAvailable(true)
+                .available(availability.orElse(null))
                 .build());
+  }
+
+  /**
+   * Checks if a figurine is available for purchase by looking for the availability indicator
+   * element. Uses the configured CSS selector to find the availability element within the figurine
+   * HTML element.
+   *
+   * @param figurineElement the HTML element containing the figurine information
+   * @return an Optional containing true if the availability element is found (indicating the
+   *     figurine is available), false if not found, or empty if no availability CSS selector is
+   *     configured
+   */
+  default Optional<Boolean> isFigurineAvailable(Element figurineElement) {
+    return Optional.ofNullable(getFigurineAvailabilityCssSelector())
+        .map(cssSelector -> figurineElement.selectFirst(cssSelector) != null);
   }
 
   /**

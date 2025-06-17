@@ -46,6 +46,12 @@ public class NinNinGameScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
+  public String getFigurineAvailabilityCssSelector() {
+    return "div.actions button.ajax_add_to_cart_button";
+  }
+
+  /** {@inheritDoc} */
+  @Override
   public Currency getCurrency() {
     return Currency.getInstance(Locale.of("es", "MX"));
   }
