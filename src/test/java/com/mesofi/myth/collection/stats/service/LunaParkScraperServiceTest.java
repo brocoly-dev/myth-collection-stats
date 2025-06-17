@@ -22,7 +22,8 @@ class LunaParkScraperServiceTest {
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.HOBBY_GENKI);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.NIN_NIN_GAME);
     // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.MANDARAKE);
-    List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.JUNGLE);
+    // List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.JUNGLE);
+    List<StoreFigurineInfo> figurines = scraperService.findAllFigurines(Store.MYKOMBINI);
 
     assertThat(figurines).isNotNull();
     // The website should have some results for "Myth cloth"

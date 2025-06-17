@@ -5,52 +5,48 @@ import com.mesofi.myth.collection.stats.scrapers.ScraperHandler;
 import java.util.Optional;
 import org.jsoup.nodes.Element;
 
-/** Jungle handler. */
-public class JungleScraperHandler implements ScraperHandler {
+/** Mykombini scraper handler. */
+public class MykombiniScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
   public Store getStore() {
-    return Store.JUNGLE;
+    return Store.MYKOMBINI;
   }
 
   /** {@inheritDoc} */
   @Override
   public String getSearchBaseUrl() {
-    return "https://jungle-scs-ensale.com";
+    return "https://mykombini.com";
   }
 
   /** {@inheritDoc} */
   @Override
   public String getSearchContextUrl() {
-    return "/products/list?category_id=&rank=&orderby=&name=myth%20cloth&pageno=";
+    return "/en/Research?orderby=position&orderway=desc&search_query=myth+cloth&submit_search=OK&p=";
   }
 
   /** {@inheritDoc} */
   @Override
   public String getFigurinesCssSelector() {
-    return "li.ec-shelfGrid__item";
+    return "li.ajax_block_product";
   }
 
   /** {@inheritDoc} */
   @Override
   public String getFigurineLinkCssSelector() {
-    return "div.ec-productItemRole__image a";
+    return "h3 a";
   }
 
   /** {@inheritDoc} */
   @Override
   public String getFigurinePriceCssSelector() {
-    return "span.ec-price__price";
+    return "p.price_container span.price";
   }
 
   /** {@inheritDoc} */
   @Override
   public Optional<String> getFigurineName(Element productLinkElement) {
-    if (productLinkElement.childNodeSize() == 0) {
-      return Optional.empty();
-    }
-    Element imgElement = productLinkElement.child(0);
-    return Optional.of(imgElement.attr("alt"));
+    return Optional.of(productLinkElement.attr("title"));
   }
 }

@@ -18,6 +18,7 @@ public class ScraperHandlerFactory {
     handlers.put(Store.MANDARAKE, new MandarakeScraperHandler());
     handlers.put(Store.HOBBY_GENKI, new HobbyGenkiScraperHandler());
     handlers.put(Store.JUNGLE, new JungleScraperHandler());
+    handlers.put(Store.MYKOMBINI, new MykombiniScraperHandler());
   }
 
   public ScraperHandler getHandler(Store store) {
