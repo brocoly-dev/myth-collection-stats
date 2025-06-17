@@ -18,13 +18,42 @@ public class YoyakunowScraperHandler implements ScraperHandler {
 
   /** {@inheritDoc} */
   @Override
-  public String getSearchUrl() {
-    return "https://www.yoyakunow.com/en/search?controller=search&s=myth+cloth&page=";
+  public String getSearchBaseUrl() {
+    return "https://www.yoyakunow.com";
   }
 
   /** {@inheritDoc} */
   @Override
-  public Elements getProductItems(Document document) {
+  public String getSearchContextUrl() {
+    return "/en/search?controller=search&s=myth+cloth&page=";
+  }
+
+  /** {@inheritDoc} */
+  public String getFigurinesCssSelector() {
+    return null;
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  public String getFigurineLinkCssSelector() {
+    return null;
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  public Optional<String> getFigurineName(Element productLinkElement) {
+    return Optional.empty();
+  }
+
+  /** {@inheritDoc} */
+  @Override
+  public String getFigurinePriceCssSelector() {
+    return null;
+  }
+
+  /** {@inheritDoc} */
+  // @Override
+  public Elements getFigurineItems(Document document) {
     // Try common selectors for product items in e-commerce sites
     Elements items = document.select("article.product-miniature");
     if (items.isEmpty()) {

@@ -55,7 +55,8 @@ public class StoreScraperService {
     List<StoreFigurineInfo> figurines = new ArrayList<>();
     ScraperHandler scraperHandler = scraperFactory.getHandler(store);
 
-    String searchUrl = scraperHandler.getSearchUrl() + pageNumber;
+    String searchUrl =
+        scraperHandler.getSearchBaseUrl() + scraperHandler.getSearchContextUrl() + pageNumber;
     try {
       log.info("Starting to scrape {} website: {}", scraperHandler.getStore(), searchUrl);
 
@@ -66,7 +67,7 @@ public class StoreScraperService {
               .headers(scraperHandler.customHeaders())
               .get();
 
-      Elements productItems = scraperHandler.getProductItems(document);
+      Elements productItems = scraperHandler.getFigurineElements(document);
 
       log.info("Found {} product items", productItems.size());
 
