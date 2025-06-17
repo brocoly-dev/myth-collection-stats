@@ -9,6 +9,7 @@ import org.jsoup.nodes.Element;
 
 /** Mandarake Park scraper handler. */
 public class MandarakeScraperHandler implements ScraperHandler {
+
   /** {@inheritDoc} */
   @Override
   public Store getStore() {
@@ -43,7 +44,7 @@ public class MandarakeScraperHandler implements ScraperHandler {
   /** {@inheritDoc} */
   @Override
   public String getFigurinePriceCssSelector() {
-    // Descendant: div with class "price" containing any descendant <a>
+    // Descendant: div with class "price" containing any descendant <p>
     return "div.price p";
   }
 

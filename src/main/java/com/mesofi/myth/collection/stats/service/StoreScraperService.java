@@ -53,27 +53,26 @@ public class StoreScraperService {
       backoff = @Backoff(delay = 2000, multiplier = 2))
   public List<StoreFigurineInfo> scrapeFigurines(Store store, int pageNumber) {
     List<StoreFigurineInfo> figurines = new ArrayList<>();
-    ScraperHandler scraperHandler = scraperFactory.getHandler(store);
+    ScraperHandler scraper = scraperFactory.getHandler(store);
 
-    String searchUrl =
-        scraperHandler.getSearchBaseUrl() + scraperHandler.getSearchContextUrl() + pageNumber;
+    String searchUrl = scraper.getSearchBaseUrl() + scraper.getSearchContextUrl() + pageNumber;
     try {
-      log.info("Starting to scrape {} website: {}", scraperHandler.getStore(), searchUrl);
+      log.info("Starting to scrape {} website: {}", scraper.getStore(), searchUrl);
 
       Document document =
           Jsoup.connect(searchUrl)
               .timeout(statsProp.timeout())
               .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-              .headers(scraperHandler.customHeaders())
+              .headers(scraper.customHeaders())
               .get();
 
-      Elements productItems = scraperHandler.getFigurineElements(document);
+      Elements productItems = scraper.getFigurineElements(document);
 
       log.info("Found {} product items", productItems.size());
 
       for (Element item : productItems) {
         try {
-          scraperHandler.extractFigurineInfo(item).ifPresent(figurines::add);
+          scraper.extractFigurineInfo(item).ifPresent(figurines::add);
         } catch (Exception e) {
           log.warn("Error extracting figurine info from item: {}", e.getMessage());
         }

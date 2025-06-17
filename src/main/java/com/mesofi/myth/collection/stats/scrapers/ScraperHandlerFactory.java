@@ -15,9 +15,9 @@ public class ScraperHandlerFactory {
     handlers = new HashMap<>();
     handlers.put(Store.LUNA_PARK, new LunaParkScraperHandler());
     handlers.put(Store.NIN_NIN_GAME, new NinNinGameScraperHandler());
-    handlers.put(Store.YOYAKUNOW, new YoyakunowScraperHandler());
     handlers.put(Store.MANDARAKE, new MandarakeScraperHandler());
     handlers.put(Store.HOBBY_GENKI, new HobbyGenkiScraperHandler());
+    handlers.put(Store.JUNGLE, new JungleScraperHandler());
   }
 
   public ScraperHandler getHandler(Store store) {
