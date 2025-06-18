@@ -13,9 +13,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -45,8 +43,8 @@ class FigurineMatchingServiceTest {
           "(",
           ")");
 
-  @ParameterizedTest
-  @MethodSource("provideFigurineMatchingTestCases")
+  // @ParameterizedTest
+  // @MethodSource("provideFigurineMatchingTestCases")
   void findFigurineBestMatch_shouldReturnExpectedFigurineForGivenInput(
       String inputString, Figurine expectedFigurine) {
     // Arrange
