@@ -159,13 +159,13 @@ public interface ScraperHandler {
   }
 
   /**
-   * Extracts figurine information from a figurine HTML element. This method parses the figurine
-   * element to extract the product name, retail price, and product URL, then builds a
-   * StoreFigurineInfo object with the extracted data.
+   * Extracts figurine information from an HTML element containing figurine data. This method
+   * processes the figurine element to extract key information including name, price, product URL,
+   * and availability status.
    *
    * @param figurineElement the HTML element containing the figurine information
-   * @return an Optional containing the StoreFigurineInfo object, or empty if no product link is
-   *     found
+   * @return an Optional containing the StoreFigurineInfo object with extracted data, or empty if
+   *     the figurine link element cannot be found or the figurine name cannot be extracted
    */
   default Optional<StoreFigurineInfo> extractFigurineInfo(Element figurineElement) {
     Optional<Element> optionalLinkElement = findFigurineLinkElement(figurineElement);
@@ -177,7 +177,7 @@ public interface ScraperHandler {
     Optional<String> figurineName = getFigurineName(optionalLinkElement.get());
     // Extract price from the text
     Optional<BigDecimal> retailPrice = extractRetailPrice(figurineElement);
-    // Extract product URL from the link href
+    // Extract URL from the link href
     Optional<String> productUrl = extractFigurineUrl(optionalLinkElement.get());
     // Extract availability status from the figurine element
     Optional<Boolean> availability = isFigurineAvailable(figurineElement);
@@ -259,23 +259,24 @@ public interface ScraperHandler {
   }
 
   /**
-   * Extracts the product URL from a product link element. If the href attribute contains a relative
-   * URL, it will be converted to an absolute URL by prepending the search base URL.
+   * Extracts the URL from a figurine link element. Handles relative and absolute URLs by converting
+   * relative URLs to absolute ones using the search base URL.
    *
-   * @param productLinkElement the HTML element containing the product link
-   * @return an Optional containing the product URL, or empty string if no href attribute exists
+   * @param figurineLinkElement the HTML element containing the link information
+   * @return an Optional containing the complete URL, or empty if no href attribute is found
    */
-  private Optional<String> extractFigurineUrl(Element productLinkElement) {
-    String productUrl = "";
-    if (productLinkElement.hasAttr("href")) {
-      productUrl = productLinkElement.attr("href");
-      if (!productUrl.startsWith("/")) {
-        productUrl = "/" + productUrl;
+  private Optional<String> extractFigurineUrl(Element figurineLinkElement) {
+    if (figurineLinkElement.hasAttr("href")) {
+      String url = figurineLinkElement.attr("href");
+      if (url.startsWith("https")) {
+        return Optional.of(url);
+      } else if (url.startsWith("/")) {
+        return Optional.of(getSearchBaseUrl() + url);
+      } else {
+        return Optional.of(getSearchBaseUrl() + "/" + url);
       }
-      if (!productUrl.startsWith("http")) {
-        productUrl = getSearchBaseUrl() + productUrl;
-      }
+    } else {
+      return Optional.empty();
     }
-    return Optional.of(productUrl);
   }
 }
