@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2011-06-29\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/2237/bBmSOH.jpg\", \"https://imagizer.imageshack.com/img923/5148/4VOO1a.jpg\", \"https://imagizer.imageshack.com/img924/1072/k2fv3X.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Dragon & Cygnus Black\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"BLACK\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2011-06-29",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/2237/bBmSOH.jpg", "https://imagizer.imageshack.com/img923/5148/4VOO1a.jpg", "https://imagizer.imageshack.com/img924/1072/k2fv3X.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Dragon & Cygnus Black",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "BLACK",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

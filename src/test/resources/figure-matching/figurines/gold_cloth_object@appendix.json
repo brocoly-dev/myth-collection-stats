@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 14400,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2024-10-27\",\n    \"preOrderDate\" : \"2024-11-15\",\n    \"releaseDate\" : \"2024-11-15\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/15173\",\n  \"distributionChannel\" : \"TS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/3568/kJEWOB.jpg\", \"https://imagizer.imageshack.com/img922/9073/yQF5xG.jpg\", \"https://imagizer.imageshack.com/img924/1105/KCJvy0.jpg\", \"https://imagizer.imageshack.com/img923/4995/gWQsCQ.jpg\", \"https://imagizer.imageshack.com/img922/2277/lfXSY1.jpg\", \"https://imagizer.imageshack.com/img923/9623/tPHz7c.jpg\", \"https://imagizer.imageshack.com/img923/1514/bYAb92.jpg\", \"https://imagizer.imageshack.com/img922/8473/1gMk8K.jpg\", \"https://imagizer.imageshack.com/img922/632/FK4axY.jpg\", \"https://imagizer.imageshack.com/img924/159/HkpVky.jpg\", \"https://imagizer.imageshack.com/img922/6755/YiJRfF.jpg\", \"https://imagizer.imageshack.com/img922/1740/ntiXGC.jpg\", \"https://imagizer.imageshack.com/img923/5064/z3V5al.jpg\", \"https://imagizer.imageshack.com/img922/644/MLE7AC.jpg\", \"https://imagizer.imageshack.com/img924/8501/crzzoG.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"TN 2024\",\n  \"baseName\" : \"Gold Cloth Object\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"APPENDIX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : null,\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 14400,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2024-10-27",
+    "preOrderDate" : "2024-11-15",
+    "releaseDate" : "2024-11-15",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/15173",
+  "distributionChannel" : "TS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/3568/kJEWOB.jpg", "https://imagizer.imageshack.com/img922/9073/yQF5xG.jpg", "https://imagizer.imageshack.com/img924/1105/KCJvy0.jpg", "https://imagizer.imageshack.com/img923/4995/gWQsCQ.jpg", "https://imagizer.imageshack.com/img922/2277/lfXSY1.jpg", "https://imagizer.imageshack.com/img923/9623/tPHz7c.jpg", "https://imagizer.imageshack.com/img923/1514/bYAb92.jpg", "https://imagizer.imageshack.com/img922/8473/1gMk8K.jpg", "https://imagizer.imageshack.com/img922/632/FK4axY.jpg", "https://imagizer.imageshack.com/img924/159/HkpVky.jpg", "https://imagizer.imageshack.com/img922/6755/YiJRfF.jpg", "https://imagizer.imageshack.com/img922/1740/ntiXGC.jpg", "https://imagizer.imageshack.com/img923/5064/z3V5al.jpg", "https://imagizer.imageshack.com/img922/644/MLE7AC.jpg", "https://imagizer.imageshack.com/img924/8501/crzzoG.jpg" ],
+  "otherImages" : null,
+  "remarks" : "TN 2024",
+  "baseName" : "Gold Cloth Object",
+  "displayableName" : null,
+  "lineUp" : "APPENDIX",
+  "series" : "SAINT_SEIYA",
+  "category" : null,
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

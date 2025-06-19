@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 8400,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2013-10-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"OTHER\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/5427/nNPkEt.jpg\", \"https://imagizer.imageshack.com/img924/361/C487n5.jpg\", \"https://imagizer.imageshack.com/img923/1150/VCFg5M.jpg\", \"https://imagizer.imageshack.com/img924/7656/86LB8H.jpg\", \"https://imagizer.imageshack.com/img924/6638/kh61nU.jpg\", \"https://imagizer.imageshack.com/img924/8052/JtFzjH.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V2\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : true,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 8400,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2013-10-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "OTHER",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/5427/nNPkEt.jpg", "https://imagizer.imageshack.com/img924/361/C487n5.jpg", "https://imagizer.imageshack.com/img923/1150/VCFg5M.jpg", "https://imagizer.imageshack.com/img924/7656/86LB8H.jpg", "https://imagizer.imageshack.com/img924/6638/kh61nU.jpg", "https://imagizer.imageshack.com/img924/8052/JtFzjH.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V2",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : true,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-10-19\",\n    \"preOrderDate\" : \"2023-11-01\",\n    \"releaseDate\" : \"2024-05-24\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2300,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-05-29\",\n    \"releaseDate\" : \"2024-07-03\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14704\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/9391/JGWJnR.jpg\", \"https://imagizer.imageshack.com/img924/1005/bMHJBd.jpg\", \"https://imagizer.imageshack.com/img923/2256/4SNWkj.jpg\", \"https://imagizer.imageshack.com/img924/6440/OfwC9V.jpg\", \"https://imagizer.imageshack.com/img922/3307/lfXB1a.jpg\", \"https://imagizer.imageshack.com/img923/9950/IR7Bz0.jpg\", \"https://imagizer.imageshack.com/img924/3783/7ISX6s.jpg\", \"https://imagizer.imageshack.com/img924/1904/WZhzZs.jpg\", \"https://imagizer.imageshack.com/img922/8830/ZNnOFq.jpg\", \"https://imagizer.imageshack.com/img922/4018/g4ZPWh.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Phoenix Ikki\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_20\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-10-19",
+    "preOrderDate" : "2023-11-01",
+    "releaseDate" : "2024-05-24",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2300,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-05-29",
+    "releaseDate" : "2024-07-03",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14704",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/9391/JGWJnR.jpg", "https://imagizer.imageshack.com/img924/1005/bMHJBd.jpg", "https://imagizer.imageshack.com/img923/2256/4SNWkj.jpg", "https://imagizer.imageshack.com/img924/6440/OfwC9V.jpg", "https://imagizer.imageshack.com/img922/3307/lfXB1a.jpg", "https://imagizer.imageshack.com/img923/9950/IR7Bz0.jpg", "https://imagizer.imageshack.com/img924/3783/7ISX6s.jpg", "https://imagizer.imageshack.com/img924/1904/WZhzZs.jpg", "https://imagizer.imageshack.com/img922/8830/ZNnOFq.jpg", "https://imagizer.imageshack.com/img922/4018/g4ZPWh.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Phoenix Ikki",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_20",
+  "restocks" : null
+}

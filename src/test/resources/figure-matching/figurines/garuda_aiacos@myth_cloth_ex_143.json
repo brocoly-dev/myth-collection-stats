@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2018-05-25\",\n    \"releaseDate\" : \"2018-11-23\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3250,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12609\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/479/J7e4ni.jpg\", \"https://imagizer.imageshack.com/img923/3037/1zL6Ih.jpg\", \"https://imagizer.imageshack.com/img922/5646/2urEwR.jpg\", \"https://imagizer.imageshack.com/img922/484/DRMoL6.jpg\", \"https://imagizer.imageshack.com/img922/2133/qd6zNF.jpg\", \"https://imagizer.imageshack.com/img924/5662/gzre4a.jpg\", \"https://imagizer.imageshack.com/img923/529/ozuWEJ.jpg\", \"https://imagizer.imageshack.com/img924/6086/Dv9iuL.jpg\", \"https://imagizer.imageshack.com/img923/5105/ztn6Cy.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Garuda Aiacos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"JUDGE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2018-05-25",
+    "releaseDate" : "2018-11-23",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3250,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12609",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/479/J7e4ni.jpg", "https://imagizer.imageshack.com/img923/3037/1zL6Ih.jpg", "https://imagizer.imageshack.com/img922/5646/2urEwR.jpg", "https://imagizer.imageshack.com/img922/484/DRMoL6.jpg", "https://imagizer.imageshack.com/img922/2133/qd6zNF.jpg", "https://imagizer.imageshack.com/img924/5662/gzre4a.jpg", "https://imagizer.imageshack.com/img923/529/ozuWEJ.jpg", "https://imagizer.imageshack.com/img924/6086/Dv9iuL.jpg", "https://imagizer.imageshack.com/img923/5105/ztn6Cy.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Garuda Aiacos",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "JUDGE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

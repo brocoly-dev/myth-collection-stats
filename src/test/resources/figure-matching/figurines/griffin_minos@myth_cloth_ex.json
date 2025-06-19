@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 14000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-08-27\",\n    \"releaseDate\" : \"2022-01-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3850,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-01-28\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13760\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/3711/OFg4lf.jpg\", \"https://imagizer.imageshack.com/img923/5295/OnTmoU.jpg\", \"https://imagizer.imageshack.com/img922/6669/S5gi4n.jpg\", \"https://imagizer.imageshack.com/img923/5079/loIYWy.jpg\", \"https://imagizer.imageshack.com/img922/9155/s3pHDe.jpg\", \"https://imagizer.imageshack.com/img924/6844/W9hdmr.jpg\", \"https://imagizer.imageshack.com/img923/7449/VvdX4C.jpg\", \"https://imagizer.imageshack.com/img924/5435/bK0fx5.jpg\", \"https://imagizer.imageshack.com/img923/1340/UIx9Dv.jpg\", \"https://imagizer.imageshack.com/img922/5889/F2HwAa.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Griffin Minos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"JUDGE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 14000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-08-27",
+    "releaseDate" : "2022-01-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3850,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-01-28",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13760",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/3711/OFg4lf.jpg", "https://imagizer.imageshack.com/img923/5295/OnTmoU.jpg", "https://imagizer.imageshack.com/img922/6669/S5gi4n.jpg", "https://imagizer.imageshack.com/img923/5079/loIYWy.jpg", "https://imagizer.imageshack.com/img922/9155/s3pHDe.jpg", "https://imagizer.imageshack.com/img924/6844/W9hdmr.jpg", "https://imagizer.imageshack.com/img923/7449/VvdX4C.jpg", "https://imagizer.imageshack.com/img924/5435/bK0fx5.jpg", "https://imagizer.imageshack.com/img923/1340/UIx9Dv.jpg", "https://imagizer.imageshack.com/img922/5889/F2HwAa.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Griffin Minos",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "JUDGE",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

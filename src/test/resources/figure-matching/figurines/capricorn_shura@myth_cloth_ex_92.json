@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-12-02\",\n    \"releaseDate\" : \"2021-04-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-04-14\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13470\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/6931/HqMO9V.jpg\", \"https://imagizer.imageshack.com/img924/2432/3wSSOi.jpg\", \"https://imagizer.imageshack.com/img924/496/hI33xz.jpg\", \"https://imagizer.imageshack.com/img924/3477/JqeJxM.jpg\", \"https://imagizer.imageshack.com/img924/386/kACIVZ.jpg\", \"https://imagizer.imageshack.com/img923/381/0GjxAK.jpg\", \"https://imagizer.imageshack.com/img924/323/LVzL0t.jpg\", \"https://imagizer.imageshack.com/img922/354/6ZUpGV.jpg\", \"https://imagizer.imageshack.com/img924/9999/At2guA.jpg\", \"https://imagizer.imageshack.com/img924/9664/7PdvOA.jpg\", \"https://imagizer.imageshack.com/img922/4858/ddfmNB.jpg\", \"https://imagizer.imageshack.com/img922/8150/pq0cMp.jpg\", \"https://imagizer.imageshack.com/img924/355/liDURI.jpg\", \"https://imagizer.imageshack.com/img924/5915/J7gpO3.jpg\", \"https://imagizer.imageshack.com/img924/8424/SKZlG4.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Capricorn Shura\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-12-02",
+    "releaseDate" : "2021-04-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-04-14",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13470",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/6931/HqMO9V.jpg", "https://imagizer.imageshack.com/img924/2432/3wSSOi.jpg", "https://imagizer.imageshack.com/img924/496/hI33xz.jpg", "https://imagizer.imageshack.com/img924/3477/JqeJxM.jpg", "https://imagizer.imageshack.com/img924/386/kACIVZ.jpg", "https://imagizer.imageshack.com/img923/381/0GjxAK.jpg", "https://imagizer.imageshack.com/img924/323/LVzL0t.jpg", "https://imagizer.imageshack.com/img922/354/6ZUpGV.jpg", "https://imagizer.imageshack.com/img924/9999/At2guA.jpg", "https://imagizer.imageshack.com/img924/9664/7PdvOA.jpg", "https://imagizer.imageshack.com/img922/4858/ddfmNB.jpg", "https://imagizer.imageshack.com/img922/8150/pq0cMp.jpg", "https://imagizer.imageshack.com/img924/355/liDURI.jpg", "https://imagizer.imageshack.com/img924/5915/J7gpO3.jpg", "https://imagizer.imageshack.com/img924/8424/SKZlG4.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Capricorn Shura",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

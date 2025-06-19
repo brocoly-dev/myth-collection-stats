@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 3200,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2012-07-13\",\n    \"releaseDate\" : \"2012-12-25\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10074\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/1838/Fcjqya.jpg\", \"https://imagizer.imageshack.com/img924/5870/iI2FN5.jpg\", \"https://imagizer.imageshack.com/img922/7099/GEUGXH.jpg\", \"https://imagizer.imageshack.com/img924/5994/aqyBqF.jpg\", \"https://imagizer.imageshack.com/img922/5334/ZXgiKU.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Effect Parts Set (Pegasus - Sagittarius)\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : null,\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 3200,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2012-07-13",
+    "releaseDate" : "2012-12-25",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10074",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/1838/Fcjqya.jpg", "https://imagizer.imageshack.com/img924/5870/iI2FN5.jpg", "https://imagizer.imageshack.com/img922/7099/GEUGXH.jpg", "https://imagizer.imageshack.com/img924/5994/aqyBqF.jpg", "https://imagizer.imageshack.com/img922/5334/ZXgiKU.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Effect Parts Set (Pegasus - Sagittarius)",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : null,
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

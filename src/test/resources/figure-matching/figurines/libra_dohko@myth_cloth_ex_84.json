@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 14000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-04-02\",\n    \"releaseDate\" : \"2021-09-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3350,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-09-13\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12238\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/7497/fTQY8r.jpg\", \"https://imagizer.imageshack.com/img923/9683/iMlFXr.jpg\", \"https://imagizer.imageshack.com/img923/2483/tNbzeT.jpg\", \"https://imagizer.imageshack.com/img922/7219/E6HUHZ.jpg\", \"https://imagizer.imageshack.com/img923/9661/maRdFo.jpg\", \"https://imagizer.imageshack.com/img922/8816/UQDVzl.jpg\", \"https://imagizer.imageshack.com/img923/8391/wcGogl.jpg\", \"https://imagizer.imageshack.com/img922/5602/mb2AGz.jpg\", \"https://imagizer.imageshack.com/img923/9926/ZZmdhJ.jpg\", \"https://imagizer.imageshack.com/img922/4645/saHXK0.jpg\", \"https://imagizer.imageshack.com/img924/9466/nVA8fS.jpg\", \"https://imagizer.imageshack.com/img923/1139/nBBbrm.jpg\", \"https://imagizer.imageshack.com/img922/2599/FJapT5.jpg\", \"https://imagizer.imageshack.com/img922/8093/DTdGmb.jpg\", \"https://imagizer.imageshack.com/img922/1417/P0dpkY.jpg\", \"https://imagizer.imageshack.com/img922/6254/mhPgQa.jpg\", \"https://imagizer.imageshack.com/img923/6580/sncR6U.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Libra Dohko\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 14000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-04-02",
+    "releaseDate" : "2021-09-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3350,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-09-13",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12238",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/7497/fTQY8r.jpg", "https://imagizer.imageshack.com/img923/9683/iMlFXr.jpg", "https://imagizer.imageshack.com/img923/2483/tNbzeT.jpg", "https://imagizer.imageshack.com/img922/7219/E6HUHZ.jpg", "https://imagizer.imageshack.com/img923/9661/maRdFo.jpg", "https://imagizer.imageshack.com/img922/8816/UQDVzl.jpg", "https://imagizer.imageshack.com/img923/8391/wcGogl.jpg", "https://imagizer.imageshack.com/img922/5602/mb2AGz.jpg", "https://imagizer.imageshack.com/img923/9926/ZZmdhJ.jpg", "https://imagizer.imageshack.com/img922/4645/saHXK0.jpg", "https://imagizer.imageshack.com/img924/9466/nVA8fS.jpg", "https://imagizer.imageshack.com/img923/1139/nBBbrm.jpg", "https://imagizer.imageshack.com/img922/2599/FJapT5.jpg", "https://imagizer.imageshack.com/img922/8093/DTdGmb.jpg", "https://imagizer.imageshack.com/img922/1417/P0dpkY.jpg", "https://imagizer.imageshack.com/img922/6254/mhPgQa.jpg", "https://imagizer.imageshack.com/img923/6580/sncR6U.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Libra Dohko",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

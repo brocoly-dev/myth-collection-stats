@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2015-03-02\",\n    \"releaseDate\" : \"2015-07-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10967\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/1954/VcnD8N.jpg\", \"https://imagizer.imageshack.com/img923/9853/xQioGF.jpg\", \"https://imagizer.imageshack.com/img922/416/xQWpki.jpg\", \"https://imagizer.imageshack.com/img923/6505/V4leMR.jpg\", \"https://imagizer.imageshack.com/img922/6867/lx2A7M.jpg\", \"https://imagizer.imageshack.com/img924/7636/Btx0o1.jpg\", \"https://imagizer.imageshack.com/img923/1910/LxzEkU.jpg\", \"https://imagizer.imageshack.com/img923/5713/bFUSh9.jpg\", \"https://imagizer.imageshack.com/img923/2347/MqE3dB.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sea Dragon Kanon\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2015-03-02",
+    "releaseDate" : "2015-07-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10967",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/1954/VcnD8N.jpg", "https://imagizer.imageshack.com/img923/9853/xQioGF.jpg", "https://imagizer.imageshack.com/img922/416/xQWpki.jpg", "https://imagizer.imageshack.com/img923/6505/V4leMR.jpg", "https://imagizer.imageshack.com/img922/6867/lx2A7M.jpg", "https://imagizer.imageshack.com/img924/7636/Btx0o1.jpg", "https://imagizer.imageshack.com/img923/1910/LxzEkU.jpg", "https://imagizer.imageshack.com/img923/5713/bFUSh9.jpg", "https://imagizer.imageshack.com/img923/2347/MqE3dB.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sea Dragon Kanon",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

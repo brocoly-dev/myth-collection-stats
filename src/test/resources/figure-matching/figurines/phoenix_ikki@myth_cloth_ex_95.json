@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 8000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-10-01\",\n    \"releaseDate\" : \"2021-02-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2050,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-02-22\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13394\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/6500/qsGcr3.jpg\", \"https://imagizer.imageshack.com/img922/3002/LGYQn2.jpg\", \"https://imagizer.imageshack.com/img924/741/tpCt7H.jpg\", \"https://imagizer.imageshack.com/img923/8505/JVeGMU.jpg\", \"https://imagizer.imageshack.com/img924/3545/Yi4OFj.jpg\", \"https://imagizer.imageshack.com/img923/5017/cMm0rQ.jpg\", \"https://imagizer.imageshack.com/img924/3479/7BAeG3.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Phoenix Ikki\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V2\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 8000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-10-01",
+    "releaseDate" : "2021-02-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2050,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-02-22",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13394",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/6500/qsGcr3.jpg", "https://imagizer.imageshack.com/img922/3002/LGYQn2.jpg", "https://imagizer.imageshack.com/img924/741/tpCt7H.jpg", "https://imagizer.imageshack.com/img923/8505/JVeGMU.jpg", "https://imagizer.imageshack.com/img924/3545/Yi4OFj.jpg", "https://imagizer.imageshack.com/img923/5017/cMm0rQ.jpg", "https://imagizer.imageshack.com/img924/3479/7BAeG3.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Phoenix Ikki",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V2",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

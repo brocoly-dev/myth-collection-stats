@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-12-01\",\n    \"releaseDate\" : \"2023-05-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2200,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-05-29\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14217\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/5550/MFrBPo.jpg\", \"https://imagizer.imageshack.com/img923/97/vv0gct.jpg\", \"https://imagizer.imageshack.com/img923/7177/pWsugD.jpg\", \"https://imagizer.imageshack.com/img922/1567/2Ozjs8.jpg\", \"https://imagizer.imageshack.com/img924/7508/UOYqTW.jpg\", \"https://imagizer.imageshack.com/img923/7595/Tz9low.jpg\", \"https://imagizer.imageshack.com/img922/2154/kAvuEj.jpg\", \"https://imagizer.imageshack.com/img922/9703/IwEuVw.jpg\", \"https://imagizer.imageshack.com/img924/8876/DjyUH7.jpg\", \"https://imagizer.imageshack.com/img924/706/9Osrbg.jpg\", \"https://imagizer.imageshack.com/img923/9772/9QWpQH.jpg\", \"https://imagizer.imageshack.com/img922/9135/VN7cDu.jpg\", \"https://imagizer.imageshack.com/img923/8549/fnSLP3.jpg\", \"https://imagizer.imageshack.com/img924/9342/9wmkfl.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Polaris Hilda\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-12-01",
+    "releaseDate" : "2023-05-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2200,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-05-29",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14217",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/5550/MFrBPo.jpg", "https://imagizer.imageshack.com/img923/97/vv0gct.jpg", "https://imagizer.imageshack.com/img923/7177/pWsugD.jpg", "https://imagizer.imageshack.com/img922/1567/2Ozjs8.jpg", "https://imagizer.imageshack.com/img924/7508/UOYqTW.jpg", "https://imagizer.imageshack.com/img923/7595/Tz9low.jpg", "https://imagizer.imageshack.com/img922/2154/kAvuEj.jpg", "https://imagizer.imageshack.com/img922/9703/IwEuVw.jpg", "https://imagizer.imageshack.com/img924/8876/DjyUH7.jpg", "https://imagizer.imageshack.com/img924/706/9Osrbg.jpg", "https://imagizer.imageshack.com/img923/9772/9QWpQH.jpg", "https://imagizer.imageshack.com/img922/9135/VN7cDu.jpg", "https://imagizer.imageshack.com/img923/8549/fnSLP3.jpg", "https://imagizer.imageshack.com/img924/9342/9wmkfl.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Polaris Hilda",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2018-06-07\",\n    \"releaseDate\" : \"2018-11-10\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12615\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/7939/tsWteP.jpg\", \"https://imagizer.imageshack.com/img922/4726/RpBwAx.jpg\", \"https://imagizer.imageshack.com/img922/421/NyjWHO.jpg\", \"https://imagizer.imageshack.com/img924/9162/mBrppV.jpg\", \"https://imagizer.imageshack.com/img924/2792/R61zqW.jpg\", \"https://imagizer.imageshack.com/img924/7821/7die1u.jpg\", \"https://imagizer.imageshack.com/img923/8125/zTUYYl.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"15th anniversary\",\n  \"baseName\" : \"Hades\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_15\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2018-06-07",
+    "releaseDate" : "2018-11-10",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12615",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/7939/tsWteP.jpg", "https://imagizer.imageshack.com/img922/4726/RpBwAx.jpg", "https://imagizer.imageshack.com/img922/421/NyjWHO.jpg", "https://imagizer.imageshack.com/img924/9162/mBrppV.jpg", "https://imagizer.imageshack.com/img924/2792/R61zqW.jpg", "https://imagizer.imageshack.com/img924/7821/7die1u.jpg", "https://imagizer.imageshack.com/img923/8125/zTUYYl.jpg" ],
+  "otherImages" : null,
+  "remarks" : "15th anniversary",
+  "baseName" : "Hades",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_15",
+  "restocks" : null
+}

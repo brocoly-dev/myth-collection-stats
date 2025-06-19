@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-07-02\",\n    \"releaseDate\" : \"2021-11-13\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2700,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-11-26\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13656\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/2607/m6udXA.jpg\", \"https://imagizer.imageshack.com/img922/959/PzRaFQ.jpg\", \"https://imagizer.imageshack.com/img924/3842/EGRIIj.jpg\", \"https://imagizer.imageshack.com/img922/9818/AYTt4s.jpg\", \"https://imagizer.imageshack.com/img923/5994/s3lYLj.jpg\", \"https://imagizer.imageshack.com/img923/6272/rIPANk.jpg\", \"https://imagizer.imageshack.com/img924/3092/exHVNm.jpg\", \"https://imagizer.imageshack.com/img923/3162/sizDTP.jpg\", \"https://imagizer.imageshack.com/img922/3574/rBPPeh.jpg\", \"https://imagizer.imageshack.com/img922/1039/wo725i.jpg\", \"https://imagizer.imageshack.com/img922/4013/JkgP6S.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Delta Megrez Alberich\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-07-02",
+    "releaseDate" : "2021-11-13",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2700,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-11-26",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13656",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/2607/m6udXA.jpg", "https://imagizer.imageshack.com/img922/959/PzRaFQ.jpg", "https://imagizer.imageshack.com/img924/3842/EGRIIj.jpg", "https://imagizer.imageshack.com/img922/9818/AYTt4s.jpg", "https://imagizer.imageshack.com/img923/5994/s3lYLj.jpg", "https://imagizer.imageshack.com/img923/6272/rIPANk.jpg", "https://imagizer.imageshack.com/img924/3092/exHVNm.jpg", "https://imagizer.imageshack.com/img923/3162/sizDTP.jpg", "https://imagizer.imageshack.com/img922/3574/rBPPeh.jpg", "https://imagizer.imageshack.com/img922/1039/wo725i.jpg", "https://imagizer.imageshack.com/img922/4013/JkgP6S.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Delta Megrez Alberich",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-05-03\",\n    \"releaseDate\" : \"2016-07-30\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11312\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/2033/hVbZ24.jpg\", \"https://imagizer.imageshack.com/img922/575/KOuBx0.jpg\", \"https://imagizer.imageshack.com/img924/5831/3wp2Vp.jpg\", \"https://imagizer.imageshack.com/img924/2567/CRAvU8.jpg\", \"https://imagizer.imageshack.com/img922/3804/1zyf7h.jpg\", \"https://imagizer.imageshack.com/img923/8980/l2fcb9.jpg\", \"https://imagizer.imageshack.com/img922/2660/HQonVv.jpg\", \"https://imagizer.imageshack.com/img923/1994/XXx1mf.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Aquarius Camus\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-05-03",
+    "releaseDate" : "2016-07-30",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11312",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/2033/hVbZ24.jpg", "https://imagizer.imageshack.com/img922/575/KOuBx0.jpg", "https://imagizer.imageshack.com/img924/5831/3wp2Vp.jpg", "https://imagizer.imageshack.com/img924/2567/CRAvU8.jpg", "https://imagizer.imageshack.com/img922/3804/1zyf7h.jpg", "https://imagizer.imageshack.com/img923/8980/l2fcb9.jpg", "https://imagizer.imageshack.com/img922/2660/HQonVv.jpg", "https://imagizer.imageshack.com/img923/1994/XXx1mf.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Aquarius Camus",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

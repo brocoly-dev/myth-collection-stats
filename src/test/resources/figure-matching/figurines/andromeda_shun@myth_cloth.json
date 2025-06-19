@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-10-11\",\n    \"preOrderDate\" : \"2023-10-13\",\n    \"releaseDate\" : \"2024-04-24\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2300,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-04-29\",\n    \"releaseDate\" : \"2024-06-03\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14667\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/276/xtPGpi.jpg\", \"https://imagizer.imageshack.com/img924/809/DGphQw.jpg\", \"https://imagizer.imageshack.com/img922/7310/pRSzUF.jpg\", \"https://imagizer.imageshack.com/img924/7430/OG5PMC.jpg\", \"https://imagizer.imageshack.com/img923/7430/AuiFp2.jpg\", \"https://imagizer.imageshack.com/img924/5806/DfGEnG.jpg\", \"https://imagizer.imageshack.com/img923/7707/30qroX.jpg\", \"https://imagizer.imageshack.com/img923/1875/S4mxrJ.jpg\", \"https://imagizer.imageshack.com/img922/7779/b4mkwV.jpg\", \"https://imagizer.imageshack.com/img924/9511/GPrHKW.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Andromeda Shun\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_20\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-10-11",
+    "preOrderDate" : "2023-10-13",
+    "releaseDate" : "2024-04-24",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2300,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-04-29",
+    "releaseDate" : "2024-06-03",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14667",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/276/xtPGpi.jpg", "https://imagizer.imageshack.com/img924/809/DGphQw.jpg", "https://imagizer.imageshack.com/img922/7310/pRSzUF.jpg", "https://imagizer.imageshack.com/img924/7430/OG5PMC.jpg", "https://imagizer.imageshack.com/img923/7430/AuiFp2.jpg", "https://imagizer.imageshack.com/img924/5806/DfGEnG.jpg", "https://imagizer.imageshack.com/img923/7707/30qroX.jpg", "https://imagizer.imageshack.com/img923/1875/S4mxrJ.jpg", "https://imagizer.imageshack.com/img922/7779/b4mkwV.jpg", "https://imagizer.imageshack.com/img924/9511/GPrHKW.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Andromeda Shun",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_20",
+  "restocks" : null
+}

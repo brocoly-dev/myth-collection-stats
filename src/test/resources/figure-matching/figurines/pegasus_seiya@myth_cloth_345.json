@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 5500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2009-10-02\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"TN\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/701/vBBtOe.jpg\", \"https://imagizer.imageshack.com/img923/3910/SM2IUF.jpg\", \"https://imagizer.imageshack.com/img923/649/A59MGf.jpg\", \"https://imagizer.imageshack.com/img924/2325/uVn0fu.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"TN Autumn 2009\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V3\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 5500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2009-10-02",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "TN",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/701/vBBtOe.jpg", "https://imagizer.imageshack.com/img923/3910/SM2IUF.jpg", "https://imagizer.imageshack.com/img923/649/A59MGf.jpg", "https://imagizer.imageshack.com/img924/2325/uVn0fu.jpg" ],
+  "otherImages" : null,
+  "remarks" : "TN Autumn 2009",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V3",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

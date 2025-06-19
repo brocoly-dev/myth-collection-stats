@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 11000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-04-23\",\n    \"releaseDate\" : \"2021-09-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2850,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-09-30\",\n    \"releaseDate\" : \"2021-11-03\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13631\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/5471/JMFBkB.jpg\", \"https://imagizer.imageshack.com/img923/5149/mfe2WJ.jpg\", \"https://imagizer.imageshack.com/img922/3616/QaE77B.jpg\", \"https://imagizer.imageshack.com/img922/917/3VA81O.jpg\", \"https://imagizer.imageshack.com/img922/1192/V3wFNY.jpg\", \"https://imagizer.imageshack.com/img924/5985/1pMSt2.jpg\", \"https://imagizer.imageshack.com/img923/555/orxI9V.jpg\", \"https://imagizer.imageshack.com/img924/7003/PymBlg.jpg\", \"https://imagizer.imageshack.com/img923/2016/eQ0ImK.jpg\", \"https://imagizer.imageshack.com/img923/3719/FAroe4.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Siren Sorrento\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 11000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-04-23",
+    "releaseDate" : "2021-09-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2850,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-09-30",
+    "releaseDate" : "2021-11-03",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13631",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/5471/JMFBkB.jpg", "https://imagizer.imageshack.com/img923/5149/mfe2WJ.jpg", "https://imagizer.imageshack.com/img922/3616/QaE77B.jpg", "https://imagizer.imageshack.com/img922/917/3VA81O.jpg", "https://imagizer.imageshack.com/img922/1192/V3wFNY.jpg", "https://imagizer.imageshack.com/img924/5985/1pMSt2.jpg", "https://imagizer.imageshack.com/img923/555/orxI9V.jpg", "https://imagizer.imageshack.com/img924/7003/PymBlg.jpg", "https://imagizer.imageshack.com/img923/2016/eQ0ImK.jpg", "https://imagizer.imageshack.com/img923/3719/FAroe4.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Siren Sorrento",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

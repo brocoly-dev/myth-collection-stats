@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 16000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-09-15\",\n    \"preOrderDate\" : \"2023-11-17\",\n    \"releaseDate\" : \"2024-06-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2999,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-06-27\",\n    \"releaseDate\" : \"2024-08-02\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14712\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/402/fMqkkO.jpg\", \"https://imagizer.imageshack.com/img924/979/tFMUbc.jpg\", \"https://imagizer.imageshack.com/img923/7885/cPlNzW.jpg\", \"https://imagizer.imageshack.com/img922/1077/v4OuCx.jpg\", \"https://imagizer.imageshack.com/img924/5007/4Nm3w2.jpg\", \"https://imagizer.imageshack.com/img923/4969/3ymk5o.jpg\", \"https://imagizer.imageshack.com/img923/4830/j5gnGG.jpg\", \"https://imagizer.imageshack.com/img924/9950/7r4AbC.jpg\", \"https://imagizer.imageshack.com/img922/5337/JAorgJ.jpg\", \"https://imagizer.imageshack.com/img922/7549/ugWS1h.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Virgo Shaka\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_20\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 16000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-09-15",
+    "preOrderDate" : "2023-11-17",
+    "releaseDate" : "2024-06-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2999,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-06-27",
+    "releaseDate" : "2024-08-02",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14712",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/402/fMqkkO.jpg", "https://imagizer.imageshack.com/img924/979/tFMUbc.jpg", "https://imagizer.imageshack.com/img923/7885/cPlNzW.jpg", "https://imagizer.imageshack.com/img922/1077/v4OuCx.jpg", "https://imagizer.imageshack.com/img924/5007/4Nm3w2.jpg", "https://imagizer.imageshack.com/img923/4969/3ymk5o.jpg", "https://imagizer.imageshack.com/img923/4830/j5gnGG.jpg", "https://imagizer.imageshack.com/img924/9950/7r4AbC.jpg", "https://imagizer.imageshack.com/img922/5337/JAorgJ.jpg", "https://imagizer.imageshack.com/img922/7549/ugWS1h.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Virgo Shaka",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_20",
+  "restocks" : null
+}

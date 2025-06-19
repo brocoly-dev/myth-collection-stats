@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-09-07\",\n    \"preOrderDate\" : \"2023-09-08\",\n    \"releaseDate\" : \"2024-01-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2450,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-01-30\",\n    \"releaseDate\" : \"2024-03-01\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14566\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/7638/n9EbWm.jpg\", \"https://imagizer.imageshack.com/img922/3525/GvNGH8.jpg\", \"https://imagizer.imageshack.com/img922/650/imX8Ml.jpg\", \"https://imagizer.imageshack.com/img923/3720/4C9JuU.jpg\", \"https://imagizer.imageshack.com/img923/6958/k5CHBQ.jpg\", \"https://imagizer.imageshack.com/img924/8421/CJoBzm.jpg\", \"https://imagizer.imageshack.com/img924/3001/a7lxP3.jpg\", \"https://imagizer.imageshack.com/img923/4095/WBvuvJ.jpg\", \"https://imagizer.imageshack.com/img924/2021/LzCiW4.jpg\", \"https://imagizer.imageshack.com/img924/6923/Z6HH8B.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_20\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-09-07",
+    "preOrderDate" : "2023-09-08",
+    "releaseDate" : "2024-01-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2450,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-01-30",
+    "releaseDate" : "2024-03-01",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14566",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/7638/n9EbWm.jpg", "https://imagizer.imageshack.com/img922/3525/GvNGH8.jpg", "https://imagizer.imageshack.com/img922/650/imX8Ml.jpg", "https://imagizer.imageshack.com/img923/3720/4C9JuU.jpg", "https://imagizer.imageshack.com/img923/6958/k5CHBQ.jpg", "https://imagizer.imageshack.com/img924/8421/CJoBzm.jpg", "https://imagizer.imageshack.com/img924/3001/a7lxP3.jpg", "https://imagizer.imageshack.com/img923/4095/WBvuvJ.jpg", "https://imagizer.imageshack.com/img924/2021/LzCiW4.jpg", "https://imagizer.imageshack.com/img924/6923/Z6HH8B.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_20",
+  "restocks" : null
+}

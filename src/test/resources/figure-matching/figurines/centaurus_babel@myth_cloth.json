@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 11000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-05-27\",\n    \"releaseDate\" : \"2022-11-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 1999,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-11-25\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14025\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/283/nrTskr.jpg\", \"https://imagizer.imageshack.com/img924/9250/J8ZXTZ.jpg\", \"https://imagizer.imageshack.com/img923/9053/7p7PwV.jpg\", \"https://imagizer.imageshack.com/img924/7265/Ecw49i.jpg\", \"https://imagizer.imageshack.com/img923/429/gx21s3.jpg\", \"https://imagizer.imageshack.com/img922/8549/2kURMf.jpg\", \"https://imagizer.imageshack.com/img924/3056/9A5RKT.jpg\", \"https://imagizer.imageshack.com/img924/3544/T0jovF.jpg\", \"https://imagizer.imageshack.com/img924/7228/zvIZw0.jpg\", \"https://imagizer.imageshack.com/img924/6784/fdxWyE.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Centaurus Babel\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SILVER\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 11000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-05-27",
+    "releaseDate" : "2022-11-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 1999,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-11-25",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14025",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/283/nrTskr.jpg", "https://imagizer.imageshack.com/img924/9250/J8ZXTZ.jpg", "https://imagizer.imageshack.com/img923/9053/7p7PwV.jpg", "https://imagizer.imageshack.com/img924/7265/Ecw49i.jpg", "https://imagizer.imageshack.com/img923/429/gx21s3.jpg", "https://imagizer.imageshack.com/img922/8549/2kURMf.jpg", "https://imagizer.imageshack.com/img924/3056/9A5RKT.jpg", "https://imagizer.imageshack.com/img924/3544/T0jovF.jpg", "https://imagizer.imageshack.com/img924/7228/zvIZw0.jpg", "https://imagizer.imageshack.com/img924/6784/fdxWyE.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Centaurus Babel",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "SILVER",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

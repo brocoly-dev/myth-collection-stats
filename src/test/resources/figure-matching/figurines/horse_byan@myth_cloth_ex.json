@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-03-19\",\n    \"releaseDate\" : \"2020-08-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2950,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-08-21\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13252\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/207/8juVr7.jpg\", \"https://imagizer.imageshack.com/img924/8818/tqrCQo.jpg\", \"https://imagizer.imageshack.com/img924/8127/vo1BFS.jpg\", \"https://imagizer.imageshack.com/img922/9093/4AEbVK.jpg\", \"https://imagizer.imageshack.com/img924/633/khNZS7.jpg\", \"https://imagizer.imageshack.com/img922/3131/FsM3zl.jpg\", \"https://imagizer.imageshack.com/img923/9066/yn6hoG.jpg\", \"https://imagizer.imageshack.com/img924/82/u4CiLj.jpg\", \"https://imagizer.imageshack.com/img923/5518/E3FV4x.jpg\", \"https://imagizer.imageshack.com/img924/527/Tx4r4H.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Horse Byan\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-03-19",
+    "releaseDate" : "2020-08-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2950,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-08-21",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13252",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/207/8juVr7.jpg", "https://imagizer.imageshack.com/img924/8818/tqrCQo.jpg", "https://imagizer.imageshack.com/img924/8127/vo1BFS.jpg", "https://imagizer.imageshack.com/img922/9093/4AEbVK.jpg", "https://imagizer.imageshack.com/img924/633/khNZS7.jpg", "https://imagizer.imageshack.com/img922/3131/FsM3zl.jpg", "https://imagizer.imageshack.com/img923/9066/yn6hoG.jpg", "https://imagizer.imageshack.com/img924/82/u4CiLj.jpg", "https://imagizer.imageshack.com/img923/5518/E3FV4x.jpg", "https://imagizer.imageshack.com/img924/527/Tx4r4H.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Horse Byan",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

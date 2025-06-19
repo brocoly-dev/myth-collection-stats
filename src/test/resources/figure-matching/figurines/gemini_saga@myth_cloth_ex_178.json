@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-12-09\",\n    \"releaseDate\" : \"2017-05-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11665\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/6073/RsIlot.jpg\", \"https://imagizer.imageshack.com/img923/3135/1O5ccr.jpg\", \"https://imagizer.imageshack.com/img923/8317/yQIbER.jpg\", \"https://imagizer.imageshack.com/img924/6240/Vs9UMG.jpg\", \"https://imagizer.imageshack.com/img924/3147/dTG3JS.jpg\", \"https://imagizer.imageshack.com/img922/8166/g1ZJTK.jpg\", \"https://imagizer.imageshack.com/img922/8099/OG9b7n.jpg\", \"https://imagizer.imageshack.com/img922/6045/6H2pXX.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Gemini Saga\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-12-09",
+    "releaseDate" : "2017-05-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11665",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/6073/RsIlot.jpg", "https://imagizer.imageshack.com/img923/3135/1O5ccr.jpg", "https://imagizer.imageshack.com/img923/8317/yQIbER.jpg", "https://imagizer.imageshack.com/img924/6240/Vs9UMG.jpg", "https://imagizer.imageshack.com/img924/3147/dTG3JS.jpg", "https://imagizer.imageshack.com/img922/8166/g1ZJTK.jpg", "https://imagizer.imageshack.com/img922/8099/OG9b7n.jpg", "https://imagizer.imageshack.com/img922/6045/6H2pXX.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Gemini Saga",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

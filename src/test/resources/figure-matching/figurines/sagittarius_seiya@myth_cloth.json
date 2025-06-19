@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 8000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2014-06-28\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10633\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/934/IJLKSI.jpg\", \"https://imagizer.imageshack.com/img924/3512/0yOFz8.jpg\", \"https://imagizer.imageshack.com/img924/1708/6vMy5a.jpg\", \"https://imagizer.imageshack.com/img923/9307/Zs6GLr.jpg\", \"https://imagizer.imageshack.com/img924/5003/3Pr1OL.jpg\", \"https://imagizer.imageshack.com/img922/7448/DNPlbk.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sagittarius Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SS_OMEGA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 8000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2014-06-28",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10633",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/934/IJLKSI.jpg", "https://imagizer.imageshack.com/img924/3512/0yOFz8.jpg", "https://imagizer.imageshack.com/img924/1708/6vMy5a.jpg", "https://imagizer.imageshack.com/img923/9307/Zs6GLr.jpg", "https://imagizer.imageshack.com/img924/5003/3Pr1OL.jpg", "https://imagizer.imageshack.com/img922/7448/DNPlbk.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sagittarius Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SS_OMEGA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

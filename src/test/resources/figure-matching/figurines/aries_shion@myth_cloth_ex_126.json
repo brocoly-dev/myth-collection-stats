@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 16000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2019-02-22\",\n    \"releaseDate\" : \"2019-07-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12867\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/3441/5MRBI8.jpg\", \"https://imagizer.imageshack.com/img923/2403/jopTXR.jpg\", \"https://imagizer.imageshack.com/img923/3418/7kegBD.jpg\", \"https://imagizer.imageshack.com/img924/3910/BRpWEV.jpg\", \"https://imagizer.imageshack.com/img924/1169/zVfMrA.jpg\", \"https://imagizer.imageshack.com/img922/620/l4lF77.jpg\", \"https://imagizer.imageshack.com/img922/4845/n3TWQA.jpg\", \"https://imagizer.imageshack.com/img922/29/tcq8vZ.jpg\", \"https://imagizer.imageshack.com/img923/5855/ky4rE6.jpg\", \"https://imagizer.imageshack.com/img923/8096/xcHa2N.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Aries Shion\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SURPLICE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 16000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2019-02-22",
+    "releaseDate" : "2019-07-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12867",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/3441/5MRBI8.jpg", "https://imagizer.imageshack.com/img923/2403/jopTXR.jpg", "https://imagizer.imageshack.com/img923/3418/7kegBD.jpg", "https://imagizer.imageshack.com/img924/3910/BRpWEV.jpg", "https://imagizer.imageshack.com/img924/1169/zVfMrA.jpg", "https://imagizer.imageshack.com/img922/620/l4lF77.jpg", "https://imagizer.imageshack.com/img922/4845/n3TWQA.jpg", "https://imagizer.imageshack.com/img922/29/tcq8vZ.jpg", "https://imagizer.imageshack.com/img923/5855/ky4rE6.jpg", "https://imagizer.imageshack.com/img923/8096/xcHa2N.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Aries Shion",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SURPLICE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

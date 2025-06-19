@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 16000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-05-07\",\n    \"releaseDate\" : \"2016-11-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11447\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/436/vqMu0V.jpg\", \"https://imagizer.imageshack.com/img924/599/LkJqyG.jpg\", \"https://imagizer.imageshack.com/img923/532/2c3CTq.jpg\", \"https://imagizer.imageshack.com/img924/6756/gSGVlI.jpg\", \"https://imagizer.imageshack.com/img922/4549/xpzCJN.jpg\", \"https://imagizer.imageshack.com/img922/9535/R6uzWR.jpg\", \"https://imagizer.imageshack.com/img922/6140/Y2XSMf.jpg\", \"https://imagizer.imageshack.com/img923/8249/nAcrHg.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Taurus Aldebaran\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 16000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-05-07",
+    "releaseDate" : "2016-11-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11447",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/436/vqMu0V.jpg", "https://imagizer.imageshack.com/img924/599/LkJqyG.jpg", "https://imagizer.imageshack.com/img923/532/2c3CTq.jpg", "https://imagizer.imageshack.com/img924/6756/gSGVlI.jpg", "https://imagizer.imageshack.com/img922/4549/xpzCJN.jpg", "https://imagizer.imageshack.com/img922/9535/R6uzWR.jpg", "https://imagizer.imageshack.com/img922/6140/Y2XSMf.jpg", "https://imagizer.imageshack.com/img923/8249/nAcrHg.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Taurus Aldebaran",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 600.00,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2016-08-08\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"OTHER\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/7029/EWuoQm.jpg\", \"https://imagizer.imageshack.com/img924/7752/AAD2Di.jpg\", \"https://imagizer.imageshack.com/img923/4126/VMOf1W.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Only in China: https://tamashiiweb.com/event/182\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V2\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : true,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : true,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 600.00,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2016-08-08",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "OTHER",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/7029/EWuoQm.jpg", "https://imagizer.imageshack.com/img924/7752/AAD2Di.jpg", "https://imagizer.imageshack.com/img923/4126/VMOf1W.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Only in China: https://tamashiiweb.com/event/182",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V2",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : true,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : true,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

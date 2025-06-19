@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 6000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2013-07-27\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10343\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/8652/senkT2.jpg\", \"https://imagizer.imageshack.com/img922/7734/2ydC8P.jpg\", \"https://imagizer.imageshack.com/img923/6956/yBn441.jpg\", \"https://imagizer.imageshack.com/img924/4081/HzVtdk.jpg\", \"https://imagizer.imageshack.com/img922/6500/xqsZTR.jpg\", \"https://imagizer.imageshack.com/img923/1599/fBgLux.jpg\", \"https://imagizer.imageshack.com/img924/2563/TSJsyy.jpg\", \"https://imagizer.imageshack.com/img922/6683/p7A76i.jpg\", \"https://imagizer.imageshack.com/img922/6315/vVNsYz.jpg\", \"https://imagizer.imageshack.com/img923/8623/9O2bZh.jpg\", \"https://imagizer.imageshack.com/img923/2538/g07eqV.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Capricorn Shura\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 6000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2013-07-27",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10343",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/8652/senkT2.jpg", "https://imagizer.imageshack.com/img922/7734/2ydC8P.jpg", "https://imagizer.imageshack.com/img923/6956/yBn441.jpg", "https://imagizer.imageshack.com/img924/4081/HzVtdk.jpg", "https://imagizer.imageshack.com/img922/6500/xqsZTR.jpg", "https://imagizer.imageshack.com/img923/1599/fBgLux.jpg", "https://imagizer.imageshack.com/img924/2563/TSJsyy.jpg", "https://imagizer.imageshack.com/img922/6683/p7A76i.jpg", "https://imagizer.imageshack.com/img922/6315/vVNsYz.jpg", "https://imagizer.imageshack.com/img923/8623/9O2bZh.jpg", "https://imagizer.imageshack.com/img923/2538/g07eqV.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Capricorn Shura",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

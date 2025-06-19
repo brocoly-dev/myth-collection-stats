@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-04-28\",\n    \"releaseDate\" : \"2023-04-28\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 2400,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-06-16\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14336\",\n  \"distributionChannel\" : \"WT\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/2077/xxdyZJ.jpg\", \"https://imagizer.imageshack.com/img922/7017/Hygfoh.jpg\", \"https://imagizer.imageshack.com/img922/561/SzREwE.jpg\", \"https://imagizer.imageshack.com/img924/3851/ch2Xym.jpg\", \"https://imagizer.imageshack.com/img924/8177/8zhOOQ.jpg\", \"https://imagizer.imageshack.com/img922/8510/dzH433.jpg\", \"https://imagizer.imageshack.com/img924/1549/shfgX8.jpg\", \"https://imagizer.imageshack.com/img923/5499/5iH0mT.jpg\", \"https://imagizer.imageshack.com/img922/8735/DyLFSK.jpg\", \"https://imagizer.imageshack.com/img923/8991/m1IeOE.jpg\", \"https://imagizer.imageshack.com/img924/7172/134p3v.jpg\", \"https://imagizer.imageshack.com/img924/9567/UZD1dF.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"TN World Tour 15th anniversary\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V3\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : true,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-04-28",
+    "releaseDate" : "2023-04-28",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : null,
+    "basePrice" : 2400,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-06-16",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14336",
+  "distributionChannel" : "WT",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/2077/xxdyZJ.jpg", "https://imagizer.imageshack.com/img922/7017/Hygfoh.jpg", "https://imagizer.imageshack.com/img922/561/SzREwE.jpg", "https://imagizer.imageshack.com/img924/3851/ch2Xym.jpg", "https://imagizer.imageshack.com/img924/8177/8zhOOQ.jpg", "https://imagizer.imageshack.com/img922/8510/dzH433.jpg", "https://imagizer.imageshack.com/img924/1549/shfgX8.jpg", "https://imagizer.imageshack.com/img923/5499/5iH0mT.jpg", "https://imagizer.imageshack.com/img922/8735/DyLFSK.jpg", "https://imagizer.imageshack.com/img923/8991/m1IeOE.jpg", "https://imagizer.imageshack.com/img924/7172/134p3v.jpg", "https://imagizer.imageshack.com/img924/9567/UZD1dF.jpg" ],
+  "otherImages" : null,
+  "remarks" : "TN World Tour 15th anniversary",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V3",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : true,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 22000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2024-04-23\",\n    \"preOrderDate\" : \"2024-04-26\",\n    \"releaseDate\" : \"2024-12-14\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3780,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-10-28\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14883\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/949/yHTAaR.jpg\", \"https://imagizer.imageshack.com/img922/7342/2GngQW.jpg\", \"https://imagizer.imageshack.com/img923/7104/w79hnp.jpg\", \"https://imagizer.imageshack.com/img924/2315/KJLo0X.jpg\", \"https://imagizer.imageshack.com/img923/4339/NJqI0L.jpg\", \"https://imagizer.imageshack.com/img924/530/3rE1BF.jpg\", \"https://imagizer.imageshack.com/img922/4867/4Iwpdb.jpg\", \"https://imagizer.imageshack.com/img923/3951/8Yhvqo.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"SAGITTARIUS SEIYA from the TV anime \\\"SAINT SEIYA\\\" is joining the new Figuarts Zero Touche Métallique series!\",\n  \"baseName\" : \"Sagittarius Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"FIGUARTS_ZERO\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 22000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2024-04-23",
+    "preOrderDate" : "2024-04-26",
+    "releaseDate" : "2024-12-14",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3780,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-10-28",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14883",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/949/yHTAaR.jpg", "https://imagizer.imageshack.com/img922/7342/2GngQW.jpg", "https://imagizer.imageshack.com/img923/7104/w79hnp.jpg", "https://imagizer.imageshack.com/img924/2315/KJLo0X.jpg", "https://imagizer.imageshack.com/img923/4339/NJqI0L.jpg", "https://imagizer.imageshack.com/img924/530/3rE1BF.jpg", "https://imagizer.imageshack.com/img922/4867/4Iwpdb.jpg", "https://imagizer.imageshack.com/img923/3951/8Yhvqo.jpg" ],
+  "otherImages" : null,
+  "remarks" : "SAGITTARIUS SEIYA from the TV anime \"SAINT SEIYA\" is joining the new Figuarts Zero Touche Métallique series!",
+  "baseName" : "Sagittarius Seiya",
+  "displayableName" : null,
+  "lineUp" : "FIGUARTS_ZERO",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

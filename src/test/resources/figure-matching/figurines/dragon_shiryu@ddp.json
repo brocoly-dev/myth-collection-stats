@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 3600,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-09-01\",\n    \"releaseDate\" : \"2017-01-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11513\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/5756/ApGErk.jpg\", \"https://imagizer.imageshack.com/img922/4147/UfaYJx.jpg\", \"https://imagizer.imageshack.com/img923/8646/o2WyIa.jpg\", \"https://imagizer.imageshack.com/img924/9150/xtiHEo.jpg\", \"https://imagizer.imageshack.com/img924/5624/Jxffm0.jpg\", \"https://imagizer.imageshack.com/img922/7741/fOZBEd.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Dragon Shiryu\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"DDP\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 3600,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-09-01",
+    "releaseDate" : "2017-01-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11513",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/5756/ApGErk.jpg", "https://imagizer.imageshack.com/img922/4147/UfaYJx.jpg", "https://imagizer.imageshack.com/img923/8646/o2WyIa.jpg", "https://imagizer.imageshack.com/img924/9150/xtiHEo.jpg", "https://imagizer.imageshack.com/img924/5624/Jxffm0.jpg", "https://imagizer.imageshack.com/img922/7741/fOZBEd.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Dragon Shiryu",
+  "displayableName" : null,
+  "lineUp" : "DDP",
+  "series" : "SAINT_SEIYA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

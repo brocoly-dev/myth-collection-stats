@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 22000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2024-02-16\",\n    \"preOrderDate\" : \"2024-03-04\",\n    \"releaseDate\" : \"2024-08-10\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 4050,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-08-30\",\n    \"releaseDate\" : \"2024-10-04\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14800\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/8481/tfpAjh.jpg\", \"https://imagizer.imageshack.com/img923/4395/jNzBws.jpg\", \"https://imagizer.imageshack.com/img924/7123/ioxqWE.jpg\", \"https://imagizer.imageshack.com/img922/6605/RZtMYe.jpg\", \"https://imagizer.imageshack.com/img923/8605/UFYAIF.jpg\", \"https://imagizer.imageshack.com/img924/9996/ZtOEBv.jpg\", \"https://imagizer.imageshack.com/img922/4887/gN2CsR.jpg\", \"https://imagizer.imageshack.com/img924/2310/lnglLN.jpg\", \"https://imagizer.imageshack.com/img922/1858/hEwegc.jpg\", \"https://imagizer.imageshack.com/img923/2160/e8ht8W.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Comes with a new replacement short hair seen in the anime!\",\n  \"baseName\" : \"Taurus Aldebaran\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 22000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2024-02-16",
+    "preOrderDate" : "2024-03-04",
+    "releaseDate" : "2024-08-10",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 4050,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-08-30",
+    "releaseDate" : "2024-10-04",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14800",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/8481/tfpAjh.jpg", "https://imagizer.imageshack.com/img923/4395/jNzBws.jpg", "https://imagizer.imageshack.com/img924/7123/ioxqWE.jpg", "https://imagizer.imageshack.com/img922/6605/RZtMYe.jpg", "https://imagizer.imageshack.com/img923/8605/UFYAIF.jpg", "https://imagizer.imageshack.com/img924/9996/ZtOEBv.jpg", "https://imagizer.imageshack.com/img922/4887/gN2CsR.jpg", "https://imagizer.imageshack.com/img924/2310/lnglLN.jpg", "https://imagizer.imageshack.com/img922/1858/hEwegc.jpg", "https://imagizer.imageshack.com/img923/2160/e8ht8W.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Comes with a new replacement short hair seen in the anime!",
+  "baseName" : "Taurus Aldebaran",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

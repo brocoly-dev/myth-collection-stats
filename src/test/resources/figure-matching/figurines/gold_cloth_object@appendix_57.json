@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-11-17\",\n    \"releaseDate\" : \"2023-11-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14572\",\n  \"distributionChannel\" : \"TS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/3755/oCeSwe.jpg\", \"https://imagizer.imageshack.com/img923/5554/s4oQbr.jpg\", \"https://imagizer.imageshack.com/img922/3093/Pu4izy.jpg\", \"https://imagizer.imageshack.com/img924/9617/Rn7AaV.jpg\", \"https://imagizer.imageshack.com/img923/2103/vn2wK7.jpg\", \"https://imagizer.imageshack.com/img922/1438/smeeWa.jpg\", \"https://imagizer.imageshack.com/img924/8152/LryXY4.jpg\", \"https://imagizer.imageshack.com/img924/3973/oaJMcO.jpg\", \"https://imagizer.imageshack.com/img924/2490/21szvx.jpg\", \"https://imagizer.imageshack.com/img923/5461/khFBKC.jpg\", \"https://imagizer.imageshack.com/img922/6007/mFQ4LT.jpg\", \"https://imagizer.imageshack.com/img924/5849/u3RTm8.jpg\", \"https://imagizer.imageshack.com/img923/1026/7ORGPu.jpg\", \"https://imagizer.imageshack.com/img923/3674/WgDoVg.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Gold Cloth Object\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"APPENDIX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : null,\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-11-17",
+    "releaseDate" : "2023-11-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14572",
+  "distributionChannel" : "TS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/3755/oCeSwe.jpg", "https://imagizer.imageshack.com/img923/5554/s4oQbr.jpg", "https://imagizer.imageshack.com/img922/3093/Pu4izy.jpg", "https://imagizer.imageshack.com/img924/9617/Rn7AaV.jpg", "https://imagizer.imageshack.com/img923/2103/vn2wK7.jpg", "https://imagizer.imageshack.com/img922/1438/smeeWa.jpg", "https://imagizer.imageshack.com/img924/8152/LryXY4.jpg", "https://imagizer.imageshack.com/img924/3973/oaJMcO.jpg", "https://imagizer.imageshack.com/img924/2490/21szvx.jpg", "https://imagizer.imageshack.com/img923/5461/khFBKC.jpg", "https://imagizer.imageshack.com/img922/6007/mFQ4LT.jpg", "https://imagizer.imageshack.com/img924/5849/u3RTm8.jpg", "https://imagizer.imageshack.com/img923/1026/7ORGPu.jpg", "https://imagizer.imageshack.com/img923/3674/WgDoVg.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Gold Cloth Object",
+  "displayableName" : null,
+  "lineUp" : "APPENDIX",
+  "series" : "SAINT_SEIYA",
+  "category" : null,
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

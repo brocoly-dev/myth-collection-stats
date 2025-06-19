@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-02-21\",\n    \"releaseDate\" : \"2020-07-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2650,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-07-20\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13199\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/1749/Jvb9bl.jpg\", \"https://imagizer.imageshack.com/img923/5195/DK6pEy.jpg\", \"https://imagizer.imageshack.com/img924/218/VZnlHy.jpg\", \"https://imagizer.imageshack.com/img923/8324/qsW2xI.jpg\", \"https://imagizer.imageshack.com/img922/7534/VkDOs6.jpg\", \"https://imagizer.imageshack.com/img923/9422/TtZx9x.jpg\", \"https://imagizer.imageshack.com/img922/6701/Jl7lCR.jpg\", \"https://imagizer.imageshack.com/img922/1143/UziJqn.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Capricorn Shura\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-02-21",
+    "releaseDate" : "2020-07-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2650,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-07-20",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13199",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/1749/Jvb9bl.jpg", "https://imagizer.imageshack.com/img923/5195/DK6pEy.jpg", "https://imagizer.imageshack.com/img924/218/VZnlHy.jpg", "https://imagizer.imageshack.com/img923/8324/qsW2xI.jpg", "https://imagizer.imageshack.com/img922/7534/VkDOs6.jpg", "https://imagizer.imageshack.com/img923/9422/TtZx9x.jpg", "https://imagizer.imageshack.com/img922/6701/Jl7lCR.jpg", "https://imagizer.imageshack.com/img922/1143/UziJqn.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Capricorn Shura",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

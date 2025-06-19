@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2024-11-15\",\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : null,\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/6969/fqR4s5.jpg\", \"https://imagizer.imageshack.com/img923/1948/PzBPfh.jpg\", \"https://imagizer.imageshack.com/img922/663/rHZAXA.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Shown for the first time in Tamashii 2024\",\n  \"baseName\" : \"Poseidon\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2024-11-15",
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : null,
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/6969/fqR4s5.jpg", "https://imagizer.imageshack.com/img923/1948/PzBPfh.jpg", "https://imagizer.imageshack.com/img922/663/rHZAXA.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Shown for the first time in Tamashii 2024",
+  "baseName" : "Poseidon",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

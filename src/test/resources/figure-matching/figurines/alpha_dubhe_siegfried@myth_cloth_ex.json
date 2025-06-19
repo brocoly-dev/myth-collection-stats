@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2019-08-01\",\n    \"releaseDate\" : \"2019-12-14\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13020\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/3600/ql8VZq.jpg\", \"https://imagizer.imageshack.com/img922/3892/LzhjQa.jpg\", \"https://imagizer.imageshack.com/img923/5453/rX6gZ0.jpg\", \"https://imagizer.imageshack.com/img922/8572/FiPNX1.jpg\", \"https://imagizer.imageshack.com/img924/1114/WbP7bQ.jpg\", \"https://imagizer.imageshack.com/img924/3200/vYzM9a.jpg\", \"https://imagizer.imageshack.com/img922/5879/6JWtLK.jpg\", \"https://imagizer.imageshack.com/img924/5180/SIIx6p.jpg\", \"https://imagizer.imageshack.com/img922/4950/YH0jRc.jpg\", \"https://imagizer.imageshack.com/img922/3738/BAD11H.jpg\", \"https://imagizer.imageshack.com/img924/20/D0RfT1.jpg\", \"https://imagizer.imageshack.com/img923/1240/JoOPaS.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Alpha Dubhe Siegfried\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2019-08-01",
+    "releaseDate" : "2019-12-14",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13020",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/3600/ql8VZq.jpg", "https://imagizer.imageshack.com/img922/3892/LzhjQa.jpg", "https://imagizer.imageshack.com/img923/5453/rX6gZ0.jpg", "https://imagizer.imageshack.com/img922/8572/FiPNX1.jpg", "https://imagizer.imageshack.com/img924/1114/WbP7bQ.jpg", "https://imagizer.imageshack.com/img924/3200/vYzM9a.jpg", "https://imagizer.imageshack.com/img922/5879/6JWtLK.jpg", "https://imagizer.imageshack.com/img924/5180/SIIx6p.jpg", "https://imagizer.imageshack.com/img922/4950/YH0jRc.jpg", "https://imagizer.imageshack.com/img922/3738/BAD11H.jpg", "https://imagizer.imageshack.com/img924/20/D0RfT1.jpg", "https://imagizer.imageshack.com/img923/1240/JoOPaS.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Alpha Dubhe Siegfried",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

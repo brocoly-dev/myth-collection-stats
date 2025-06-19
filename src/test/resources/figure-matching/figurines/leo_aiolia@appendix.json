@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 1800,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2008-02-21\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/828\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/6410/YejYv5.jpg\", \"https://imagizer.imageshack.com/img923/5358/UaQEDk.jpg\", \"https://imagizer.imageshack.com/img922/1180/NdP1oE.jpg\", \"https://imagizer.imageshack.com/img924/4774/zpLLzn.jpg\", \"https://imagizer.imageshack.com/img924/4983/MPN174.jpg\", \"https://imagizer.imageshack.com/img922/6553/QGx8te.jpg\", \"https://imagizer.imageshack.com/img923/5462/CWh1Dd.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Leo Aiolia\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"APPENDIX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 1800,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2008-02-21",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/828",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/6410/YejYv5.jpg", "https://imagizer.imageshack.com/img923/5358/UaQEDk.jpg", "https://imagizer.imageshack.com/img922/1180/NdP1oE.jpg", "https://imagizer.imageshack.com/img924/4774/zpLLzn.jpg", "https://imagizer.imageshack.com/img924/4983/MPN174.jpg", "https://imagizer.imageshack.com/img922/6553/QGx8te.jpg", "https://imagizer.imageshack.com/img923/5462/CWh1Dd.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Leo Aiolia",
+  "displayableName" : null,
+  "lineUp" : "APPENDIX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 4500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2008-04-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DTM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/874\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/542/YtIwm2.jpg\", \"https://imagizer.imageshack.com/img922/2378/ee94Fb.jpg\", \"https://imagizer.imageshack.com/img924/4429/bU3xp5.jpg\", \"https://imagizer.imageshack.com/img923/6859/1dDRxA.jpg\", \"https://imagizer.imageshack.com/img924/4940/rmXsT0.jpg\", \"https://imagizer.imageshack.com/img923/152/5hXkHJ.jpg\", \"https://imagizer.imageshack.com/img922/6753/rCxl2J.jpg\", \"https://imagizer.imageshack.com/img923/3450/X7sCW4.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Eta Benetnasch Mime\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 4500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2008-04-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DTM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/874",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/542/YtIwm2.jpg", "https://imagizer.imageshack.com/img922/2378/ee94Fb.jpg", "https://imagizer.imageshack.com/img924/4429/bU3xp5.jpg", "https://imagizer.imageshack.com/img923/6859/1dDRxA.jpg", "https://imagizer.imageshack.com/img924/4940/rmXsT0.jpg", "https://imagizer.imageshack.com/img923/152/5hXkHJ.jpg", "https://imagizer.imageshack.com/img922/6753/rCxl2J.jpg", "https://imagizer.imageshack.com/img923/3450/X7sCW4.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Eta Benetnasch Mime",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

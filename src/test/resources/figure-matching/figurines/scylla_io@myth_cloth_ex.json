@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2019-10-24\",\n    \"releaseDate\" : \"2020-04-15\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3050,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-04-24\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13093\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/1473/664PLl.jpg\", \"https://imagizer.imageshack.com/img922/3707/5ix3Rm.jpg\", \"https://imagizer.imageshack.com/img924/1705/0B8N7E.jpg\", \"https://imagizer.imageshack.com/img923/4981/sJoGc4.jpg\", \"https://imagizer.imageshack.com/img924/1237/6sIdcY.jpg\", \"https://imagizer.imageshack.com/img923/5194/TL51Oe.jpg\", \"https://imagizer.imageshack.com/img924/8272/yP9Fbr.jpg\", \"https://imagizer.imageshack.com/img923/2234/pI69ma.jpg\", \"https://imagizer.imageshack.com/img922/4782/2gXN8R.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Scylla Io\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2019-10-24",
+    "releaseDate" : "2020-04-15",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3050,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-04-24",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13093",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/1473/664PLl.jpg", "https://imagizer.imageshack.com/img922/3707/5ix3Rm.jpg", "https://imagizer.imageshack.com/img924/1705/0B8N7E.jpg", "https://imagizer.imageshack.com/img923/4981/sJoGc4.jpg", "https://imagizer.imageshack.com/img924/1237/6sIdcY.jpg", "https://imagizer.imageshack.com/img923/5194/TL51Oe.jpg", "https://imagizer.imageshack.com/img924/8272/yP9Fbr.jpg", "https://imagizer.imageshack.com/img923/2234/pI69ma.jpg", "https://imagizer.imageshack.com/img922/4782/2gXN8R.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Scylla Io",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

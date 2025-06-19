@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 789.00,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2016-08-08\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"OTHER\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/8097/9vnCuU.jpg\", \"https://imagizer.imageshack.com/img924/2751/ihq8HH.jpg\", \"https://imagizer.imageshack.com/img924/7776/3CcNbl.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Only in China: https://tamashiiweb.com/event/182\",\n  \"baseName\" : \"Phoenix Ikki\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V2\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : true,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : true,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 789.00,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2016-08-08",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "OTHER",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/8097/9vnCuU.jpg", "https://imagizer.imageshack.com/img924/2751/ihq8HH.jpg", "https://imagizer.imageshack.com/img924/7776/3CcNbl.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Only in China: https://tamashiiweb.com/event/182",
+  "baseName" : "Phoenix Ikki",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V2",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : true,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : true,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

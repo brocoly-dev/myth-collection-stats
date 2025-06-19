@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 7500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-03-12\",\n    \"releaseDate\" : \"2021-08-19\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 1950,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-08-30\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13591\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/6045/9TpMYx.jpg\", \"https://imagizer.imageshack.com/img924/5884/OFGJOt.jpg\", \"https://imagizer.imageshack.com/img923/2920/80lyMk.jpg\", \"https://imagizer.imageshack.com/img922/9307/zF9i4Z.jpg\", \"https://imagizer.imageshack.com/img924/286/gB44Zk.jpg\", \"https://imagizer.imageshack.com/img923/9113/eOE9c9.jpg\", \"https://imagizer.imageshack.com/img923/9186/tjRFtZ.jpg\", \"https://imagizer.imageshack.com/img923/1082/zIQplX.jpg\", \"https://imagizer.imageshack.com/img923/6987/9Ho6vI.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Mermaid Thetis\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 7500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-03-12",
+    "releaseDate" : "2021-08-19",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 1950,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-08-30",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13591",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/6045/9TpMYx.jpg", "https://imagizer.imageshack.com/img924/5884/OFGJOt.jpg", "https://imagizer.imageshack.com/img923/2920/80lyMk.jpg", "https://imagizer.imageshack.com/img922/9307/zF9i4Z.jpg", "https://imagizer.imageshack.com/img924/286/gB44Zk.jpg", "https://imagizer.imageshack.com/img923/9113/eOE9c9.jpg", "https://imagizer.imageshack.com/img923/9186/tjRFtZ.jpg", "https://imagizer.imageshack.com/img923/1082/zIQplX.jpg", "https://imagizer.imageshack.com/img923/6987/9Ho6vI.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Mermaid Thetis",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

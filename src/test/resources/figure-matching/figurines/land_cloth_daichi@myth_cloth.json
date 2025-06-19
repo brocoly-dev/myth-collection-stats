@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 8000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-03-04\",\n    \"releaseDate\" : \"2022-08-22\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2100,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-08-26\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13953\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/5642/7qMq1m.jpg\", \"https://imagizer.imageshack.com/img924/8044/uJ3PJu.jpg\", \"https://imagizer.imageshack.com/img923/6931/fRu5fe.jpg\", \"https://imagizer.imageshack.com/img924/8977/zye8cE.jpg\", \"https://imagizer.imageshack.com/img922/3581/GN50Tp.jpg\", \"https://imagizer.imageshack.com/img924/1600/MFam9c.jpg\", \"https://imagizer.imageshack.com/img923/1351/8vP1T2.jpg\", \"https://imagizer.imageshack.com/img923/2844/Zdxm3j.jpg\", \"https://imagizer.imageshack.com/img924/1655/ROaRvd.jpg\", \"https://imagizer.imageshack.com/img924/200/jFh3pj.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Land Cloth Daichi\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"STEEL\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 8000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-03-04",
+    "releaseDate" : "2022-08-22",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2100,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-08-26",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13953",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/5642/7qMq1m.jpg", "https://imagizer.imageshack.com/img924/8044/uJ3PJu.jpg", "https://imagizer.imageshack.com/img923/6931/fRu5fe.jpg", "https://imagizer.imageshack.com/img924/8977/zye8cE.jpg", "https://imagizer.imageshack.com/img922/3581/GN50Tp.jpg", "https://imagizer.imageshack.com/img924/1600/MFam9c.jpg", "https://imagizer.imageshack.com/img923/1351/8vP1T2.jpg", "https://imagizer.imageshack.com/img923/2844/Zdxm3j.jpg", "https://imagizer.imageshack.com/img924/1655/ROaRvd.jpg", "https://imagizer.imageshack.com/img924/200/jFh3pj.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Land Cloth Daichi",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "STEEL",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

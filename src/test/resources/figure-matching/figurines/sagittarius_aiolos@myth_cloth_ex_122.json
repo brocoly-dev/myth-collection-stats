@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 13000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2019-08-19\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11368\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/9204/7HPgcL.jpg\", \"https://imagizer.imageshack.com/img924/726/AJbt7R.jpg\", \"https://imagizer.imageshack.com/img922/3438/tFe5Q1.jpg\", \"https://imagizer.imageshack.com/img922/8616/n7zmpV.jpg\", \"https://imagizer.imageshack.com/img922/3985/81UgOR.jpg\", \"https://imagizer.imageshack.com/img922/3519/IeIDA1.jpg\", \"https://imagizer.imageshack.com/img923/5233/SPEyDF.jpg\", \"https://imagizer.imageshack.com/img922/3007/PUgLGo.jpg\", \"https://imagizer.imageshack.com/img924/3814/EKt1oX.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sagittarius Aiolos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 13000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2019-08-19",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11368",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/9204/7HPgcL.jpg", "https://imagizer.imageshack.com/img924/726/AJbt7R.jpg", "https://imagizer.imageshack.com/img922/3438/tFe5Q1.jpg", "https://imagizer.imageshack.com/img922/8616/n7zmpV.jpg", "https://imagizer.imageshack.com/img922/3985/81UgOR.jpg", "https://imagizer.imageshack.com/img922/3519/IeIDA1.jpg", "https://imagizer.imageshack.com/img923/5233/SPEyDF.jpg", "https://imagizer.imageshack.com/img922/3007/PUgLGo.jpg", "https://imagizer.imageshack.com/img924/3814/EKt1oX.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sagittarius Aiolos",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

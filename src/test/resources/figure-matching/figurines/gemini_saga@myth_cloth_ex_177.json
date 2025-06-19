@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 27000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-12-09\",\n    \"releaseDate\" : \"2017-05-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11664\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/5250/moaJYn.jpg\", \"https://imagizer.imageshack.com/img922/157/l2i7aA.jpg\", \"https://imagizer.imageshack.com/img924/9748/9eQ574.jpg\", \"https://imagizer.imageshack.com/img923/2464/caWMlO.jpg\", \"https://imagizer.imageshack.com/img923/5248/NnsbGV.jpg\", \"https://imagizer.imageshack.com/img922/3881/niirJk.jpg\", \"https://imagizer.imageshack.com/img923/4608/71BjGB.jpg\", \"https://imagizer.imageshack.com/img922/5189/sHBMKD.jpg\", \"https://imagizer.imageshack.com/img924/8104/o39gAE.jpg\", \"https://imagizer.imageshack.com/img922/3707/fVjuQf.jpg\", \"https://imagizer.imageshack.com/img922/4262/QNetbw.jpg\", \"https://imagizer.imageshack.com/img924/36/faIPrJ.jpg\", \"https://imagizer.imageshack.com/img922/7381/KJzOct.jpg\", \"https://imagizer.imageshack.com/img923/9220/LgfCpV.jpg\", \"https://imagizer.imageshack.com/img922/6326/MlXSp6.jpg\", \"https://imagizer.imageshack.com/img923/9317/SX2JGk.jpg\", \"https://imagizer.imageshack.com/img923/2289/rgsMll.jpg\", \"https://imagizer.imageshack.com/img922/2162/SbObef.jpg\", \"https://imagizer.imageshack.com/img924/1844/kDgRbN.jpg\", \"https://imagizer.imageshack.com/img922/3355/3txxbR.jpg\", \"https://imagizer.imageshack.com/img923/5357/f1MQhh.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Gemini Saga\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 27000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-12-09",
+    "releaseDate" : "2017-05-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11664",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/5250/moaJYn.jpg", "https://imagizer.imageshack.com/img922/157/l2i7aA.jpg", "https://imagizer.imageshack.com/img924/9748/9eQ574.jpg", "https://imagizer.imageshack.com/img923/2464/caWMlO.jpg", "https://imagizer.imageshack.com/img923/5248/NnsbGV.jpg", "https://imagizer.imageshack.com/img922/3881/niirJk.jpg", "https://imagizer.imageshack.com/img923/4608/71BjGB.jpg", "https://imagizer.imageshack.com/img922/5189/sHBMKD.jpg", "https://imagizer.imageshack.com/img924/8104/o39gAE.jpg", "https://imagizer.imageshack.com/img922/3707/fVjuQf.jpg", "https://imagizer.imageshack.com/img922/4262/QNetbw.jpg", "https://imagizer.imageshack.com/img924/36/faIPrJ.jpg", "https://imagizer.imageshack.com/img922/7381/KJzOct.jpg", "https://imagizer.imageshack.com/img923/9220/LgfCpV.jpg", "https://imagizer.imageshack.com/img922/6326/MlXSp6.jpg", "https://imagizer.imageshack.com/img923/9317/SX2JGk.jpg", "https://imagizer.imageshack.com/img923/2289/rgsMll.jpg", "https://imagizer.imageshack.com/img922/2162/SbObef.jpg", "https://imagizer.imageshack.com/img924/1844/kDgRbN.jpg", "https://imagizer.imageshack.com/img922/3355/3txxbR.jpg", "https://imagizer.imageshack.com/img923/5357/f1MQhh.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Gemini Saga",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2020-11-04\",\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : null,\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/5025/vheiKu.jpg\", \"https://imagizer.imageshack.com/img924/2239/yveViY.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Shown for the first time in Tamashii 2020\",\n  \"baseName\" : \"Aquarius Hyoga\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : true,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2020-11-04",
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : null,
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/5025/vheiKu.jpg", "https://imagizer.imageshack.com/img924/2239/yveViY.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Shown for the first time in Tamashii 2020",
+  "baseName" : "Aquarius Hyoga",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : true,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

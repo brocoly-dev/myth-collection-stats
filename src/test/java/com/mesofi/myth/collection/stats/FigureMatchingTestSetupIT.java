@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -24,14 +25,14 @@ import org.springframework.test.context.ActiveProfiles;
 
 @Slf4j
 @ActiveProfiles("test")
+@Disabled("This test is only used to load the figurines into the database")
 public class FigureMatchingTestSetupIT {
 
   private static final String CSV_FILE = "MythCloth Catalog - CatalogMyth.csv";
   private final ObjectMapper objectMapper =
       new ObjectMapper()
           .registerModule(new JavaTimeModule())
-          .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
-          .enable(SerializationFeature.INDENT_OUTPUT);
+          .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 
   private List<Figurine> figurines;
 
@@ -76,10 +77,8 @@ public class FigureMatchingTestSetupIT {
 
   private void createFigurineJsonFile(File outputDir, String name, Figurine figurine) {
     try {
-      String jsonString = objectMapper.writeValueAsString(figurine);
       File figurineFile = new File(outputDir, name + ".json");
-
-      objectMapper.writerWithDefaultPrettyPrinter().writeValue(figurineFile, jsonString);
+      objectMapper.writerWithDefaultPrettyPrinter().writeValue(figurineFile, figurine);
     } catch (IOException e) {
       log.error("Error creating JSON figurine", e);
     }

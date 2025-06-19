@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 1000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2011-01-27\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"OTHER\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/6246/u3C8Jj.jpg\", \"https://imagizer.imageshack.com/img923/6195/GkpHfm.jpg\", \"https://imagizer.imageshack.com/img924/1117/j0HwzV.jpg\", \"https://imagizer.imageshack.com/img924/3895/bdydhm.jpg\", \"https://imagizer.imageshack.com/img923/8828/ZZKQpy.jpg\", \"https://imagizer.imageshack.com/img924/8558/1AooDL.jpg\", \"https://imagizer.imageshack.com/img922/1324/wnRoLr.jpg\", \"https://imagizer.imageshack.com/img924/1073/ZBphlZ.jpg\", \"https://imagizer.imageshack.com/img923/4676/wZ0hdB.jpg\", \"https://imagizer.imageshack.com/img924/272/46cCzc.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Grand Pope Shion ~Gold~\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 1000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2011-01-27",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "OTHER",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/6246/u3C8Jj.jpg", "https://imagizer.imageshack.com/img923/6195/GkpHfm.jpg", "https://imagizer.imageshack.com/img924/1117/j0HwzV.jpg", "https://imagizer.imageshack.com/img924/3895/bdydhm.jpg", "https://imagizer.imageshack.com/img923/8828/ZZKQpy.jpg", "https://imagizer.imageshack.com/img924/8558/1AooDL.jpg", "https://imagizer.imageshack.com/img922/1324/wnRoLr.jpg", "https://imagizer.imageshack.com/img924/1073/ZBphlZ.jpg", "https://imagizer.imageshack.com/img923/4676/wZ0hdB.jpg", "https://imagizer.imageshack.com/img924/272/46cCzc.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Grand Pope Shion ~Gold~",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 2200,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2008-02-21\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/829\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/3696/d8Z5l1.jpg\", \"https://imagizer.imageshack.com/img923/5830/nb0F0e.jpg\", \"https://imagizer.imageshack.com/img922/9159/Gbi58Y.jpg\", \"https://imagizer.imageshack.com/img924/5818/L9ZIHO.jpg\", \"https://imagizer.imageshack.com/img923/4645/LlIG7l.jpg\", \"https://imagizer.imageshack.com/img922/8016/fw5rXA.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Aries Mu\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"APPENDIX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 2200,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2008-02-21",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/829",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/3696/d8Z5l1.jpg", "https://imagizer.imageshack.com/img923/5830/nb0F0e.jpg", "https://imagizer.imageshack.com/img922/9159/Gbi58Y.jpg", "https://imagizer.imageshack.com/img924/5818/L9ZIHO.jpg", "https://imagizer.imageshack.com/img923/4645/LlIG7l.jpg", "https://imagizer.imageshack.com/img922/8016/fw5rXA.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Aries Mu",
+  "displayableName" : null,
+  "lineUp" : "APPENDIX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

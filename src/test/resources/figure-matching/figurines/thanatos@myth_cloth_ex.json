@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 22000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-07-28\",\n    \"releaseDate\" : \"2023-01-21\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3850,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-01-27\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14082\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/613/W1Eyny.jpg\", \"https://imagizer.imageshack.com/img923/3282/lm16pP.jpg\", \"https://imagizer.imageshack.com/img923/9448/fnmE0w.jpg\", \"https://imagizer.imageshack.com/img923/1271/DW2fHj.jpg\", \"https://imagizer.imageshack.com/img922/9687/IoOesu.jpg\", \"https://imagizer.imageshack.com/img923/9317/Rf9d54.jpg\", \"https://imagizer.imageshack.com/img923/2263/9OGIH5.jpg\", \"https://imagizer.imageshack.com/img924/853/0FSkVa.jpg\", \"https://imagizer.imageshack.com/img922/4657/iexlOI.jpg\", \"https://imagizer.imageshack.com/img924/9454/8tv6ls.jpg\", \"https://imagizer.imageshack.com/img923/7744/q1NJkw.jpg\", \"https://imagizer.imageshack.com/img923/7324/DOUmjK.jpg\", \"https://imagizer.imageshack.com/img922/5853/Dppsmw.jpg\", \"https://imagizer.imageshack.com/img923/9017/CNZXkI.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Thanatos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 22000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-07-28",
+    "releaseDate" : "2023-01-21",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3850,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-01-27",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14082",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/613/W1Eyny.jpg", "https://imagizer.imageshack.com/img923/3282/lm16pP.jpg", "https://imagizer.imageshack.com/img923/9448/fnmE0w.jpg", "https://imagizer.imageshack.com/img923/1271/DW2fHj.jpg", "https://imagizer.imageshack.com/img922/9687/IoOesu.jpg", "https://imagizer.imageshack.com/img923/9317/Rf9d54.jpg", "https://imagizer.imageshack.com/img923/2263/9OGIH5.jpg", "https://imagizer.imageshack.com/img924/853/0FSkVa.jpg", "https://imagizer.imageshack.com/img922/4657/iexlOI.jpg", "https://imagizer.imageshack.com/img924/9454/8tv6ls.jpg", "https://imagizer.imageshack.com/img923/7744/q1NJkw.jpg", "https://imagizer.imageshack.com/img923/7324/DOUmjK.jpg", "https://imagizer.imageshack.com/img922/5853/Dppsmw.jpg", "https://imagizer.imageshack.com/img923/9017/CNZXkI.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Thanatos",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

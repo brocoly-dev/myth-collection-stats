@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 20000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-12-28\",\n    \"preOrderDate\" : \"2024-01-10\",\n    \"releaseDate\" : \"2024-07-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3799,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-07-30\",\n    \"releaseDate\" : \"2024-09-09\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14738\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/8725/b2TERq.jpg\", \"https://imagizer.imageshack.com/img923/2337/lZCi3d.jpg\", \"https://imagizer.imageshack.com/img924/281/KGd1qo.jpg\", \"https://imagizer.imageshack.com/img924/7995/9B7bly.jpg\", \"https://imagizer.imageshack.com/img922/4708/BamD3Z.png\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sagittarius Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"INHERITOR\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 20000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-12-28",
+    "preOrderDate" : "2024-01-10",
+    "releaseDate" : "2024-07-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3799,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-07-30",
+    "releaseDate" : "2024-09-09",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14738",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/8725/b2TERq.jpg", "https://imagizer.imageshack.com/img923/2337/lZCi3d.jpg", "https://imagizer.imageshack.com/img924/281/KGd1qo.jpg", "https://imagizer.imageshack.com/img924/7995/9B7bly.jpg", "https://imagizer.imageshack.com/img922/4708/BamD3Z.png" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sagittarius Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "INHERITOR",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

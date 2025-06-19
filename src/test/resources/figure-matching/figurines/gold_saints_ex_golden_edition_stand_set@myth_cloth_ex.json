@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2021-11-18\",\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : null,\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/8382/AVlZQf.jpg\", \"https://imagizer.imageshack.com/img922/206/NveTmh.jpg\", \"https://imagizer.imageshack.com/img922/9498/qJlgzW.jpg\", \"https://imagizer.imageshack.com/img924/1136/zPkiSS.jpg\", \"https://imagizer.imageshack.com/img923/8866/jC3Phm.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Shown for the first time in Tamashii 2021\",\n  \"baseName\" : \"Gold Saints EX Golden Edition Stand Set\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : null,\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2021-11-18",
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : null,
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/8382/AVlZQf.jpg", "https://imagizer.imageshack.com/img922/206/NveTmh.jpg", "https://imagizer.imageshack.com/img922/9498/qJlgzW.jpg", "https://imagizer.imageshack.com/img924/1136/zPkiSS.jpg", "https://imagizer.imageshack.com/img923/8866/jC3Phm.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Shown for the first time in Tamashii 2021",
+  "baseName" : "Gold Saints EX Golden Edition Stand Set",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : null,
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

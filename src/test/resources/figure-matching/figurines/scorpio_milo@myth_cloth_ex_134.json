@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2018-11-18\",\n    \"releaseDate\" : \"2019-03-23\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12749\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/2804/xomqF6.jpg\", \"https://imagizer.imageshack.com/img923/2616/jfJx0F.jpg\", \"https://imagizer.imageshack.com/img923/2859/5BDKAi.jpg\", \"https://imagizer.imageshack.com/img923/7015/VF0EPJ.jpg\", \"https://imagizer.imageshack.com/img924/1714/ztChvS.jpg\", \"https://imagizer.imageshack.com/img923/4113/O9faIJ.jpg\", \"https://imagizer.imageshack.com/img922/2562/WvJMup.jpg\", \"https://imagizer.imageshack.com/img924/4312/JtKUmQ.jpg\", \"https://imagizer.imageshack.com/img924/1613/ok41RZ.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Scorpio Milo\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINTIA_SHO\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2018-11-18",
+    "releaseDate" : "2019-03-23",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12749",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/2804/xomqF6.jpg", "https://imagizer.imageshack.com/img923/2616/jfJx0F.jpg", "https://imagizer.imageshack.com/img923/2859/5BDKAi.jpg", "https://imagizer.imageshack.com/img923/7015/VF0EPJ.jpg", "https://imagizer.imageshack.com/img924/1714/ztChvS.jpg", "https://imagizer.imageshack.com/img923/4113/O9faIJ.jpg", "https://imagizer.imageshack.com/img922/2562/WvJMup.jpg", "https://imagizer.imageshack.com/img924/4312/JtKUmQ.jpg", "https://imagizer.imageshack.com/img924/1613/ok41RZ.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Scorpio Milo",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINTIA_SHO",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

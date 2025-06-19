@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2008-09-27\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/937\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/9917/rBdnAE.jpg\", \"https://imagizer.imageshack.com/img922/9579/pPWKJm.jpg\", \"https://imagizer.imageshack.com/img924/718/UfGnZc.jpg\", \"https://imagizer.imageshack.com/img923/8051/9C1lo6.jpg\", \"https://imagizer.imageshack.com/img922/969/fysktb.jpg\", \"https://imagizer.imageshack.com/img922/7708/tSNvmB.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Emperor Poseidon ~Royal Ornament Edition~\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2008-09-27",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/937",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/9917/rBdnAE.jpg", "https://imagizer.imageshack.com/img922/9579/pPWKJm.jpg", "https://imagizer.imageshack.com/img924/718/UfGnZc.jpg", "https://imagizer.imageshack.com/img923/8051/9C1lo6.jpg", "https://imagizer.imageshack.com/img922/969/fysktb.jpg", "https://imagizer.imageshack.com/img922/7708/tSNvmB.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Emperor Poseidon ~Royal Ornament Edition~",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

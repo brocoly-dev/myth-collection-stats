@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 18000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-11-07\",\n    \"preOrderDate\" : \"2023-11-21\",\n    \"releaseDate\" : \"2024-05-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2380,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-05-29\",\n    \"releaseDate\" : \"2024-07-03\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14676\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/3875/gqkNEn.jpg\", \"https://imagizer.imageshack.com/img924/9098/dujRlm.jpg\", \"https://imagizer.imageshack.com/img923/2969/3RqR6m.jpg\", \"https://imagizer.imageshack.com/img922/9918/1OV3hP.jpg\", \"https://imagizer.imageshack.com/img923/5218/73TrjQ.jpg\", \"https://imagizer.imageshack.com/img922/5828/tHtIKF.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Pegasus Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SS_THE_BEGINNING\",\n  \"category\" : null,\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 18000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-11-07",
+    "preOrderDate" : "2023-11-21",
+    "releaseDate" : "2024-05-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2380,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-05-29",
+    "releaseDate" : "2024-07-03",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14676",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/3875/gqkNEn.jpg", "https://imagizer.imageshack.com/img924/9098/dujRlm.jpg", "https://imagizer.imageshack.com/img923/2969/3RqR6m.jpg", "https://imagizer.imageshack.com/img922/9918/1OV3hP.jpg", "https://imagizer.imageshack.com/img923/5218/73TrjQ.jpg", "https://imagizer.imageshack.com/img922/5828/tHtIKF.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Pegasus Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SS_THE_BEGINNING",
+  "category" : null,
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

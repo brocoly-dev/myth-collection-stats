@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 11111,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2017-08-09\",\n    \"releaseDate\" : \"2018-02-28\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12278\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/8827/705p6B.jpg\", \"https://imagizer.imageshack.com/img923/7456/uW6IjU.jpg\", \"https://imagizer.imageshack.com/img922/7528/5v5sPx.jpg\", \"https://imagizer.imageshack.com/img922/4417/hSdlmK.jpg\", \"https://imagizer.imageshack.com/img924/3663/I0bJT1.jpg\", \"https://imagizer.imageshack.com/img923/814/96lXSo.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"TN World Tour 10th anniversary\",\n  \"baseName\" : \"Goddess Athena\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : true,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 11111,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2017-08-09",
+    "releaseDate" : "2018-02-28",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12278",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/8827/705p6B.jpg", "https://imagizer.imageshack.com/img923/7456/uW6IjU.jpg", "https://imagizer.imageshack.com/img922/7528/5v5sPx.jpg", "https://imagizer.imageshack.com/img922/4417/hSdlmK.jpg", "https://imagizer.imageshack.com/img924/3663/I0bJT1.jpg", "https://imagizer.imageshack.com/img923/814/96lXSo.jpg" ],
+  "otherImages" : null,
+  "remarks" : "TN World Tour 10th anniversary",
+  "baseName" : "Goddess Athena",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOD",
+  "status" : null,
+  "revival" : false,
+  "oce" : true,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

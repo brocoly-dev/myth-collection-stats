@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-10-15\",\n    \"releaseDate\" : \"2022-03-24\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2750,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-04-01\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13801\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/23/iYQJwE.jpg\", \"https://imagizer.imageshack.com/img924/8514/E6XTDz.jpg\", \"https://imagizer.imageshack.com/img922/9587/5Wnm3V.jpg\", \"https://imagizer.imageshack.com/img923/2986/EWichz.jpg\", \"https://imagizer.imageshack.com/img923/7440/2fzaxv.jpg\", \"https://imagizer.imageshack.com/img924/3381/uVHxD2.jpg\", \"https://imagizer.imageshack.com/img924/8821/jd0CFO.jpg\", \"https://imagizer.imageshack.com/img923/5412/MVkMMb.jpg\", \"https://imagizer.imageshack.com/img922/5084/9Ji9O7.jpg\", \"https://imagizer.imageshack.com/img922/9923/osCKhd.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Zeta Alcord Bud\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-10-15",
+    "releaseDate" : "2022-03-24",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2750,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-04-01",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13801",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/23/iYQJwE.jpg", "https://imagizer.imageshack.com/img924/8514/E6XTDz.jpg", "https://imagizer.imageshack.com/img922/9587/5Wnm3V.jpg", "https://imagizer.imageshack.com/img923/2986/EWichz.jpg", "https://imagizer.imageshack.com/img923/7440/2fzaxv.jpg", "https://imagizer.imageshack.com/img924/3381/uVHxD2.jpg", "https://imagizer.imageshack.com/img924/8821/jd0CFO.jpg", "https://imagizer.imageshack.com/img923/5412/MVkMMb.jpg", "https://imagizer.imageshack.com/img922/5084/9Ji9O7.jpg", "https://imagizer.imageshack.com/img922/9923/osCKhd.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Zeta Alcord Bud",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

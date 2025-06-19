@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2014-12-01\",\n    \"releaseDate\" : \"2015-04-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10891\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/4136/cGoI9x.jpg\", \"https://imagizer.imageshack.com/img923/8748/U7uFCG.jpg\", \"https://imagizer.imageshack.com/img922/7146/EX4x1J.jpg\", \"https://imagizer.imageshack.com/img922/110/BzHTJ9.jpg\", \"https://imagizer.imageshack.com/img923/1655/pdA4mC.jpg\", \"https://imagizer.imageshack.com/img923/5622/WdmeAq.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sagittarius Aiolos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"SC_LEGEND\",\n  \"series\" : \"SS_LEGEND_OF_SANCTUARY\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2014-12-01",
+    "releaseDate" : "2015-04-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10891",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/4136/cGoI9x.jpg", "https://imagizer.imageshack.com/img923/8748/U7uFCG.jpg", "https://imagizer.imageshack.com/img922/7146/EX4x1J.jpg", "https://imagizer.imageshack.com/img922/110/BzHTJ9.jpg", "https://imagizer.imageshack.com/img923/1655/pdA4mC.jpg", "https://imagizer.imageshack.com/img923/5622/WdmeAq.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sagittarius Aiolos",
+  "displayableName" : null,
+  "lineUp" : "SC_LEGEND",
+  "series" : "SS_LEGEND_OF_SANCTUARY",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

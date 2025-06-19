@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 20000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2024-07-11\",\n    \"preOrderDate\" : \"2024-07-12\",\n    \"releaseDate\" : \"2024-12-16\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3560,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-12-20\",\n    \"releaseDate\" : \"2025-01-27\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/15071\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/4185/fRoE70.jpg\", \"https://imagizer.imageshack.com/img924/8793/cLKujP.jpg\", \"https://imagizer.imageshack.com/img924/5896/BsHAM7.jpg\", \"https://imagizer.imageshack.com/img924/2831/ZQjRpz.jpg\", \"https://imagizer.imageshack.com/img922/8090/TQeURC.jpg\", \"https://imagizer.imageshack.com/img924/3808/O918nY.jpg\", \"https://imagizer.imageshack.com/img924/2950/CsU45f.jpg\", \"https://imagizer.imageshack.com/img922/2294/XRTdzA.jpg\", \"https://imagizer.imageshack.com/img923/6916/T8E2ui.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Virgo Shun\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"INHERITOR\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 20000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2024-07-11",
+    "preOrderDate" : "2024-07-12",
+    "releaseDate" : "2024-12-16",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3560,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-12-20",
+    "releaseDate" : "2025-01-27",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/15071",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/4185/fRoE70.jpg", "https://imagizer.imageshack.com/img924/8793/cLKujP.jpg", "https://imagizer.imageshack.com/img924/5896/BsHAM7.jpg", "https://imagizer.imageshack.com/img924/2831/ZQjRpz.jpg", "https://imagizer.imageshack.com/img922/8090/TQeURC.jpg", "https://imagizer.imageshack.com/img924/3808/O918nY.jpg", "https://imagizer.imageshack.com/img924/2950/CsU45f.jpg", "https://imagizer.imageshack.com/img922/2294/XRTdzA.jpg", "https://imagizer.imageshack.com/img923/6916/T8E2ui.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Virgo Shun",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "INHERITOR",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

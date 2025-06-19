@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2015-12-12\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10996\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/4498/tWjUwk.jpg\", \"https://imagizer.imageshack.com/img922/6963/tly2Lz.jpg\", \"https://imagizer.imageshack.com/img924/1978/F852Qx.jpg\", \"https://imagizer.imageshack.com/img922/5614/j11Vpe.jpg\", \"https://imagizer.imageshack.com/img922/5948/VKtPsE.jpg\", \"https://imagizer.imageshack.com/img924/3415/RZPDEy.jpg\", \"https://imagizer.imageshack.com/img923/9349/qJdlE0.jpg\", \"https://imagizer.imageshack.com/img924/9393/5c2cpK.jpg\", \"https://imagizer.imageshack.com/img922/1444/mD9K3H.jpg\", \"https://imagizer.imageshack.com/img924/1219/JBz004.jpg\", \"https://imagizer.imageshack.com/img922/2535/N1znON.jpg\", \"https://imagizer.imageshack.com/img924/3228/H4p6X3.jpg\", \"https://imagizer.imageshack.com/img924/2420/KjvBUQ.jpg\", \"https://imagizer.imageshack.com/img922/8308/HSedFO.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Leo Aiolia\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SOG\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2015-12-12",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10996",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/4498/tWjUwk.jpg", "https://imagizer.imageshack.com/img922/6963/tly2Lz.jpg", "https://imagizer.imageshack.com/img924/1978/F852Qx.jpg", "https://imagizer.imageshack.com/img922/5614/j11Vpe.jpg", "https://imagizer.imageshack.com/img922/5948/VKtPsE.jpg", "https://imagizer.imageshack.com/img924/3415/RZPDEy.jpg", "https://imagizer.imageshack.com/img923/9349/qJdlE0.jpg", "https://imagizer.imageshack.com/img924/9393/5c2cpK.jpg", "https://imagizer.imageshack.com/img922/1444/mD9K3H.jpg", "https://imagizer.imageshack.com/img924/1219/JBz004.jpg", "https://imagizer.imageshack.com/img922/2535/N1znON.jpg", "https://imagizer.imageshack.com/img924/3228/H4p6X3.jpg", "https://imagizer.imageshack.com/img924/2420/KjvBUQ.jpg", "https://imagizer.imageshack.com/img922/8308/HSedFO.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Leo Aiolia",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SOG",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

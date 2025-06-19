@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 7500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2019-01-09\",\n    \"releaseDate\" : \"2019-05-18\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12806\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/663/PkbCTw.jpg\", \"https://imagizer.imageshack.com/img922/8194/83WKJD.jpg\", \"https://imagizer.imageshack.com/img923/7243/QEjoN3.jpg\", \"https://imagizer.imageshack.com/img922/9711/KxNOrm.jpg\", \"https://imagizer.imageshack.com/img924/9784/OaCMQz.jpg\", \"https://imagizer.imageshack.com/img923/7259/2lAq86.jpg\", \"https://imagizer.imageshack.com/img923/1087/xv7Nvy.jpg\", \"https://imagizer.imageshack.com/img923/7082/E1yg24.jpg\", \"https://imagizer.imageshack.com/img924/2052/uOwRNg.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Equuleus Shoko\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINTIA_SHO\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 7500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2019-01-09",
+    "releaseDate" : "2019-05-18",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12806",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/663/PkbCTw.jpg", "https://imagizer.imageshack.com/img922/8194/83WKJD.jpg", "https://imagizer.imageshack.com/img923/7243/QEjoN3.jpg", "https://imagizer.imageshack.com/img922/9711/KxNOrm.jpg", "https://imagizer.imageshack.com/img924/9784/OaCMQz.jpg", "https://imagizer.imageshack.com/img923/7259/2lAq86.jpg", "https://imagizer.imageshack.com/img923/1087/xv7Nvy.jpg", "https://imagizer.imageshack.com/img923/7082/E1yg24.jpg", "https://imagizer.imageshack.com/img924/2052/uOwRNg.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Equuleus Shoko",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINTIA_SHO",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

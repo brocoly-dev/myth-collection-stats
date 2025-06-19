@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 3800,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2012-12-27\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10130\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/6035/oCoWL8.jpg\", \"https://imagizer.imageshack.com/img922/4274/xELm5W.jpg\", \"https://imagizer.imageshack.com/img923/2521/8s4FcB.jpg\", \"https://imagizer.imageshack.com/img924/2299/ldkyZK.jpg\", \"https://imagizer.imageshack.com/img923/9457/yM216K.jpg\", \"https://imagizer.imageshack.com/img924/2412/t1UV2D.jpg\", \"https://imagizer.imageshack.com/img922/6821/ft9CM4.jpg\", \"https://imagizer.imageshack.com/img924/9341/Atq9Zy.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Pegasus Koga\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"FIGUARTS\",\n  \"series\" : \"SS_OMEGA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 3800,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2012-12-27",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10130",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/6035/oCoWL8.jpg", "https://imagizer.imageshack.com/img922/4274/xELm5W.jpg", "https://imagizer.imageshack.com/img923/2521/8s4FcB.jpg", "https://imagizer.imageshack.com/img924/2299/ldkyZK.jpg", "https://imagizer.imageshack.com/img923/9457/yM216K.jpg", "https://imagizer.imageshack.com/img924/2412/t1UV2D.jpg", "https://imagizer.imageshack.com/img922/6821/ft9CM4.jpg", "https://imagizer.imageshack.com/img924/9341/Atq9Zy.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Pegasus Koga",
+  "displayableName" : null,
+  "lineUp" : "FIGUARTS",
+  "series" : "SS_OMEGA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

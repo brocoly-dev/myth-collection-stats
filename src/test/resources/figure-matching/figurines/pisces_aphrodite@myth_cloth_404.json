@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 4000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2006-02-22\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DTM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/540\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/9159/RdY8Iy.jpg\", \"https://imagizer.imageshack.com/img922/8461/TygxXl.jpg\", \"https://imagizer.imageshack.com/img924/1308/0yCvBQ.jpg\", \"https://imagizer.imageshack.com/img923/189/COzOKB.jpg\", \"https://imagizer.imageshack.com/img924/8427/d2Rrvs.jpg\", \"https://imagizer.imageshack.com/img923/8551/8WdqET.jpg\", \"https://imagizer.imageshack.com/img924/3813/WP2lnE.jpg\", \"https://imagizer.imageshack.com/img924/3315/slfTSt.jpg\", \"https://imagizer.imageshack.com/img923/9360/4AiQMp.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Pisces Aphrodite\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 4000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2006-02-22",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DTM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/540",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/9159/RdY8Iy.jpg", "https://imagizer.imageshack.com/img922/8461/TygxXl.jpg", "https://imagizer.imageshack.com/img924/1308/0yCvBQ.jpg", "https://imagizer.imageshack.com/img923/189/COzOKB.jpg", "https://imagizer.imageshack.com/img924/8427/d2Rrvs.jpg", "https://imagizer.imageshack.com/img923/8551/8WdqET.jpg", "https://imagizer.imageshack.com/img924/3813/WP2lnE.jpg", "https://imagizer.imageshack.com/img924/3315/slfTSt.jpg", "https://imagizer.imageshack.com/img923/9360/4AiQMp.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Pisces Aphrodite",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

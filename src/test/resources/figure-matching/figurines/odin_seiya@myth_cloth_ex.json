@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 15000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2021-11-19\",\n    \"preOrderDate\" : \"2025-04-25\",\n    \"releaseDate\" : \"2025-10-01\",\n    \"releaseDateConfirmed\" : false\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/15383\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/5827/zlE5Tr.jpg\", \"https://imagizer.imageshack.com/img923/1208/goRCpp.jpg\", \"https://imagizer.imageshack.com/img923/1276/xbMZOS.jpg\", \"https://imagizer.imageshack.com/img924/622/kOCozA.jpg\", \"https://imagizer.imageshack.com/img922/5423/34aV6C.jpg\", \"https://imagizer.imageshack.com/img923/8611/V5pPtm.jpg\", \"https://imagizer.imageshack.com/img924/2904/VWPTBF.jpg\", \"https://imagizer.imageshack.com/img924/4041/4A01AC.jpg\", \"https://imagizer.imageshack.com/img924/5998/LtCeMn.jpg\", \"https://imagizer.imageshack.com/img924/2465/7Q5FUC.jpg\" ],\n  \"otherImages\" : [ \"https://imagizer.imageshack.com/img924/8063/fiBADT.jpg\", \"https://imagizer.imageshack.com/img923/3/w3KbDH.jpg\" ],\n  \"remarks\" : \"Shown for the first time in Tamashii 2021\",\n  \"baseName\" : \"Odin Seiya\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 15000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2021-11-19",
+    "preOrderDate" : "2025-04-25",
+    "releaseDate" : "2025-10-01",
+    "releaseDateConfirmed" : false
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/15383",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/5827/zlE5Tr.jpg", "https://imagizer.imageshack.com/img923/1208/goRCpp.jpg", "https://imagizer.imageshack.com/img923/1276/xbMZOS.jpg", "https://imagizer.imageshack.com/img924/622/kOCozA.jpg", "https://imagizer.imageshack.com/img922/5423/34aV6C.jpg", "https://imagizer.imageshack.com/img923/8611/V5pPtm.jpg", "https://imagizer.imageshack.com/img924/2904/VWPTBF.jpg", "https://imagizer.imageshack.com/img924/4041/4A01AC.jpg", "https://imagizer.imageshack.com/img924/5998/LtCeMn.jpg", "https://imagizer.imageshack.com/img924/2465/7Q5FUC.jpg" ],
+  "otherImages" : [ "https://imagizer.imageshack.com/img924/8063/fiBADT.jpg", "https://imagizer.imageshack.com/img923/3/w3KbDH.jpg" ],
+  "remarks" : "Shown for the first time in Tamashii 2021",
+  "baseName" : "Odin Seiya",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

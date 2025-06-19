@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 6000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2016-09-30\",\n    \"releaseDate\" : \"2017-02-11\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11584\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/1483/UqKU1L.jpg\", \"https://imagizer.imageshack.com/img924/6047/LbQb6C.jpg\", \"https://imagizer.imageshack.com/img922/882/9RcKrT.jpg\", \"https://imagizer.imageshack.com/img923/9133/oseZG0.jpg\", \"https://imagizer.imageshack.com/img922/629/1iHYBd.jpg\", \"https://imagizer.imageshack.com/img923/8149/BJ30EA.jpg\", \"https://imagizer.imageshack.com/img923/2439/SCign5.jpg\", \"https://imagizer.imageshack.com/img924/2782/yHf0iT.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sagittarius Aiolos\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"DDP\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 6000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2016-09-30",
+    "releaseDate" : "2017-02-11",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11584",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/1483/UqKU1L.jpg", "https://imagizer.imageshack.com/img924/6047/LbQb6C.jpg", "https://imagizer.imageshack.com/img922/882/9RcKrT.jpg", "https://imagizer.imageshack.com/img923/9133/oseZG0.jpg", "https://imagizer.imageshack.com/img922/629/1iHYBd.jpg", "https://imagizer.imageshack.com/img923/8149/BJ30EA.jpg", "https://imagizer.imageshack.com/img923/2439/SCign5.jpg", "https://imagizer.imageshack.com/img924/2782/yHf0iT.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sagittarius Aiolos",
+  "displayableName" : null,
+  "lineUp" : "DDP",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

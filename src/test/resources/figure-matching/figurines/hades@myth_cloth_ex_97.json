@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 16000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-08-03\",\n    \"releaseDate\" : \"2020-12-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 4120,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2020-12-14\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13331\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/5427/Ngm7vC.jpg\", \"https://imagizer.imageshack.com/img924/4480/7EJAU4.jpg\", \"https://imagizer.imageshack.com/img923/1456/bPfJLY.jpg\", \"https://imagizer.imageshack.com/img924/1369/hEHWdE.jpg\", \"https://imagizer.imageshack.com/img924/8969/OBLjnC.jpg\", \"https://imagizer.imageshack.com/img924/8657/PuPsEc.jpg\", \"https://imagizer.imageshack.com/img923/8783/6pUk1i.jpg\", \"https://imagizer.imageshack.com/img923/9872/0CQFuR.jpg\", \"https://imagizer.imageshack.com/img922/3/cWA1sZ.jpg\", \"https://imagizer.imageshack.com/img924/3867/wm4pnI.jpg\", \"https://imagizer.imageshack.com/img922/6033/usc762.jpg\", \"https://imagizer.imageshack.com/img924/8844/Aa2vxL.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Hades\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : true,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 16000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-08-03",
+    "releaseDate" : "2020-12-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 4120,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2020-12-14",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13331",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/5427/Ngm7vC.jpg", "https://imagizer.imageshack.com/img924/4480/7EJAU4.jpg", "https://imagizer.imageshack.com/img923/1456/bPfJLY.jpg", "https://imagizer.imageshack.com/img924/1369/hEHWdE.jpg", "https://imagizer.imageshack.com/img924/8969/OBLjnC.jpg", "https://imagizer.imageshack.com/img924/8657/PuPsEc.jpg", "https://imagizer.imageshack.com/img923/8783/6pUk1i.jpg", "https://imagizer.imageshack.com/img923/9872/0CQFuR.jpg", "https://imagizer.imageshack.com/img922/3/cWA1sZ.jpg", "https://imagizer.imageshack.com/img924/3867/wm4pnI.jpg", "https://imagizer.imageshack.com/img922/6033/usc762.jpg", "https://imagizer.imageshack.com/img924/8844/Aa2vxL.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Hades",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : true,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

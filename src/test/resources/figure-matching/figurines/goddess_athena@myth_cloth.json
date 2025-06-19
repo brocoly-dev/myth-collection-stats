@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2018-06-07\",\n    \"releaseDate\" : \"2018-10-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12614\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/173/zNF6WT.jpg\", \"https://imagizer.imageshack.com/img924/8506/ZloSJQ.jpg\", \"https://imagizer.imageshack.com/img923/2923/an61c6.jpg\", \"https://imagizer.imageshack.com/img922/8296/dF4Add.jpg\", \"https://imagizer.imageshack.com/img922/199/lZOWgE.jpg\", \"https://imagizer.imageshack.com/img924/2255/OHfa4w.jpg\", \"https://imagizer.imageshack.com/img923/8313/k5Dlj8.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"15th anniversary\",\n  \"baseName\" : \"Goddess Athena\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_15\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2018-06-07",
+    "releaseDate" : "2018-10-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12614",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/173/zNF6WT.jpg", "https://imagizer.imageshack.com/img924/8506/ZloSJQ.jpg", "https://imagizer.imageshack.com/img923/2923/an61c6.jpg", "https://imagizer.imageshack.com/img922/8296/dF4Add.jpg", "https://imagizer.imageshack.com/img922/199/lZOWgE.jpg", "https://imagizer.imageshack.com/img924/2255/OHfa4w.jpg", "https://imagizer.imageshack.com/img923/8313/k5Dlj8.jpg" ],
+  "otherImages" : null,
+  "remarks" : "15th anniversary",
+  "baseName" : "Goddess Athena",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_15",
+  "restocks" : null
+}

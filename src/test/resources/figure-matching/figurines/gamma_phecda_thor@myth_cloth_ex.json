@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 18000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2022-11-13\",\n    \"preOrderDate\" : \"2023-01-12\",\n    \"releaseDate\" : \"2023-06-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 3480,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-06-29\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14258\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/3331/SeohWE.jpg\", \"https://imagizer.imageshack.com/img923/2897/0PP6uF.jpg\", \"https://imagizer.imageshack.com/img922/7140/YsZUDz.jpg\", \"https://imagizer.imageshack.com/img924/7274/abgKmG.jpg\", \"https://imagizer.imageshack.com/img922/7203/DIwtzF.jpg\", \"https://imagizer.imageshack.com/img924/4261/N7I2M8.jpg\", \"https://imagizer.imageshack.com/img924/63/8bCnJt.jpg\", \"https://imagizer.imageshack.com/img923/914/syLc6G.jpg\", \"https://imagizer.imageshack.com/img923/9661/etKiFt.jpg\", \"https://imagizer.imageshack.com/img922/8895/8Iru3H.jpg\", \"https://imagizer.imageshack.com/img924/4437/3JfmR0.jpg\", \"https://imagizer.imageshack.com/img924/4860/qA0dd1.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Gamma Phecda Thor\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"ROBE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 18000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2022-11-13",
+    "preOrderDate" : "2023-01-12",
+    "releaseDate" : "2023-06-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 3480,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-06-29",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14258",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/3331/SeohWE.jpg", "https://imagizer.imageshack.com/img923/2897/0PP6uF.jpg", "https://imagizer.imageshack.com/img922/7140/YsZUDz.jpg", "https://imagizer.imageshack.com/img924/7274/abgKmG.jpg", "https://imagizer.imageshack.com/img922/7203/DIwtzF.jpg", "https://imagizer.imageshack.com/img924/4261/N7I2M8.jpg", "https://imagizer.imageshack.com/img924/63/8bCnJt.jpg", "https://imagizer.imageshack.com/img923/914/syLc6G.jpg", "https://imagizer.imageshack.com/img923/9661/etKiFt.jpg", "https://imagizer.imageshack.com/img922/8895/8Iru3H.jpg", "https://imagizer.imageshack.com/img924/4437/3JfmR0.jpg", "https://imagizer.imageshack.com/img924/4860/qA0dd1.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Gamma Phecda Thor",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "ROBE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

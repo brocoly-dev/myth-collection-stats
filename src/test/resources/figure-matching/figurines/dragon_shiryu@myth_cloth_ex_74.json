@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-12-03\",\n    \"releaseDate\" : \"2022-04-23\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2250,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-05-13\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13819\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/4721/UNYhQn.jpg\", \"https://imagizer.imageshack.com/img923/7770/5IkJFy.jpg\", \"https://imagizer.imageshack.com/img924/2305/kFWaPF.jpg\", \"https://imagizer.imageshack.com/img923/2756/hvGtFq.jpg\", \"https://imagizer.imageshack.com/img924/830/15lcgp.jpg\", \"https://imagizer.imageshack.com/img923/4701/PMjDR2.jpg\", \"https://imagizer.imageshack.com/img924/1964/BW6Jgv.jpg\", \"https://imagizer.imageshack.com/img924/9852/8ejNdJ.jpg\", \"https://imagizer.imageshack.com/img922/4663/sPlOW8.jpg\", \"https://imagizer.imageshack.com/img922/108/ffq3a0.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Dragon Shiryu\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V3\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-12-03",
+    "releaseDate" : "2022-04-23",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2250,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-05-13",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13819",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/4721/UNYhQn.jpg", "https://imagizer.imageshack.com/img923/7770/5IkJFy.jpg", "https://imagizer.imageshack.com/img924/2305/kFWaPF.jpg", "https://imagizer.imageshack.com/img923/2756/hvGtFq.jpg", "https://imagizer.imageshack.com/img924/830/15lcgp.jpg", "https://imagizer.imageshack.com/img923/4701/PMjDR2.jpg", "https://imagizer.imageshack.com/img924/1964/BW6Jgv.jpg", "https://imagizer.imageshack.com/img924/9852/8ejNdJ.jpg", "https://imagizer.imageshack.com/img922/4663/sPlOW8.jpg", "https://imagizer.imageshack.com/img922/108/ffq3a0.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Dragon Shiryu",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "V3",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

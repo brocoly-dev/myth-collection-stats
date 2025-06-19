@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2011-11-24\",\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : null,\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img924/2517/T4u6Wv.jpg\", \"https://imagizer.imageshack.com/img923/6830/BMxavJ.jpg\", \"https://imagizer.imageshack.com/img923/2164/hRK649.jpg\", \"https://imagizer.imageshack.com/img922/8548/fph8xN.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Shown for the first time in Tamashii 2011\",\n  \"baseName\" : \"Aquarius Hyoga\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"SC_CROWN\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2011-11-24",
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : null,
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/2517/T4u6Wv.jpg", "https://imagizer.imageshack.com/img923/6830/BMxavJ.jpg", "https://imagizer.imageshack.com/img923/2164/hRK649.jpg", "https://imagizer.imageshack.com/img922/8548/fph8xN.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Shown for the first time in Tamashii 2011",
+  "baseName" : "Aquarius Hyoga",
+  "displayableName" : null,
+  "lineUp" : "SC_CROWN",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

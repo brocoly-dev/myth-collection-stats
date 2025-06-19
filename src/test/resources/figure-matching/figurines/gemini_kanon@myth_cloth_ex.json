@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 10000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2021-11-11\",\n    \"releaseDate\" : \"2022-05-25\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2750,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-05-27\",\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/13827\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/4743/UB0QZZ.jpg\", \"https://imagizer.imageshack.com/img922/4637/wrPpmT.jpg\", \"https://imagizer.imageshack.com/img922/1926/ktuo6u.jpg\", \"https://imagizer.imageshack.com/img923/3963/Z9XB6e.jpg\", \"https://imagizer.imageshack.com/img924/5286/HsBtTR.jpg\", \"https://imagizer.imageshack.com/img924/4018/FpPJ81.jpg\", \"https://imagizer.imageshack.com/img924/888/pI0BVD.jpg\", \"https://imagizer.imageshack.com/img923/7096/7xCB9t.jpg\", \"https://imagizer.imageshack.com/img924/4333/2WM81M.jpg\", \"https://imagizer.imageshack.com/img923/4408/2Q86BF.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Gemini Kanon\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 10000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2021-11-11",
+    "releaseDate" : "2022-05-25",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2750,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-05-27",
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/13827",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/4743/UB0QZZ.jpg", "https://imagizer.imageshack.com/img922/4637/wrPpmT.jpg", "https://imagizer.imageshack.com/img922/1926/ktuo6u.jpg", "https://imagizer.imageshack.com/img923/3963/Z9XB6e.jpg", "https://imagizer.imageshack.com/img924/5286/HsBtTR.jpg", "https://imagizer.imageshack.com/img924/4018/FpPJ81.jpg", "https://imagizer.imageshack.com/img924/888/pI0BVD.jpg", "https://imagizer.imageshack.com/img923/7096/7xCB9t.jpg", "https://imagizer.imageshack.com/img924/4333/2WM81M.jpg", "https://imagizer.imageshack.com/img923/4408/2Q86BF.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Gemini Kanon",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

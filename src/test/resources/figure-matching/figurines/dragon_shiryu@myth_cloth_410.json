@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 3800,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2005-09-26\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DTM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/488\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/2051/NRR70f.jpg\", \"https://imagizer.imageshack.com/img924/760/iuODFD.jpg\", \"https://imagizer.imageshack.com/img924/7983/60kjqH.jpg\", \"https://imagizer.imageshack.com/img922/3410/UXFlIe.jpg\", \"https://imagizer.imageshack.com/img922/7549/iyezg4.jpg\", \"https://imagizer.imageshack.com/img923/1998/u2uUzX.jpg\", \"https://imagizer.imageshack.com/img922/6218/73clWP.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"Mask parts for the New Bronze Cloth are included. The head can be used for the new Bronze Cloth.\",\n  \"baseName\" : \"Dragon Shiryu\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V3\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 3800,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2005-09-26",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DTM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/488",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/2051/NRR70f.jpg", "https://imagizer.imageshack.com/img924/760/iuODFD.jpg", "https://imagizer.imageshack.com/img924/7983/60kjqH.jpg", "https://imagizer.imageshack.com/img922/3410/UXFlIe.jpg", "https://imagizer.imageshack.com/img922/7549/iyezg4.jpg", "https://imagizer.imageshack.com/img923/1998/u2uUzX.jpg", "https://imagizer.imageshack.com/img922/6218/73clWP.jpg" ],
+  "otherImages" : null,
+  "remarks" : "Mask parts for the New Bronze Cloth are included. The head can be used for the new Bronze Cloth.",
+  "baseName" : "Dragon Shiryu",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V3",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

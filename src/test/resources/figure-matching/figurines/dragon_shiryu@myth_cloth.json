@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : \"2023-09-14\",\n    \"preOrderDate\" : \"2023-09-15\",\n    \"releaseDate\" : \"2024-02-16\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2450,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2024-02-28\",\n    \"releaseDate\" : \"2024-04-02\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14642\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/333/eEUZ56.jpg\", \"https://imagizer.imageshack.com/img923/5453/NdT0sK.jpg\", \"https://imagizer.imageshack.com/img924/7949/ITGVjQ.jpg\", \"https://imagizer.imageshack.com/img922/8566/4zQ9ai.jpg\", \"https://imagizer.imageshack.com/img923/6876/KH5vCA.jpg\", \"https://imagizer.imageshack.com/img922/8713/SAVc6n.jpg\", \"https://imagizer.imageshack.com/img924/6487/KzdX25.jpg\", \"https://imagizer.imageshack.com/img922/6695/wVZK1x.jpg\", \"https://imagizer.imageshack.com/img923/2333/oqRzGc.jpg\", \"https://imagizer.imageshack.com/img922/143/WiBoHC.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"20th anniversary\",\n  \"baseName\" : \"Dragon Shiryu\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"V1\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : \"A_20\",\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2023-09-14",
+    "preOrderDate" : "2023-09-15",
+    "releaseDate" : "2024-02-16",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2450,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2024-02-28",
+    "releaseDate" : "2024-04-02",
+    "releaseDateConfirmed" : true
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14642",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/333/eEUZ56.jpg", "https://imagizer.imageshack.com/img923/5453/NdT0sK.jpg", "https://imagizer.imageshack.com/img924/7949/ITGVjQ.jpg", "https://imagizer.imageshack.com/img922/8566/4zQ9ai.jpg", "https://imagizer.imageshack.com/img923/6876/KH5vCA.jpg", "https://imagizer.imageshack.com/img922/8713/SAVc6n.jpg", "https://imagizer.imageshack.com/img924/6487/KzdX25.jpg", "https://imagizer.imageshack.com/img922/6695/wVZK1x.jpg", "https://imagizer.imageshack.com/img923/2333/oqRzGc.jpg", "https://imagizer.imageshack.com/img922/143/WiBoHC.jpg" ],
+  "otherImages" : null,
+  "remarks" : "20th anniversary",
+  "baseName" : "Dragon Shiryu",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "V1",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : "A_20",
+  "restocks" : null
+}

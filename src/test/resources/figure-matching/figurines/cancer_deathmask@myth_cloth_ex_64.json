@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 12000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2022-11-21\",\n    \"releaseDate\" : \"2023-04-22\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : 2100,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2023-04-27\",\n    \"releaseDate\" : \"2023-05-01\",\n    \"releaseDateConfirmed\" : false\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/14207\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/7489/xpZOLd.jpg\", \"https://imagizer.imageshack.com/img922/1238/4u197C.jpg\", \"https://imagizer.imageshack.com/img923/6900/bzbVNM.jpg\", \"https://imagizer.imageshack.com/img922/111/faP8yC.jpg\", \"https://imagizer.imageshack.com/img922/8079/NS8FXW.jpg\", \"https://imagizer.imageshack.com/img924/554/Fk1JNW.jpg\", \"https://imagizer.imageshack.com/img923/5711/BSsgee.jpg\", \"https://imagizer.imageshack.com/img922/8944/3gcTrR.jpg\", \"https://imagizer.imageshack.com/img922/5711/YjcuFm.jpg\", \"https://imagizer.imageshack.com/img923/3687/i95YQI.jpg\", \"https://imagizer.imageshack.com/img922/4587/lZI38B.jpg\", \"https://imagizer.imageshack.com/img924/7827/cg8lOs.jpg\", \"https://imagizer.imageshack.com/img922/7526/v2IuPp.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Cancer DeathMask\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : true,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 12000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2022-11-21",
+    "releaseDate" : "2023-04-22",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : 2100,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2023-04-27",
+    "releaseDate" : "2023-05-01",
+    "releaseDateConfirmed" : false
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/14207",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/7489/xpZOLd.jpg", "https://imagizer.imageshack.com/img922/1238/4u197C.jpg", "https://imagizer.imageshack.com/img923/6900/bzbVNM.jpg", "https://imagizer.imageshack.com/img922/111/faP8yC.jpg", "https://imagizer.imageshack.com/img922/8079/NS8FXW.jpg", "https://imagizer.imageshack.com/img924/554/Fk1JNW.jpg", "https://imagizer.imageshack.com/img923/5711/BSsgee.jpg", "https://imagizer.imageshack.com/img922/8944/3gcTrR.jpg", "https://imagizer.imageshack.com/img922/5711/YjcuFm.jpg", "https://imagizer.imageshack.com/img923/3687/i95YQI.jpg", "https://imagizer.imageshack.com/img922/4587/lZI38B.jpg", "https://imagizer.imageshack.com/img924/7827/cg8lOs.jpg", "https://imagizer.imageshack.com/img922/7526/v2IuPp.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Cancer DeathMask",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : true,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

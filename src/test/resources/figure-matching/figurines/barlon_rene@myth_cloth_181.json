@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 9000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2017-01-27\",\n    \"releaseDate\" : \"2017-05-06\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/11715\",\n  \"distributionChannel\" : \"WS\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/344/fmCMUe.jpg\", \"https://imagizer.imageshack.com/img923/8141/ybvfRk.jpg\", \"https://imagizer.imageshack.com/img924/5272/3oAjy9.jpg\", \"https://imagizer.imageshack.com/img923/3310/wV1xQo.jpg\", \"https://imagizer.imageshack.com/img924/2497/rInB71.jpg\", \"https://imagizer.imageshack.com/img924/7713/cJ6cFI.jpg\", \"https://imagizer.imageshack.com/img924/6119/7aBQz5.jpg\", \"https://imagizer.imageshack.com/img922/2558/aMivqP.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Barlon Rene\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SPECTER\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 9000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2017-01-27",
+    "releaseDate" : "2017-05-06",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/11715",
+  "distributionChannel" : "WS",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/344/fmCMUe.jpg", "https://imagizer.imageshack.com/img923/8141/ybvfRk.jpg", "https://imagizer.imageshack.com/img924/5272/3oAjy9.jpg", "https://imagizer.imageshack.com/img923/3310/wV1xQo.jpg", "https://imagizer.imageshack.com/img924/2497/rInB71.jpg", "https://imagizer.imageshack.com/img924/7713/cJ6cFI.jpg", "https://imagizer.imageshack.com/img924/6119/7aBQz5.jpg", "https://imagizer.imageshack.com/img922/2558/aMivqP.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Barlon Rene",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "SPECTER",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

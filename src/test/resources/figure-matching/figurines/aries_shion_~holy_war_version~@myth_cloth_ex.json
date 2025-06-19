@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 7500,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2014-05-17\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/10607\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/5294/Jlx26O.jpg\", \"https://imagizer.imageshack.com/img922/4241/RhnY1v.jpg\", \"https://imagizer.imageshack.com/img923/8983/z0rAgT.jpg\", \"https://imagizer.imageshack.com/img924/7372/NT2u7C.jpg\", \"https://imagizer.imageshack.com/img924/8868/jn1PSm.jpg\", \"https://imagizer.imageshack.com/img924/7348/6hCqyN.jpg\", \"https://imagizer.imageshack.com/img922/2721/rNcqHc.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Aries Shion ~Holy War Version~\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"GOLD\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : false,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 7500,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2014-05-17",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "https://tamashiiweb.com/item/10607",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/5294/Jlx26O.jpg", "https://imagizer.imageshack.com/img922/4241/RhnY1v.jpg", "https://imagizer.imageshack.com/img923/8983/z0rAgT.jpg", "https://imagizer.imageshack.com/img924/7372/NT2u7C.jpg", "https://imagizer.imageshack.com/img924/8868/jn1PSm.jpg", "https://imagizer.imageshack.com/img924/7348/6hCqyN.jpg", "https://imagizer.imageshack.com/img922/2721/rNcqHc.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Aries Shion ~Holy War Version~",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "GOLD",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : false,
+  "anniversary" : null,
+  "restocks" : null
+}

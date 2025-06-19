@@ -1,1 +1,43 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 16000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : \"2018-02-01\",\n    \"releaseDate\" : \"2018-06-23\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : {\n    \"distributor\" : \"DAM\",\n    \"basePrice\" : null,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : null,\n    \"releaseDateConfirmed\" : null\n  },\n  \"tamashiiUrl\" : \"https://tamashiiweb.com/item/12460\",\n  \"distributionChannel\" : \"STORES\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img922/5967/dmke2a.jpg\", \"https://imagizer.imageshack.com/img924/2918/H8OKTd.jpg\", \"https://imagizer.imageshack.com/img924/2653/ctn0Sx.jpg\", \"https://imagizer.imageshack.com/img922/2784/TTSqKZ.jpg\", \"https://imagizer.imageshack.com/img923/9277/E7YJQM.jpg\", \"https://imagizer.imageshack.com/img924/8044/T8ucRb.jpg\", \"https://imagizer.imageshack.com/img924/1043/RTP694.jpg\", \"https://imagizer.imageshack.com/img924/6911/ToPKU5.jpg\", \"https://imagizer.imageshack.com/img922/3456/I6TviI.jpg\", \"https://imagizer.imageshack.com/img923/8307/FxOI1g.jpg\", \"https://imagizer.imageshack.com/img924/4461/oTAtY4.jpg\", \"https://imagizer.imageshack.com/img924/7856/IPmNdq.jpg\", \"https://imagizer.imageshack.com/img924/8564/WlKKYj.jpg\", \"https://imagizer.imageshack.com/img922/1994/5amQ2s.jpg\", \"https://imagizer.imageshack.com/img923/6874/Jmg3N9.jpg\", \"https://imagizer.imageshack.com/img923/1807/qXiXbN.jpg\", \"https://imagizer.imageshack.com/img924/5448/SH67A2.jpg\", \"https://imagizer.imageshack.com/img922/327/TrAUd4.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"\",\n  \"baseName\" : \"Sea Emperor Poseidon\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH_EX\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SCALE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 16000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : "2018-02-01",
+    "releaseDate" : "2018-06-23",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : {
+    "distributor" : "DAM",
+    "basePrice" : null,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : null,
+    "releaseDateConfirmed" : null
+  },
+  "tamashiiUrl" : "https://tamashiiweb.com/item/12460",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img922/5967/dmke2a.jpg", "https://imagizer.imageshack.com/img924/2918/H8OKTd.jpg", "https://imagizer.imageshack.com/img924/2653/ctn0Sx.jpg", "https://imagizer.imageshack.com/img922/2784/TTSqKZ.jpg", "https://imagizer.imageshack.com/img923/9277/E7YJQM.jpg", "https://imagizer.imageshack.com/img924/8044/T8ucRb.jpg", "https://imagizer.imageshack.com/img924/1043/RTP694.jpg", "https://imagizer.imageshack.com/img924/6911/ToPKU5.jpg", "https://imagizer.imageshack.com/img922/3456/I6TviI.jpg", "https://imagizer.imageshack.com/img923/8307/FxOI1g.jpg", "https://imagizer.imageshack.com/img924/4461/oTAtY4.jpg", "https://imagizer.imageshack.com/img924/7856/IPmNdq.jpg", "https://imagizer.imageshack.com/img924/8564/WlKKYj.jpg", "https://imagizer.imageshack.com/img922/1994/5amQ2s.jpg", "https://imagizer.imageshack.com/img923/6874/Jmg3N9.jpg", "https://imagizer.imageshack.com/img923/1807/qXiXbN.jpg", "https://imagizer.imageshack.com/img924/5448/SH67A2.jpg", "https://imagizer.imageshack.com/img922/327/TrAUd4.jpg" ],
+  "otherImages" : null,
+  "remarks" : "",
+  "baseName" : "Sea Emperor Poseidon",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH_EX",
+  "series" : "SAINT_SEIYA",
+  "category" : "SCALE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}

@@ -1,1 +1,35 @@
-"{\n  \"distributionJPY\" : {\n    \"distributor\" : null,\n    \"basePrice\" : 8000,\n    \"finalPrice\" : null,\n    \"firstAnnouncementDate\" : null,\n    \"preOrderDate\" : null,\n    \"releaseDate\" : \"2008-03-20\",\n    \"releaseDateConfirmed\" : true\n  },\n  \"distributionMXN\" : null,\n  \"tamashiiUrl\" : \"\",\n  \"distributionChannel\" : \"TN\",\n  \"officialImages\" : [ \"https://imagizer.imageshack.com/img923/2702/rWaJNX.jpg\", \"https://imagizer.imageshack.com/img922/905/PNMLfH.jpg\", \"https://imagizer.imageshack.com/img924/5026/fBLQIT.jpg\" ],\n  \"otherImages\" : null,\n  \"remarks\" : \"TN 2008\",\n  \"baseName\" : \"Aries Shion\",\n  \"displayableName\" : null,\n  \"lineUp\" : \"MYTH_CLOTH\",\n  \"series\" : \"SAINT_SEIYA\",\n  \"category\" : \"SURPLICE\",\n  \"status\" : null,\n  \"revival\" : false,\n  \"oce\" : false,\n  \"metal\" : false,\n  \"golden\" : false,\n  \"gold\" : false,\n  \"broken\" : false,\n  \"plain\" : false,\n  \"hk\" : false,\n  \"comic\" : false,\n  \"set\" : true,\n  \"anniversary\" : null,\n  \"restocks\" : null\n}"
+{
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 8000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : null,
+    "preOrderDate" : null,
+    "releaseDate" : "2008-03-20",
+    "releaseDateConfirmed" : true
+  },
+  "distributionMXN" : null,
+  "tamashiiUrl" : "",
+  "distributionChannel" : "TN",
+  "officialImages" : [ "https://imagizer.imageshack.com/img923/2702/rWaJNX.jpg", "https://imagizer.imageshack.com/img922/905/PNMLfH.jpg", "https://imagizer.imageshack.com/img924/5026/fBLQIT.jpg" ],
+  "otherImages" : null,
+  "remarks" : "TN 2008",
+  "baseName" : "Aries Shion",
+  "displayableName" : null,
+  "lineUp" : "MYTH_CLOTH",
+  "series" : "SAINT_SEIYA",
+  "category" : "SURPLICE",
+  "status" : null,
+  "revival" : false,
+  "oce" : false,
+  "metal" : false,
+  "golden" : false,
+  "gold" : false,
+  "broken" : false,
+  "plain" : false,
+  "hk" : false,
+  "comic" : false,
+  "set" : true,
+  "anniversary" : null,
+  "restocks" : null
+}
