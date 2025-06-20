@@ -85,27 +85,6 @@ public class FigureMatchingIT {
     }
   }
 
-  // @Test
-  void createFigurinesJsonFiles() {
-    final String JSON_PATH = "figure-matching/figurines/";
-
-    nameFigurineMapping.forEach(
-        (jsonFilename, storeNames) -> {
-          Figurine expectedFigurine = toFigurine(new ClassPathResource(JSON_PATH + jsonFilename));
-          Optional<Figurine> figurineFound;
-          for (String storeName : storeNames) {
-            figurineFound = figurineMatchingService.findFigurineBestMatch(figurines, storeName);
-
-            System.out.println(expectedFigurine);
-            assertTrue(figurineFound.isPresent());
-            assertEquals(expectedFigurine, figurineFound.get());
-          }
-
-          // Optional<Figurine> optionalFigurine =
-          //    figurineMatchingService.findFigurineBestMatch(figurines, key);
-        });
-  }
-
   @ParameterizedTest
   @MethodSource("provideStringsForIsBlank")
   void findFigurineBestMatch(Figurine expectedFigurine, List<String> storeNames) {

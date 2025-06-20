@@ -66,6 +66,11 @@ public class FigurineMatchingService {
     boolean isOce = oceFinder.oce();
     targetName = oceFinder.targetName();
 
+    // Determine if the figurine is Golden
+    NameFinder goldenFinder = findGoldenUsing(targetName);
+    boolean isGolden = goldenFinder.golden();
+    targetName = goldenFinder.targetName();
+
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
     int dist;
     int minDistance = Integer.MAX_VALUE;
@@ -76,6 +81,7 @@ public class FigurineMatchingService {
             .filter(f -> f.getLineUp() == lineUpFound)
             .filter(f -> categoryFinder.isEmpty() || f.getCategory() == categoryFound)
             .filter(f -> f.isOce() == isOce)
+            .filter(f -> f.isGolden() == isGolden)
             .toList()) {
       dist = levenshtein.apply(targetName.toLowerCase(), f.getBaseName().toLowerCase());
       if (dist < minDistance) {
@@ -131,12 +137,16 @@ public class FigurineMatchingService {
     // Remove the lineUp description from the targetName
     targetName = removeUnwantedWords(targetName, List.of(lineUp.getDescription().split("\\s+")));
 
-    return new NameFinder(targetName, lineUp, null, false);
+    return new NameFinder(targetName, lineUp, null, false, false);
   }
 
   private Optional<NameFinder> findCategoryUsing(String targetName) {
-    Category category = Category.GOLD;
-
+    boolean godCloth = containsAnyWord(targetName, "God Cloth");
+    if (godCloth) {
+      //  Remove the "God Cloth" keyword from the targetName
+      targetName = removeUnwantedWords(targetName, List.of("God", "Cloth"));
+      return Optional.of(new NameFinder(targetName, null, Category.V4, false, false));
+    }
     return Optional.empty();
   }
 
@@ -154,7 +164,25 @@ public class FigurineMatchingService {
       // Remove the "Original", "Color" and "Edition" words from the targetName
       targetName = removeUnwantedWords(targetName, List.of("Original", "Color", "Edition"));
     }
-    return new NameFinder(targetName, null, null, isOce);
+    return new NameFinder(targetName, null, null, isOce, false);
+  }
+
+  /**
+   * Determines if the target name represents a Golden figurine and cleans the name accordingly.
+   * Searches for the word "Golden" in the target name to identify Golden figurines. If found,
+   * removes the "Golden" keyword from the name.
+   *
+   * @param targetName the original string to analyze for Golden indicators.
+   * @return a NameFinder object with the cleaned target name, null lineup and category, OCE flag
+   *     set to false, and Golden flag set appropriately.
+   */
+  private NameFinder findGoldenUsing(String targetName) {
+    boolean golden = containsAnyWord(targetName, "Golden");
+    if (golden) {
+      // Remove the "Golden" word from the targetName
+      targetName = removeUnwantedWords(targetName, List.of("Golden"));
+    }
+    return new NameFinder(targetName, null, null, false, golden);
   }
 
   /**
