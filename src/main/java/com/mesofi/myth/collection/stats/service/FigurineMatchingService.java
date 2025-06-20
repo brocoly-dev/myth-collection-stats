@@ -1,5 +1,6 @@
 package com.mesofi.myth.collection.stats.service;
 
+import com.mesofi.myth.collection.core.model.Category;
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.LineUp;
 import com.mesofi.myth.collection.stats.config.StatsProp;
@@ -46,14 +47,24 @@ public class FigurineMatchingService {
     targetName = removeUnwantedWords(targetName, statsProp.ignorableKeywords());
 
     // Determine the LineUp based on the target name
-    NameFinder nameFinder = findLineUpUsing(targetName);
-    LineUp lineUpFound = nameFinder.lineUp();
-    targetName = nameFinder.targetName();
+    NameFinder lineupFinder = findLineUpUsing(targetName);
+    LineUp lineUpFound = lineupFinder.lineUp();
+    targetName = lineupFinder.targetName();
+
+    // Determine if the Category exists
+    Optional<NameFinder> categoryFinder = findCategoryUsing(targetName);
+    Category categoryFound;
+    if (categoryFinder.isPresent()) {
+      categoryFound = categoryFinder.get().category();
+      targetName = categoryFinder.get().targetName();
+    } else {
+      categoryFound = null;
+    }
 
     // Determine if the figurine is an Original Collection Edition (OCE)
-    nameFinder = findOceUsing(targetName);
-    boolean isOce = nameFinder.oce();
-    targetName = nameFinder.targetName();
+    NameFinder oceFinder = findOceUsing(targetName);
+    boolean isOce = oceFinder.oce();
+    targetName = oceFinder.targetName();
 
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
     int dist;
@@ -63,6 +74,7 @@ public class FigurineMatchingService {
         figurines.stream()
             .filter(Objects::nonNull)
             .filter(f -> f.getLineUp() == lineUpFound)
+            .filter(f -> categoryFinder.isEmpty() || f.getCategory() == categoryFound)
             .filter(f -> f.isOce() == isOce)
             .toList()) {
       dist = levenshtein.apply(targetName.toLowerCase(), f.getBaseName().toLowerCase());
@@ -119,7 +131,13 @@ public class FigurineMatchingService {
     // Remove the lineUp description from the targetName
     targetName = removeUnwantedWords(targetName, List.of(lineUp.getDescription().split("\\s+")));
 
-    return new NameFinder(targetName, lineUp, false);
+    return new NameFinder(targetName, lineUp, null, false);
+  }
+
+  private Optional<NameFinder> findCategoryUsing(String targetName) {
+    Category category = Category.GOLD;
+
+    return Optional.empty();
   }
 
   /**
@@ -136,7 +154,7 @@ public class FigurineMatchingService {
       // Remove the "Original", "Color" and "Edition" words from the targetName
       targetName = removeUnwantedWords(targetName, List.of("Original", "Color", "Edition"));
     }
-    return new NameFinder(targetName, null, isOce);
+    return new NameFinder(targetName, null, null, isOce);
   }
 
   /**
