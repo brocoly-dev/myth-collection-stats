@@ -1,5 +1,8 @@
 stats:
   ignorable-keywords:
-    - "Bandai"
-    - "SaintTest"
-    - "Myth"
+    - "Saint Seiya"
+    - "Tamashii Nation"
+    - "..."
+    - "-"
+    - "("
+    - ")"

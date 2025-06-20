@@ -3,6 +3,7 @@ package com.mesofi.myth.collection.stats.service;
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.LineUp;
 import com.mesofi.myth.collection.stats.config.StatsProp;
+import com.mesofi.myth.collection.stats.model.NameFinder;
 import jakarta.annotation.Nonnull;
 import jakarta.validation.constraints.NotEmpty;
 import java.util.List;
@@ -42,16 +43,17 @@ public class FigurineMatchingService {
       @Nonnull List<Figurine> figurines, @NotEmpty String targetName) {
 
     // Preprocess the target name by removing ignorable keywords
-    targetName = removeContainedWords(targetName, statsProp.ignorableKeywords());
+    targetName = removeUnwantedWords(targetName, statsProp.ignorableKeywords());
 
     // Determine the LineUp based on the target name
-    LineUp lineUpFound = findLineUpBasedOnName(targetName);
+    NameFinder nameFinder = findLineUpUsing(targetName);
+    LineUp lineUpFound = nameFinder.lineUp();
+    targetName = nameFinder.targetName();
 
-    // If the target name contains "Original Color Edition" or "Original Color", remove it
-    boolean isOce = containsAnyWord(targetName, "Original");
-    if (isOce) {
-      targetName = removeContainedWords(targetName, List.of("Original", "Color"));
-    }
+    // Determine if the figurine is an Original Collection Edition (OCE)
+    nameFinder = findOceUsing(targetName);
+    boolean isOce = nameFinder.oce();
+    targetName = nameFinder.targetName();
 
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
     int dist;
@@ -84,7 +86,7 @@ public class FigurineMatchingService {
         log.info(
             "The best match for figurine: '{}' is: '{}', minDistance: {}, expectedMinDistance: {}",
             targetName,
-            bestOptionalMatchFigurine.get().getDisplayableName(),
+            bestOptionalMatchFigurine.get().getBaseName(),
             minDistance,
             statsProp.minMatchingDistance());
         return bestOptionalMatchFigurine;
@@ -96,13 +98,16 @@ public class FigurineMatchingService {
   }
 
   /**
-   * Determines the appropriate LineUp enum value based on the target name by searching for matching
-   * keywords in the LineUp descriptions.
+   * Determines the lineup category for a figurine based on keywords in the target name. Searches
+   * through all available LineUp enum values to find a match with the target name. If no specific
+   * lineup is found, defaults to MYTH_CLOTH. Removes the identified lineup description from the
+   * target name to clean it for further processing.
    *
-   * @param targetName the name to analyze for LineUp classification.
-   * @return the matching LineUp if found, otherwise defaults to LineUp.MYTH_CLOTH.
+   * @param targetName the original string to analyze for lineup indicators.
+   * @return a NameFinder object with the cleaned target name, identified lineup, and OCE flag set
+   *     to false.
    */
-  private LineUp findLineUpBasedOnName(String targetName) {
+  private NameFinder findLineUpUsing(String targetName) {
     LineUp lineUp = LineUp.MYTH_CLOTH;
 
     for (LineUp currLineUp : LineUp.values()) {
@@ -111,8 +116,27 @@ public class FigurineMatchingService {
         break;
       }
     }
+    // Remove the lineUp description from the targetName
+    targetName = removeUnwantedWords(targetName, List.of(lineUp.getDescription().split("\\s+")));
 
-    return lineUp;
+    return new NameFinder(targetName, lineUp, false);
+  }
+
+  /**
+   * Determines if the target name represents an Original Color Edition (OCE) figurine and cleans
+   * the name accordingly. Searches for the word "Original" in the target name to identify OCE
+   * figurines. If found, removes "Original", "Color", and "Edition" keywords from the name.
+   *
+   * @param targetName the original string to analyze for OCE indicators.
+   * @return a NameFinder object with the cleaned target name, null lineup, and OCE flag set.
+   */
+  private NameFinder findOceUsing(String targetName) {
+    boolean isOce = containsAnyWord(targetName, "Original");
+    if (isOce) {
+      // Remove the "Original", "Color" and "Edition" words from the targetName
+      targetName = removeUnwantedWords(targetName, List.of("Original", "Color", "Edition"));
+    }
+    return new NameFinder(targetName, null, isOce);
   }
 
   /**
@@ -141,22 +165,38 @@ public class FigurineMatchingService {
   }
 
   /**
-   * Removes specified keywords from the target name by finding and eliminating their occurrences.
-   * The comparison is case-insensitive, but the original casing of the remaining text is preserved.
+   * Removes specified keywords from the target name string and cleans up whitespace. The removal is
+   * case-insensitive and processes keywords in the order they appear in the list. After removal,
+   * multiple consecutive spaces are collapsed to single spaces and the result is trimmed.
    *
    * @param targetName the original string from which keywords should be removed.
-   * @param keywordsToRemove the list of keywords to search for and remove from the target name.
-   * @return the modified string with keywords removed and trimmed of leading/trailing whitespace.
+   * @param keywordsToRemove the list of keywords to remove from the target name.
+   * @return the cleaned string with keywords removed and whitespace normalized.
    */
-  private String removeContainedWords(String targetName, List<String> keywordsToRemove) {
+  private String removeUnwantedWords(String targetName, List<String> keywordsToRemove) {
+    int startIndex;
+    int endIndex;
     String result = targetName;
     for (String keyword : keywordsToRemove) {
       if (result.toLowerCase().contains(keyword.toLowerCase())) {
-        int startIndex = result.toLowerCase().indexOf(keyword.toLowerCase());
-        int endIndex = startIndex + keyword.length();
+        if (keyword.equals("...")) {
+          // when the keyword is "..." we need to remove the entire word
+          int index = result.indexOf(keyword);
+          startIndex = result.lastIndexOf(" ", index);
+          endIndex = result.indexOf(" ", index + keyword.length());
+          if (endIndex == -1) {
+            endIndex = result.length();
+          }
+        } else {
+          startIndex = result.toLowerCase().indexOf(keyword.toLowerCase());
+          endIndex = startIndex + keyword.length();
+        }
         result = result.substring(0, startIndex) + result.substring(endIndex);
       }
     }
+    // Remove multiple spaces and trim the result
+    result = result.replaceAll("\\s+", " ");
+
     log.info(
         "After removing keywords, the figurine: '{}' was converted to: '{}'",
         targetName,

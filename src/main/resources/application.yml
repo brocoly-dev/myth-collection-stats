@@ -6,6 +6,4 @@ stats:
   timeout: 10000
   min-matching-distance: 10
   ignorable-keywords:
-    - "Bandai"
-    - "Saint"
-    - "Myth"
+    - "Ban"
