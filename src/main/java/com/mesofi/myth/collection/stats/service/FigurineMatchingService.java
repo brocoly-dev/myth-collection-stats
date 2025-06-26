@@ -1,16 +1,19 @@
 package com.mesofi.myth.collection.stats.service;
 
+import static com.mesofi.myth.collection.stats.utils.TextProcessingUtils.containsAnyWords;
+import static com.mesofi.myth.collection.stats.utils.TextProcessingUtils.removeWordsAndCleanup;
+
 import com.mesofi.myth.collection.core.model.Category;
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.LineUp;
+import com.mesofi.myth.collection.core.model.Store;
 import com.mesofi.myth.collection.stats.config.StatsProp;
-import com.mesofi.myth.collection.stats.model.NameFinder;
-import jakarta.annotation.Nonnull;
+import com.mesofi.myth.collection.stats.model.AttributeExtractionResult;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
-import java.util.regex.Pattern;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 import org.springframework.stereotype.Service;
@@ -18,6 +21,19 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class FigurineMatchingService {
+
+  private static final String REVIVAL = "Revival";
+  private static final String ORIGINAL = "Original";
+  private static final String COLOR = "Color";
+  private static final String EDITION = "Edition";
+  private static final String OCE = "O.C.E.";
+  private static final String GOLDEN = "Golden";
+  private static final String POG = "Power of Gold";
+  private static final String SET = "Set";
+  private static final String EX = "ex";
+  private static final String GOD_CLOTH = "God Cloth";
+  private static final String NEW_BRONZE_CLOTH = "New Bronze Cloth";
+  private static final String FIRST_BRONZE_CLOTH = "First Bronze Cloth";
 
   /** The statistics properties configuration used for figurine matching operations. */
   private final StatsProp statsProp;
@@ -33,43 +49,58 @@ public class FigurineMatchingService {
   }
 
   /**
-   * Finds the best matching figurine from a list of figurines based on the target name.
+   * Finds the best matching figurine from a collection based on the store figurine name and store
+   * context. This method performs comprehensive attribute extraction and filtering to identify the
+   * most suitable match.
    *
-   * @param figurines the list of figurines to search through for the best match
-   * @param targetName the name of the figurine to find a match for
-   * @return an Optional containing the best matching figurine if found within the configured
-   *     distance threshold, or empty if no suitable match is found
+   * <p>The matching process involves: 1. Extracting lineup information from the figurine name
+   * (mandatory for matching) 2. Identifying categories present in the name (mandatory for matching)
+   * 3. Detecting special attributes: Revival, OCE (Original Color Edition), Golden, and Set flags
+   * 4. Filtering the figurine collection based on extracted attributes 5. Using Levenshtein
+   * distance algorithm to find the closest name match 6. Validating the match against the
+   * configured minimum distance threshold
+   *
+   * @param figurines a non-empty list of figurines to search through for potential matches
+   * @param storeFigurineName a non-empty string representing the figurine name from the store
+   * @param store the store context for the figurine matching operation
+   * @return an Optional containing the best matching Figurine if found and within distance
+   *     threshold, or empty Optional if no suitable match is found or distance exceeds threshold
    */
   public Optional<Figurine> findFigurineBestMatch(
-      @Nonnull List<Figurine> figurines, @NotEmpty String targetName) {
+      @NotEmpty List<Figurine> figurines,
+      @NotEmpty String storeFigurineName,
+      @NotNull Store store) {
 
-    // Preprocess the target name by removing ignorable keywords
-    targetName = removeUnwantedWords(targetName, statsProp.ignorableKeywords());
+    // Preprocess the store figurine name by removing ignorable keywords
+    String filteredName = removeWordsAndCleanup(storeFigurineName, statsProp.ignorableKeywords());
 
-    // Determine the LineUp based on the target name
-    NameFinder lineupFinder = findLineUpUsing(targetName);
-    LineUp lineUpFound = lineupFinder.lineUp();
-    targetName = lineupFinder.targetName();
+    // LineUp is mandatory for figurine matching
+    AttributeExtractionResult attrLineUp = containsLineUp(filteredName);
+    LineUp lineUpFound = attrLineUp.lineUp();
+    filteredName = attrLineUp.filteredName();
+    // Categories are mandatory for figurine matching
+    AttributeExtractionResult attrCategory = containsCategory(filteredName);
+    List<Category> categoriesFound = attrCategory.categoryList();
+    filteredName = attrCategory.filteredName();
+    // Revival is mandatory for figurine matching
+    AttributeExtractionResult attrRevival = contains(filteredName, REVIVAL);
+    boolean isRevival = attrRevival.attribute();
+    filteredName = attrRevival.filteredName();
+    // OCE is mandatory for figurine matching
+    AttributeExtractionResult attrOce = contains(filteredName, ORIGINAL, COLOR, EDITION, OCE);
+    boolean isOce = attrOce.attribute();
+    filteredName = attrOce.filteredName();
+    // Golden is mandatory for figurine matching
+    AttributeExtractionResult attrGolden = contains(filteredName, GOLDEN, POG);
+    boolean golden = attrGolden.attribute();
+    filteredName = attrGolden.filteredName();
+    // Set is mandatory for figurine matching
+    AttributeExtractionResult attrSet = contains(filteredName, SET);
+    boolean set = attrSet.attribute();
+    filteredName = attrSet.filteredName();
 
-    // Determine if the Category exists
-    Optional<NameFinder> categoryFinder = findCategoryUsing(targetName);
-    Category categoryFound;
-    if (categoryFinder.isPresent()) {
-      categoryFound = categoryFinder.get().category();
-      targetName = categoryFinder.get().targetName();
-    } else {
-      categoryFound = null;
-    }
-
-    // Determine if the figurine is an Original Collection Edition (OCE)
-    NameFinder oceFinder = findOceUsing(targetName);
-    boolean isOce = oceFinder.oce();
-    targetName = oceFinder.targetName();
-
-    // Determine if the figurine is Golden
-    NameFinder goldenFinder = findGoldenUsing(targetName);
-    boolean isGolden = goldenFinder.golden();
-    targetName = goldenFinder.targetName();
+    // Just make sure we don't have any extra spaces
+    filteredName = filteredName.replaceAll("\\s+", " ");
 
     LevenshteinDistance levenshtein = LevenshteinDistance.getDefaultInstance();
     int dist;
@@ -77,13 +108,21 @@ public class FigurineMatchingService {
     Figurine bestMatchFigurine = null;
     for (Figurine f :
         figurines.stream()
-            .filter(Objects::nonNull)
             .filter(f -> f.getLineUp() == lineUpFound)
-            .filter(f -> categoryFinder.isEmpty() || f.getCategory() == categoryFound)
+            .filter(
+                f -> {
+                  if (categoriesFound.isEmpty()) {
+                    return true;
+                  }
+                  return categoriesFound.contains(f.getCategory());
+                })
+            .filter(f -> f.isRevival() == isRevival)
             .filter(f -> f.isOce() == isOce)
-            .filter(f -> f.isGolden() == isGolden)
+            .filter(f -> f.isGolden() == golden)
+            .filter(f -> f.isSet() == set)
             .toList()) {
-      dist = levenshtein.apply(targetName.toLowerCase(), f.getBaseName().toLowerCase());
+      // Use Levenshtein distance on the base name
+      dist = levenshtein.apply(filteredName.toLowerCase(), f.getBaseName().toLowerCase());
       if (dist < minDistance) {
         minDistance = dist;
         bestMatchFigurine = f;
@@ -96,157 +135,97 @@ public class FigurineMatchingService {
       if (minDistance > statsProp.minMatchingDistance()) {
         log.warn(
             "No figurine found for: '{}', minDistance: {}, expectedMinDistance: {}",
-            targetName,
+            filteredName,
             minDistance,
             statsProp.minMatchingDistance());
         return Optional.empty();
       } else {
         log.info(
             "The best match for figurine: '{}' is: '{}', minDistance: {}, expectedMinDistance: {}",
-            targetName,
+            filteredName,
             bestOptionalMatchFigurine.get().getBaseName(),
             minDistance,
             statsProp.minMatchingDistance());
         return bestOptionalMatchFigurine;
       }
     } else {
-      log.warn("Unable to find figurine for: '{}' in invalid dataset", targetName);
+      log.warn("Unable to find figurine for: '{}' in invalid dataset", filteredName);
       return Optional.empty();
     }
   }
 
   /**
-   * Determines the lineup category for a figurine based on keywords in the target name. Searches
-   * through all available LineUp enum values to find a match with the target name. If no specific
-   * lineup is found, defaults to MYTH_CLOTH. Removes the identified lineup description from the
-   * target name to clean it for further processing.
+   * Analyzes the given filtered name for lineup-specific keywords and determines the appropriate
+   * lineup. Currently, detects "ex" keywords and maps them to MYTH_CLOTH_EX lineup, otherwise
+   * defaults to MYTH_CLOTH.
    *
-   * @param targetName the original string to analyze for lineup indicators.
-   * @return a NameFinder object with the cleaned target name, identified lineup, and OCE flag set
-   *     to false.
+   * @param filteredName the name to analyze for lineup-specific keywords
+   * @return an AttributeExtractionResult containing the processed name (with lineup keywords
+   *     removed if found), the detected lineup, null categories, and false for the found flag
    */
-  private NameFinder findLineUpUsing(String targetName) {
-    LineUp lineUp = LineUp.MYTH_CLOTH;
+  private AttributeExtractionResult containsLineUp(String filteredName) {
+    LineUp lineUpFound = LineUp.MYTH_CLOTH;
 
-    for (LineUp currLineUp : LineUp.values()) {
-      if (containsAnyWord(targetName, currLineUp.getDescription())) {
-        lineUp = currLineUp;
-        break;
-      }
+    String[] keywords = {EX};
+    if (containsAnyWords(filteredName, keywords)) {
+      lineUpFound = LineUp.MYTH_CLOTH_EX;
+      filteredName = removeWordsAndCleanup(filteredName, keywords);
     }
-    // Remove the lineUp description from the targetName
-    targetName = removeUnwantedWords(targetName, List.of(lineUp.getDescription().split("\\s+")));
 
-    return new NameFinder(targetName, lineUp, null, false, false);
-  }
-
-  private Optional<NameFinder> findCategoryUsing(String targetName) {
-    boolean godCloth = containsAnyWord(targetName, "God Cloth");
-    if (godCloth) {
-      //  Remove the "God Cloth" keyword from the targetName
-      targetName = removeUnwantedWords(targetName, List.of("God", "Cloth"));
-      return Optional.of(new NameFinder(targetName, null, Category.V4, false, false));
-    }
-    return Optional.empty();
+    return new AttributeExtractionResult(filteredName, lineUpFound, null, false);
   }
 
   /**
-   * Determines if the target name represents an Original Color Edition (OCE) figurine and cleans
-   * the name accordingly. Searches for the word "Original" in the target name to identify OCE
-   * figurines. If found, removes "Original", "Color", and "Edition" keywords from the name.
+   * Analyzes the given filtered name for category-specific keywords and extracts relevant
+   * categories. Currently, detects "God Cloth" keywords and maps them to V4 and GOLD categories.
    *
-   * @param targetName the original string to analyze for OCE indicators.
-   * @return a NameFinder object with the cleaned target name, null lineup, and OCE flag set.
+   * @param filteredName the name to analyze for category-specific keywords
+   * @return an AttributeExtractionResult containing the processed name (with category keywords
+   *     removed if found), null lineup, a list of detected categories, and false for the found flag
    */
-  private NameFinder findOceUsing(String targetName) {
-    boolean isOce = containsAnyWord(targetName, "Original");
-    if (isOce) {
-      // Remove the "Original", "Color" and "Edition" words from the targetName
-      targetName = removeUnwantedWords(targetName, List.of("Original", "Color", "Edition"));
+  private AttributeExtractionResult containsCategory(String filteredName) {
+    List<Category> categories = new ArrayList<>();
+
+    String[] keywordsFirstBronzeCloth = {FIRST_BRONZE_CLOTH};
+    if (containsAnyWords(filteredName, keywordsFirstBronzeCloth)) {
+      categories.add(Category.V1);
+      filteredName = removeWordsAndCleanup(filteredName, keywordsFirstBronzeCloth);
     }
-    return new NameFinder(targetName, null, null, isOce, false);
+    String[] keywordsNewBronzeCloth = {NEW_BRONZE_CLOTH};
+    if (containsAnyWords(filteredName, keywordsNewBronzeCloth)) {
+      categories.add(Category.V2);
+      filteredName = removeWordsAndCleanup(filteredName, keywordsNewBronzeCloth);
+    }
+    String[] keywordsGodCloth = {GOD_CLOTH};
+    if (containsAnyWords(filteredName, keywordsGodCloth)) {
+      categories.add(Category.V4);
+      categories.add(Category.GOLD);
+      filteredName = removeWordsAndCleanup(filteredName, keywordsGodCloth);
+    }
+    // Special case for POG
+    String[] keywordsPog = {POG};
+    if (containsAnyWords(filteredName, keywordsPog)) {
+      categories.add(Category.V2);
+    }
+
+    return new AttributeExtractionResult(filteredName, null, categories, false);
   }
 
   /**
-   * Determines if the target name represents a Golden figurine and cleans the name accordingly.
-   * Searches for the word "Golden" in the target name to identify Golden figurines. If found,
-   * removes the "Golden" keyword from the name.
+   * Checks if the given filtered name contains any of the specified attributes and removes them if
+   * found. This is a generic utility method for attribute detection and extraction from figurine
+   * names.
    *
-   * @param targetName the original string to analyze for Golden indicators.
-   * @return a NameFinder object with the cleaned target name, null lineup and category, OCE flag
-   *     set to false, and Golden flag set appropriately.
+   * @param filteredName the name to analyze for attribute presence
+   * @param attributes variable number of attribute strings to search for in the filtered name
+   * @return an AttributeExtractionResult containing the processed name (with attributes removed if
+   *     found), null lineup and categories, and a boolean indicating whether any attributes were
+   *     found and removed
    */
-  private NameFinder findGoldenUsing(String targetName) {
-    boolean golden = containsAnyWord(targetName, "Golden");
-    if (golden) {
-      // Remove the "Golden" word from the targetName
-      targetName = removeUnwantedWords(targetName, List.of("Golden"));
-    }
-    return new NameFinder(targetName, null, null, false, golden);
-  }
+  private AttributeExtractionResult contains(String filteredName, String... attributes) {
+    boolean found = containsAnyWords(filteredName, attributes);
+    String resultName = found ? removeWordsAndCleanup(filteredName, attributes) : filteredName;
 
-  /**
-   * Checks if any word from the first string is contained as a complete word in the second string.
-   * The comparison is case-insensitive and uses word boundaries to ensure exact word matching.
-   *
-   * @param string1 the source string containing words to search for, separated by whitespace.
-   * @param string2 the target string to search within.
-   * @return true if any complete word from string1 is found in string2, false otherwise.
-   */
-  private boolean containsAnyWord(String string1, String string2) {
-    String[] words = string1.split("\\s+");
-    String lowerString2 = string2.toLowerCase();
-
-    for (String word : words) {
-      String cleanWord = word.toLowerCase().trim();
-      if (!cleanWord.isEmpty()) {
-        // Use word boundaries to match exact words
-        Pattern pattern = Pattern.compile("\\b" + Pattern.quote(cleanWord) + "\\b");
-        if (pattern.matcher(lowerString2).find()) {
-          return true;
-        }
-      }
-    }
-    return false;
-  }
-
-  /**
-   * Removes specified keywords from the target name string and cleans up whitespace. The removal is
-   * case-insensitive and processes keywords in the order they appear in the list. After removal,
-   * multiple consecutive spaces are collapsed to single spaces and the result is trimmed.
-   *
-   * @param targetName the original string from which keywords should be removed.
-   * @param keywordsToRemove the list of keywords to remove from the target name.
-   * @return the cleaned string with keywords removed and whitespace normalized.
-   */
-  private String removeUnwantedWords(String targetName, List<String> keywordsToRemove) {
-    int startIndex;
-    int endIndex;
-    String result = targetName;
-    for (String keyword : keywordsToRemove) {
-      if (result.toLowerCase().contains(keyword.toLowerCase())) {
-        if (keyword.equals("...")) {
-          // when the keyword is "..." we need to remove the entire word
-          int index = result.indexOf(keyword);
-          startIndex = result.lastIndexOf(" ", index);
-          endIndex = result.indexOf(" ", index + keyword.length());
-          if (endIndex == -1) {
-            endIndex = result.length();
-          }
-        } else {
-          startIndex = result.toLowerCase().indexOf(keyword.toLowerCase());
-          endIndex = startIndex + keyword.length();
-        }
-        result = result.substring(0, startIndex) + result.substring(endIndex);
-      }
-    }
-    // Remove multiple spaces and trim the result
-    result = result.replaceAll("\\s+", " ");
-
-    log.info(
-        "After removing keywords, the figurine: '{}' was converted to: '{}'",
-        targetName,
-        result.trim());
-    return result.trim();
+    return new AttributeExtractionResult(resultName, null, null, found);
   }
 }

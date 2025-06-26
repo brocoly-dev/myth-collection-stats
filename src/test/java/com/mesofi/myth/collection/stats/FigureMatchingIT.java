@@ -10,6 +10,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.mesofi.myth.collection.core.mapper.FigurineMapper;
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.SourceFigurine;
+import com.mesofi.myth.collection.core.model.Store;
 import com.mesofi.myth.collection.stats.config.StatsProp;
 import com.mesofi.myth.collection.stats.service.FigurineMatchingService;
 import com.opencsv.bean.CsvToBeanBuilder;
@@ -87,11 +88,13 @@ public class FigureMatchingIT {
 
   @ParameterizedTest
   @MethodSource("provideStringsForIsBlank")
-  void findFigurineBestMatch(Figurine expectedFigurine, List<String> storeNames) {
+  void findFigurineBestMatch(Figurine expectedFigurine, List<String> storeFigurineNames) {
 
     Optional<Figurine> figurineFound;
-    for (String storeName : storeNames) {
-      figurineFound = figurineMatchingService.findFigurineBestMatch(figurines, storeName);
+    for (String storeFigurineName : storeFigurineNames) {
+      figurineFound =
+          figurineMatchingService.findFigurineBestMatch(
+              figurines, storeFigurineName, Store.ANIME_EXPORT);
       assertTrue(figurineFound.isPresent());
       assertEquals(expectedFigurine, figurineFound.get());
     }

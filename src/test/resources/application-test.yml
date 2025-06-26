@@ -1,9 +1,15 @@
 stats:
   ignorable-keywords:
+    - "Myth Cloth"
     - "Saint Seiya"
-    - "Tamashii"
+    - "TamashiWeb Exclusive"
+    - "Limited"
     - "Nation"
+    - "Tamashii"
+    - "Tamashi"
+    - "Version"
     - "..."
     - "-"
     - "("
     - ")"
+    - "2012"
