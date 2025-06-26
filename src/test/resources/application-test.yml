@@ -1,10 +1,15 @@
 stats:
   ignorable-keywords:
     - "Myth Cloth"
+    - "of the Golden Cloth"
     - "Saint Seiya"
     - "TamashiWeb Exclusive"
+    - "A31"
+    - "Anniversary"
+    - "Edition"
     - "Limited"
     - "Nation"
+    - "Nations"
     - "Tamashii"
     - "Tamashi"
     - "Version"

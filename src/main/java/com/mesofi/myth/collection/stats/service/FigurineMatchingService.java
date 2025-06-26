@@ -3,10 +3,7 @@ package com.mesofi.myth.collection.stats.service;
 import static com.mesofi.myth.collection.stats.utils.TextProcessingUtils.containsAnyWords;
 import static com.mesofi.myth.collection.stats.utils.TextProcessingUtils.removeWordsAndCleanup;
 
-import com.mesofi.myth.collection.core.model.Category;
-import com.mesofi.myth.collection.core.model.Figurine;
-import com.mesofi.myth.collection.core.model.LineUp;
-import com.mesofi.myth.collection.core.model.Store;
+import com.mesofi.myth.collection.core.model.*;
 import com.mesofi.myth.collection.stats.config.StatsProp;
 import com.mesofi.myth.collection.stats.model.AttributeExtractionResult;
 import jakarta.validation.constraints.NotEmpty;
@@ -32,8 +29,11 @@ public class FigurineMatchingService {
   private static final String SET = "Set";
   private static final String EX = "ex";
   private static final String GOD_CLOTH = "God Cloth";
+  private static final String SUCCESSOR = "Successor";
   private static final String NEW_BRONZE_CLOTH = "New Bronze Cloth";
   private static final String FIRST_BRONZE_CLOTH = "First Bronze Cloth";
+  private static final String _10TH = "10th";
+  private static final String _20TH = "20th";
 
   /** The statistics properties configuration used for figurine matching operations. */
   private final StatsProp statsProp;
@@ -87,7 +87,7 @@ public class FigurineMatchingService {
     boolean isRevival = attrRevival.attribute();
     filteredName = attrRevival.filteredName();
     // OCE is mandatory for figurine matching
-    AttributeExtractionResult attrOce = contains(filteredName, ORIGINAL, COLOR, EDITION, OCE);
+    AttributeExtractionResult attrOce = contains(filteredName, ORIGINAL, COLOR, OCE);
     boolean isOce = attrOce.attribute();
     filteredName = attrOce.filteredName();
     // Golden is mandatory for figurine matching
@@ -98,6 +98,10 @@ public class FigurineMatchingService {
     AttributeExtractionResult attrSet = contains(filteredName, SET);
     boolean set = attrSet.attribute();
     filteredName = attrSet.filteredName();
+    // Anniversary is mandatory for figurine matching
+    AttributeExtractionResult attrAnniversary = containsAnniversary(filteredName);
+    Anniversary anniversary = attrAnniversary.anniversary();
+    filteredName = attrAnniversary.filteredName();
 
     // Just make sure we don't have any extra spaces
     filteredName = filteredName.replaceAll("\\s+", " ");
@@ -120,9 +124,17 @@ public class FigurineMatchingService {
             .filter(f -> f.isOce() == isOce)
             .filter(f -> f.isGolden() == golden)
             .filter(f -> f.isSet() == set)
+            .filter(
+                f -> {
+                  if (anniversary == null) {
+                    return true;
+                  }
+                  return f.getAnniversary() == anniversary;
+                })
             .toList()) {
       // Use Levenshtein distance on the base name
       dist = levenshtein.apply(filteredName.toLowerCase(), f.getBaseName().toLowerCase());
+      log.info("{} - {}", f.getBaseName(), dist);
       if (dist < minDistance) {
         minDistance = dist;
         bestMatchFigurine = f;
@@ -172,7 +184,7 @@ public class FigurineMatchingService {
       filteredName = removeWordsAndCleanup(filteredName, keywords);
     }
 
-    return new AttributeExtractionResult(filteredName, lineUpFound, null, false);
+    return new AttributeExtractionResult(filteredName, lineUpFound, null, false, null);
   }
 
   /**
@@ -202,13 +214,33 @@ public class FigurineMatchingService {
       categories.add(Category.GOLD);
       filteredName = removeWordsAndCleanup(filteredName, keywordsGodCloth);
     }
+    String[] keywordsInheritor = {SUCCESSOR};
+    if (containsAnyWords(filteredName, keywordsInheritor)) {
+      categories.add(Category.INHERITOR);
+      filteredName = removeWordsAndCleanup(filteredName, keywordsInheritor);
+    }
     // Special case for POG
     String[] keywordsPog = {POG};
     if (containsAnyWords(filteredName, keywordsPog)) {
       categories.add(Category.V2);
     }
 
-    return new AttributeExtractionResult(filteredName, null, categories, false);
+    return new AttributeExtractionResult(filteredName, null, categories, false, null);
+  }
+
+  private AttributeExtractionResult containsAnniversary(String filteredName) {
+    String[] keywords10Anniversary = {_10TH};
+    Anniversary anniversary = null;
+    if (containsAnyWords(filteredName, keywords10Anniversary)) {
+      anniversary = Anniversary.A_10;
+      filteredName = removeWordsAndCleanup(filteredName, keywords10Anniversary);
+    }
+    String[] keywords20Anniversary = {_20TH};
+    if (containsAnyWords(filteredName, keywords20Anniversary)) {
+      anniversary = Anniversary.A_20;
+      filteredName = removeWordsAndCleanup(filteredName, keywords20Anniversary);
+    }
+    return new AttributeExtractionResult(filteredName, null, null, false, anniversary);
   }
 
   /**
@@ -226,6 +258,6 @@ public class FigurineMatchingService {
     boolean found = containsAnyWords(filteredName, attributes);
     String resultName = found ? removeWordsAndCleanup(filteredName, attributes) : filteredName;
 
-    return new AttributeExtractionResult(resultName, null, null, found);
+    return new AttributeExtractionResult(resultName, null, null, found, null);
   }
 }

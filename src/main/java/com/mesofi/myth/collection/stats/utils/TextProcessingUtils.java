@@ -59,7 +59,9 @@ public class TextProcessingUtils {
       return null;
     }
     if (unWantedWords != null) {
-      for (String unwantedWord : Arrays.stream(unWantedWords).filter(Objects::nonNull).toList()) {
+      String unwantedWord;
+      for (int i = 0; i < Arrays.stream(unWantedWords).filter(Objects::nonNull).toList().size(); ) {
+        unwantedWord = unWantedWords[i];
         if (unwantedWord.equals(ELLIPSIS)) {
           int ellipsisIndex = toBeModified.indexOf(ELLIPSIS);
           if (ellipsisIndex != -1) {
@@ -85,6 +87,10 @@ public class TextProcessingUtils {
             toBeModified = toBeModified.substring(0, initIndex) + toBeModified.substring(endIndex);
           }
         }
+        if (toBeModified.contains(unwantedWord)) {
+          continue;
+        }
+        i++;
       }
     }
 
