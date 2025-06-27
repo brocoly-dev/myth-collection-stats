@@ -1,24 +1,35 @@
 package com.mesofi.myth.collection.stats.utils;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * Utility class for text processing operations including word removal and text analysis. Provides
+ * static methods for cleaning up strings by removing unwanted words and checking for word
+ * containment with case-insensitive matching.
+ *
+ * <p>This class handles special processing for ellipsis ("...") by removing entire words containing
+ * the ellipsis pattern, while other unwanted words are removed through exact case-insensitive
+ * matching with iterative cleanup until all occurrences are eliminated.
+ *
+ * <p>All methods in this utility class are static and thread-safe.
+ */
 @Slf4j
 public class TextProcessingUtils {
-
+  // Constants
   public static final String ELLIPSIS = "...";
-  public static final String REGEX_SPACES = "\\s+";
 
   /**
-   * Removes specified unwanted words from the input string and returns a cleaned version. This is a
-   * convenience method that accepts a List of unwanted words instead of varargs.
+   * Removes specified unwanted words from the given string and cleans up the result. This is a
+   * convenience method that accepts a List of unwanted words and delegates to the varargs version
+   * of removeWordsAndCleanup.
    *
-   * @param toBeModified the input string to be processed
-   * @param unWantedWords list of words to be removed from the input string
-   * @return a cleaned string with unwanted words removed and extra spaces trimmed
+   * @param toBeModified the string to be modified by removing unwanted words
+   * @param unWantedWords the list of words to be removed from the string
+   * @return the modified string with unwanted words removed and trimmed, or the original string if
+   *     unWantedWords is null
    */
   public static String removeWordsAndCleanup(String toBeModified, List<String> unWantedWords) {
     if (unWantedWords == null) {
@@ -28,40 +39,28 @@ public class TextProcessingUtils {
   }
 
   /**
-   * Removes specified unwanted words from the input string and returns a cleaned version. Words are
-   * matched case-insensitively, except for ellipsis which uses contains matching.
+   * Removes specified unwanted words from the given string and cleans up the result. For ellipsis
+   * ("..."), removes the entire word containing the ellipsis along with surrounding spaces. For
+   * other words, removes exact matches (case-insensitive) and continues until all occurrences are
+   * removed.
    *
-   * @param toBeModified the input string to be processed
-   * @param unWantedWords variable number of words to be removed from the input string
-   * @return a cleaned string with unwanted words removed and extra spaces trimmed
+   * @param toBeModified the string to be modified by removing unwanted words
+   * @param unWantedWords the words to be removed from the string
+   * @return the modified string with unwanted words removed and trimmed, or null if input is null
    */
-  public static String removeWordsAndCleanup2(String toBeModified, String... unWantedWords) {
-    if (toBeModified == null) {
-      return null;
-    }
-    if (unWantedWords == null) {
-      return toBeModified;
-    }
-
-    List<String> individualWords = new ArrayList<>(Arrays.asList(toBeModified.split(REGEX_SPACES)));
-    for (String unwantedWord : Arrays.stream(unWantedWords).filter(Objects::nonNull).toList()) {
-      if (unwantedWord.equals(ELLIPSIS)) {
-        individualWords.removeIf(word -> word.contains(ELLIPSIS));
-      } else {
-        individualWords.removeIf(word -> word.equalsIgnoreCase(unwantedWord));
-      }
-    }
-    return individualWords.stream().reduce("", (a, b) -> a + " " + b).trim();
-  }
-
   public static String removeWordsAndCleanup(String toBeModified, String... unWantedWords) {
     if (toBeModified == null) {
       return null;
     }
     if (unWantedWords != null) {
       String unwantedWord;
-      for (int i = 0; i < Arrays.stream(unWantedWords).filter(Objects::nonNull).toList().size(); ) {
-        unwantedWord = unWantedWords[i];
+
+      List<String> unWantedWordList =
+          Arrays.stream(unWantedWords).filter(Objects::nonNull).toList();
+      System.out.println("unWantedWords: " + Arrays.stream(unWantedWords));
+
+      for (int i = 0; i < unWantedWordList.size(); ) {
+        unwantedWord = unWantedWordList.get(i);
         if (unwantedWord.equals(ELLIPSIS)) {
           int ellipsisIndex = toBeModified.indexOf(ELLIPSIS);
           if (ellipsisIndex != -1) {
@@ -98,12 +97,11 @@ public class TextProcessingUtils {
   }
 
   /**
-   * Checks if the input string contains any of the specified words. Words are matched
-   * case-insensitively and must be complete word matches (separated by whitespace).
+   * Checks if the given string contains any of the specified words (case-insensitive).
    *
-   * @param toBeTested the input string to be searched
-   * @param someWords variable number of words to search for in the input string
-   * @return true if any of the specified words are found in the input string, false otherwise
+   * @param toBeTested the string to be tested for containing any of the words
+   * @param someWords the words to search for in the string
+   * @return true if the string contains any of the specified words, false otherwise
    */
   public static boolean containsAnyWords(String toBeTested, String... someWords) {
     if (toBeTested == null) {

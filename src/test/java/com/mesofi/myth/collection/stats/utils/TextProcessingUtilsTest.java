@@ -2,6 +2,9 @@ package com.mesofi.myth.collection.stats.utils;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -9,174 +12,206 @@ import org.junit.jupiter.api.Test;
 class TextProcessingUtilsTest {
 
   @Nested
-  @DisplayName("removeWordsAndCleanup tests")
-  class RemoveWordsAndCleanupTests {
+  @DisplayName("removeWordsAndCleanup with List parameter")
+  class RemoveWordsAndCleanupWithListTest {
 
     @Test
-    @DisplayName("should return null when input string is null")
+    @DisplayName("should return original string when unwanted words list is null")
+    void shouldReturnOriginalStringWhenUnwantedWordsListIsNull() {
+      String input = "Hello world test";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, (List<String>) null);
+      assertThat(result).isEqualTo(input);
+    }
+
+    @Test
+    @DisplayName("should remove words from list and cleanup")
+    void shouldRemoveWordsFromListAndCleanup() {
+      String input = "Hello world test example";
+      List<String> unwantedWords = Arrays.asList("world", "test");
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, unwantedWords);
+      assertThat(result).isEqualTo("Hello   example");
+    }
+
+    @Test
+    @DisplayName("should handle empty list")
+    void shouldHandleEmptyList() {
+      String input = "Hello world";
+      List<String> unwantedWords = Collections.emptyList();
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, unwantedWords);
+      assertThat(result).isEqualTo("Hello world");
+    }
+  }
+
+  @Nested
+  @DisplayName("removeWordsAndCleanup with varargs parameter")
+  class RemoveWordsAndCleanupWithVarargsTest {
+
+    @Test
+    @DisplayName("should return null when input is null")
     void shouldReturnNullWhenInputIsNull() {
-      assertThat(TextProcessingUtils.removeWordsAndCleanup(null, "word")).isNull();
+      assertThat(TextProcessingUtils.removeWordsAndCleanup(null, "test")).isNull();
     }
 
     @Test
-    @DisplayName("should return original string when unwanted words array is null")
-    void shouldReturnOriginalStringWhenUnwantedWordsIsNull() {
-      String input = "hello world";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, (String[]) null);
-      assertThat(result).isEqualTo(input);
-    }
-
-    @Test
-    @DisplayName("should return original string when no unwanted words provided")
-    void shouldReturnOriginalStringWhenNoUnwantedWords() {
-      String input = "hello world";
+    @DisplayName("should return trimmed string when no unwanted words provided")
+    void shouldReturnTrimmedStringWhenNoUnwantedWordsProvided() {
+      String input = "  Hello world  ";
       String result = TextProcessingUtils.removeWordsAndCleanup(input);
-      assertThat(result).isEqualTo(input);
+      assertThat(result).isEqualTo("Hello world");
     }
 
     @Test
-    @DisplayName("should remove single word case-insensitively")
-    void shouldRemoveSingleWordCaseInsensitively() {
-      String input = "Hello World Test";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "hello");
-      assertThat(result).isEqualTo("World Test");
+    @DisplayName("should remove single word case insensitive")
+    void shouldRemoveSingleWordCaseInsensitive() {
+      String input = "Hello WORLD test";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "world");
+      assertThat(result).isEqualTo("Hello  test");
     }
 
     @Test
     @DisplayName("should remove multiple words")
     void shouldRemoveMultipleWords() {
-      String input = "Hello World Test Example";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "hello", "test");
-      assertThat(result).isEqualTo("World Example");
+      String input = "Hello world test example";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "world", "test");
+      assertThat(result).isEqualTo("Hello   example");
     }
 
     @Test
-    @DisplayName("should handle ellipsis removal with contains matching")
-    void shouldHandleEllipsisRemoval() {
-      String input = "Hello World... Test more...text";
+    @DisplayName("should remove ellipsis and surrounding word")
+    void shouldRemoveEllipsisAndSurroundingWord() {
+      String input = "Hello world... test example";
       String result = TextProcessingUtils.removeWordsAndCleanup(input, "...");
-      assertThat(result).isEqualTo("Hello Test");
+      assertThat(result).isEqualTo("Hello test example");
     }
 
     @Test
-    @DisplayName("should clean up extra spaces")
-    void shouldCleanUpExtraSpaces() {
-      String input = "  Hello   World  Test  ";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "world");
-      assertThat(result).isEqualTo("Hello Test");
+    @DisplayName("should remove ellipsis at beginning of string")
+    void shouldRemoveEllipsisAtBeginningOfString() {
+      String input = "...hello world";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "...");
+      assertThat(result).isEqualTo("world");
     }
 
     @Test
-    @DisplayName("should return empty string when all words are removed")
-    void shouldReturnEmptyStringWhenAllWordsRemoved() {
-      String input = "Hello World";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "hello", "world");
+    @DisplayName("should remove ellipsis at end of string")
+    void shouldRemoveEllipsisAtEndOfString() {
+      String input = "hello world...";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "...");
+      assertThat(result).isEqualTo("hello");
+    }
+
+    @Test
+    @DisplayName("should remove ellipsis when it's the only content")
+    void shouldRemoveEllipsisWhenItsTheOnlyContent() {
+      String input = "...";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "...");
       assertThat(result).isEmpty();
     }
 
     @Test
-    @DisplayName("should handle empty input string")
-    void shouldHandleEmptyInputString() {
-      String result = TextProcessingUtils.removeWordsAndCleanup("", "word");
+    @DisplayName("should handle multiple occurrences of same word")
+    void shouldHandleMultipleOccurrencesOfSameWord() {
+      String input = "test hello test world test";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "test");
+      assertThat(result).isEqualTo("hello  world");
+    }
+
+    @Test
+    @DisplayName("should handle null values in unwanted words array")
+    void shouldHandleNullValuesInUnwantedWordsArray() {
+      String input = "Hello world test";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "world", null, "test");
+      assertThat(result).isEqualTo("Hello");
+    }
+
+    @Test
+    @DisplayName("should handle empty string input")
+    void shouldHandleEmptyStringInput() {
+      String input = "";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "test");
       assertThat(result).isEmpty();
     }
 
     @Test
-    @DisplayName("should ignore null unwanted words in array")
-    void shouldIgnoreNullUnwantedWords() {
-      String input = "Hello World Test";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "hello", null, "test");
-      assertThat(result).isEqualTo("World");
+    @DisplayName("should handle word that doesn't exist in string")
+    void shouldHandleWordThatDoesntExistInString() {
+      String input = "Hello world";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "nonexistent");
+      assertThat(result).isEqualTo("Hello world");
     }
 
     @Test
-    @DisplayName("should handle mixed case ellipsis and regular words")
-    void shouldHandleMixedCaseEllipsisAndRegularWords() {
-      String input = "Hello World... Test EXAMPLE";
-      String result = TextProcessingUtils.removeWordsAndCleanup(input, "...", "example");
-      assertThat(result).isEqualTo("Hello Test");
+    @DisplayName("should handle partial word matches")
+    void shouldHandlePartialWordMatches() {
+      String input = "Hello world";
+      String result = TextProcessingUtils.removeWordsAndCleanup(input, "wor");
+      assertThat(result).isEqualTo("Hello ld");
     }
   }
 
   @Nested
-  @DisplayName("containsAnyWords tests")
-  class ContainsAnyWordsTests {
+  @DisplayName("containsAnyWords")
+  class ContainsAnyWordsTest {
 
     @Test
-    @DisplayName("should return false when input string is null")
+    @DisplayName("should return false when input is null")
     void shouldReturnFalseWhenInputIsNull() {
-      assertThat(TextProcessingUtils.containsAnyWords(null, "word")).isFalse();
+      assertThat(TextProcessingUtils.containsAnyWords(null, "test")).isFalse();
     }
 
     @Test
-    @DisplayName("should return false when no search words provided")
-    void shouldReturnFalseWhenNoSearchWords() {
-      boolean result = TextProcessingUtils.containsAnyWords("hello world");
-      assertThat(result).isFalse();
-    }
-
-    @Test
-    @DisplayName("should return true when single word found case-insensitively")
-    void shouldReturnTrueWhenSingleWordFoundCaseInsensitively() {
-      boolean result = TextProcessingUtils.containsAnyWords("Hello World Test", "hello");
+    @DisplayName("should return true when string contains one of the words")
+    void shouldReturnTrueWhenStringContainsOneOfTheWords() {
+      String input = "Hello world test";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "world", "example");
       assertThat(result).isTrue();
     }
 
     @Test
-    @DisplayName("should return true when any of multiple words found")
-    void shouldReturnTrueWhenAnyOfMultipleWordsFound() {
-      boolean result =
-          TextProcessingUtils.containsAnyWords("Hello World Test", "missing", "world", "absent");
+    @DisplayName("should return false when string contains none of the words")
+    void shouldReturnFalseWhenStringContainsNoneOfTheWords() {
+      String input = "Hello world test";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "example", "sample");
+      assertThat(result).isFalse();
+    }
+
+    @Test
+    @DisplayName("should be case insensitive")
+    void shouldBeCaseInsensitive() {
+      String input = "Hello WORLD test";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "world");
       assertThat(result).isTrue();
     }
 
     @Test
-    @DisplayName("should return false when no words found")
-    void shouldReturnFalseWhenNoWordsFound() {
-      boolean result =
-          TextProcessingUtils.containsAnyWords("Hello World Test", "missing", "absent");
-      assertThat(result).isFalse();
-    }
-
-    @Test
-    @DisplayName("should match complete words only")
-    void shouldMatchCompleteWordsOnly() {
-      boolean result = TextProcessingUtils.containsAnyWords("Hello World Test", "Wor");
-      assertThat(result).isFalse();
-    }
-
-    @Test
-    @DisplayName("should handle empty input string")
-    void shouldHandleEmptyInputString() {
-      boolean result = TextProcessingUtils.containsAnyWords("", "word");
-      assertThat(result).isFalse();
-    }
-
-    @Test
-    @DisplayName("should handle multiple spaces in input")
-    void shouldHandleMultipleSpacesInInput() {
-      boolean result = TextProcessingUtils.containsAnyWords("  Hello   World  Test  ", "world");
+    @DisplayName("should return true for partial matches")
+    void shouldReturnTrueForPartialMatches() {
+      String input = "Hello world test";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "wor");
       assertThat(result).isTrue();
     }
 
     @Test
-    @DisplayName("should handle mixed case matching")
-    void shouldHandleMixedCaseMatching() {
-      boolean result = TextProcessingUtils.containsAnyWords("HELLO world TeSt", "World", "MISSING");
-      assertThat(result).isTrue();
-    }
-
-    @Test
-    @DisplayName("should return false for partial word matches")
-    void shouldReturnFalseForPartialWordMatches() {
-      boolean result = TextProcessingUtils.containsAnyWords("Testing HelloWorld", "Hello", "World");
+    @DisplayName("should handle empty string input")
+    void shouldHandleEmptyStringInput() {
+      String input = "";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "test");
       assertThat(result).isFalse();
     }
 
     @Test
-    @DisplayName("should handle single character words")
-    void shouldHandleSingleCharacterWords() {
-      boolean result = TextProcessingUtils.containsAnyWords("a b c d", "b");
+    @DisplayName("should handle no search words")
+    void shouldHandleNoSearchWords() {
+      String input = "Hello world";
+      boolean result = TextProcessingUtils.containsAnyWords(input);
+      assertThat(result).isFalse();
+    }
+
+    @Test
+    @DisplayName("should return true when multiple words match")
+    void shouldReturnTrueWhenMultipleWordsMatch() {
+      String input = "Hello world test example";
+      boolean result = TextProcessingUtils.containsAnyWords(input, "world", "test");
       assertThat(result).isTrue();
     }
   }
