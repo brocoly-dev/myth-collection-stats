@@ -8,9 +8,7 @@ import com.mesofi.myth.collection.stats.config.StatsProp;
 import com.mesofi.myth.collection.stats.model.AttributeExtractionResult;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 import org.springframework.stereotype.Service;
@@ -27,6 +25,8 @@ public class FigurineMatchingService {
   private static final String GOLDEN = "Golden";
   private static final String POG = "Power of Gold";
   private static final String SET = "Set";
+  private static final String HK = "HK";
+  private static final String HONK_KONG = "Hong Kong";
   private static final String EX = "ex";
   private static final String GOD_CLOTH = "God Cloth";
   private static final String SUCCESSOR = "Successor";
@@ -71,6 +71,16 @@ public class FigurineMatchingService {
       @NotEmpty String storeFigurineName,
       @NotNull Store store) {
 
+    // Filter figurines based on release date
+    List<Figurine> filteredFigurines =
+        figurines.stream()
+            .filter(this::withValidReleaseDate)
+            .sorted(Comparator.comparing(f -> f.getDistributionJPY().getReleaseDate()))
+            .toList();
+    if (filteredFigurines.isEmpty()) {
+      return Optional.empty();
+    }
+
     // Preprocess the store figurine name by removing ignorable keywords
     String filteredName = removeWordsAndCleanup(storeFigurineName, statsProp.ignorableKeywords());
 
@@ -98,6 +108,10 @@ public class FigurineMatchingService {
     AttributeExtractionResult attrSet = contains(filteredName, SET);
     boolean set = attrSet.attribute();
     filteredName = attrSet.filteredName();
+    // HK is mandatory for figurine matching
+    AttributeExtractionResult attrHK = contains(filteredName, HK, HONK_KONG);
+    boolean hk = attrSet.attribute();
+    filteredName = attrSet.filteredName();
     // Anniversary is mandatory for figurine matching
     AttributeExtractionResult attrAnniversary = containsAnniversary(filteredName);
     Anniversary anniversary = attrAnniversary.anniversary();
@@ -111,7 +125,7 @@ public class FigurineMatchingService {
     int minDistance = Integer.MAX_VALUE;
     Figurine bestMatchFigurine = null;
     for (Figurine f :
-        figurines.stream()
+        filteredFigurines.stream()
             .filter(f -> f.getLineUp() == lineUpFound)
             .filter(
                 f -> {
@@ -124,6 +138,7 @@ public class FigurineMatchingService {
             .filter(f -> f.isOce() == isOce)
             .filter(f -> f.isGolden() == golden)
             .filter(f -> f.isSet() == set)
+            .filter(f -> f.isHk() == hk)
             .filter(
                 f -> {
                   if (anniversary == null) {
@@ -134,7 +149,6 @@ public class FigurineMatchingService {
             .toList()) {
       // Use Levenshtein distance on the base name
       dist = levenshtein.apply(filteredName.toLowerCase(), f.getBaseName().toLowerCase());
-      log.info("{} - {}", f.getBaseName(), dist);
       if (dist < minDistance) {
         minDistance = dist;
         bestMatchFigurine = f;
@@ -164,6 +178,20 @@ public class FigurineMatchingService {
       log.warn("Unable to find figurine for: '{}' in invalid dataset", filteredName);
       return Optional.empty();
     }
+  }
+
+  /**
+   * Validates whether the given figurine has a valid release date in its Japanese distribution. A
+   * figurine is considered to have a valid release date if it has a non-null distribution for the
+   * Japanese market (JPY) and that distribution contains a non-null release date.
+   *
+   * @param figurine the figurine to validate
+   * @return true if the figurine has a valid Japanese release date, false otherwise
+   */
+  private boolean withValidReleaseDate(Figurine figurine) {
+    return Optional.ofNullable(figurine.getDistributionJPY())
+        .map(distribution -> Objects.nonNull(distribution.getReleaseDate()))
+        .orElse(false);
   }
 
   /**

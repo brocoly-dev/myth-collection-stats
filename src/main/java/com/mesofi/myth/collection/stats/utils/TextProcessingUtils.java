@@ -57,7 +57,6 @@ public class TextProcessingUtils {
 
       List<String> unWantedWordList =
           Arrays.stream(unWantedWords).filter(Objects::nonNull).toList();
-      System.out.println("unWantedWords: " + Arrays.stream(unWantedWords));
 
       for (int i = 0; i < unWantedWordList.size(); ) {
         unwantedWord = unWantedWordList.get(i);

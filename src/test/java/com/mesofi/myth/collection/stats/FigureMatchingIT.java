@@ -8,7 +8,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.mesofi.myth.collection.core.mapper.FigurineMapper;
-import com.mesofi.myth.collection.core.model.Distribution;
 import com.mesofi.myth.collection.core.model.Figurine;
 import com.mesofi.myth.collection.core.model.SourceFigurine;
 import com.mesofi.myth.collection.core.model.Store;
@@ -68,13 +67,6 @@ public class FigureMatchingIT {
           new CsvToBeanBuilder<SourceFigurine>(reader)
               .withType(SourceFigurine.class).build().parse().stream()
                   .map(figurineMapper::toFigure)
-                  .filter(
-                      f -> {
-                        Distribution distributionJPY = f.getDistributionJPY();
-                        return distributionJPY != null
-                            && distributionJPY.getBasePrice() != null
-                            && distributionJPY.getBasePrice().intValue() > 0;
-                      })
                   .toList();
     } catch (IOException e) {
       log.error("Unable to load figurines", e);
