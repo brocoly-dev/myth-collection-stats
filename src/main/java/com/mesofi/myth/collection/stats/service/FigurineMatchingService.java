@@ -30,8 +30,10 @@ public class FigurineMatchingService {
   private static final String EX = "ex";
   private static final String GOD_CLOTH = "God Cloth";
   private static final String SUCCESSOR = "Successor";
+  private static final String INHERITOR = "Inheritor";
   private static final String NEW_BRONZE_CLOTH = "New Bronze Cloth";
   private static final String FIRST_BRONZE_CLOTH = "First Bronze Cloth";
+  private static final String FINAL_BRONZE_CLOTH = "Final Bronze Cloth";
   private static final String _10TH = "10th";
   private static final String _20TH = "20th";
 
@@ -88,9 +90,10 @@ public class FigurineMatchingService {
     AttributeExtractionResult attrLineUp = containsLineUp(filteredName);
     LineUp lineUpFound = attrLineUp.lineUp();
     filteredName = attrLineUp.filteredName();
-    // Categories are mandatory for figurine matching
-    AttributeExtractionResult attrCategory = containsCategory(filteredName);
+    // Categories and Series are mandatory for figurine matching
+    AttributeExtractionResult attrCategory = containsCategoryAndSeries(filteredName);
     List<Category> categoriesFound = attrCategory.categoryList();
+    Series seriesFound = attrCategory.series();
     filteredName = attrCategory.filteredName();
     // Revival is mandatory for figurine matching
     AttributeExtractionResult attrRevival = contains(filteredName, REVIVAL);
@@ -110,8 +113,8 @@ public class FigurineMatchingService {
     filteredName = attrSet.filteredName();
     // HK is mandatory for figurine matching
     AttributeExtractionResult attrHK = contains(filteredName, HK, HONK_KONG);
-    boolean hk = attrSet.attribute();
-    filteredName = attrSet.filteredName();
+    boolean hk = attrHK.attribute();
+    filteredName = attrHK.filteredName();
     // Anniversary is mandatory for figurine matching
     AttributeExtractionResult attrAnniversary = containsAnniversary(filteredName);
     Anniversary anniversary = attrAnniversary.anniversary();
@@ -134,6 +137,7 @@ public class FigurineMatchingService {
                   }
                   return categoriesFound.contains(f.getCategory());
                 })
+            .filter(f -> f.getSeries() == seriesFound)
             .filter(f -> f.isRevival() == isRevival)
             .filter(f -> f.isOce() == isOce)
             .filter(f -> f.isGolden() == golden)
@@ -212,19 +216,23 @@ public class FigurineMatchingService {
       filteredName = removeWordsAndCleanup(filteredName, keywords);
     }
 
-    return new AttributeExtractionResult(filteredName, lineUpFound, null, false, null);
+    return new AttributeExtractionResult(filteredName, lineUpFound, null, null, false, null);
   }
 
   /**
-   * Analyzes the given filtered name for category-specific keywords and extracts relevant
-   * categories. Currently, detects "God Cloth" keywords and maps them to V4 and GOLD categories.
+   * Analyzes the given filtered name for category and series-specific keywords and determines the
+   * appropriate categories and series. This method identifies various cloth types (First Bronze,
+   * New Bronze, Final Bronze, God Cloth), inheritor keywords, and special cases like POG to
+   * categorize figurines and assign the correct series.
    *
-   * @param filteredName the name to analyze for category-specific keywords
-   * @return an AttributeExtractionResult containing the processed name (with category keywords
-   *     removed if found), null lineup, a list of detected categories, and false for the found flag
+   * @param filteredName the name to analyze for category and series keywords
+   * @return an AttributeExtractionResult containing the processed name (with category/series
+   *     keywords removed if found), null lineup, the detected categories list, the determined
+   *     series (SAINT_SEIYA or SOG), a false found flag, and null anniversary
    */
-  private AttributeExtractionResult containsCategory(String filteredName) {
+  private AttributeExtractionResult containsCategoryAndSeries(String filteredName) {
     List<Category> categories = new ArrayList<>();
+    Series series = Series.SAINT_SEIYA;
 
     String[] keywordsFirstBronzeCloth = {FIRST_BRONZE_CLOTH};
     if (containsAnyWords(filteredName, keywordsFirstBronzeCloth)) {
@@ -236,15 +244,42 @@ public class FigurineMatchingService {
       categories.add(Category.V2);
       filteredName = removeWordsAndCleanup(filteredName, keywordsNewBronzeCloth);
     }
+    String[] keywordsFinalBronzeCloth = {FINAL_BRONZE_CLOTH};
+    if (containsAnyWords(filteredName, keywordsFinalBronzeCloth)) {
+      categories.add(Category.V3);
+      filteredName = removeWordsAndCleanup(filteredName, keywordsFinalBronzeCloth);
+    }
+
     String[] keywordsGodCloth = {GOD_CLOTH};
     if (containsAnyWords(filteredName, keywordsGodCloth)) {
-      categories.add(Category.V4);
-      categories.add(Category.GOLD);
+      List<String> zodiacNames =
+          List.of(
+              "aries",
+              "taurus",
+              "gemini",
+              "cancer",
+              "leo",
+              "virgo",
+              "libra",
+              "scorpio",
+              "sagittarius",
+              "capricorn",
+              "aquarius",
+              "pisces");
+
+      if (containsAnyWords(filteredName, zodiacNames.toArray(new String[0]))) {
+        categories.add(Category.GOLD);
+        series = Series.SOG;
+      } else {
+        categories.add(Category.V4);
+      }
+
       filteredName = removeWordsAndCleanup(filteredName, keywordsGodCloth);
     }
-    String[] keywordsInheritor = {SUCCESSOR};
+    String[] keywordsInheritor = {SUCCESSOR, INHERITOR};
     if (containsAnyWords(filteredName, keywordsInheritor)) {
       categories.add(Category.INHERITOR);
+      series = Series.SAINT_SEIYA;
       filteredName = removeWordsAndCleanup(filteredName, keywordsInheritor);
     }
     // Special case for POG
@@ -253,9 +288,19 @@ public class FigurineMatchingService {
       categories.add(Category.V2);
     }
 
-    return new AttributeExtractionResult(filteredName, null, categories, false, null);
+    return new AttributeExtractionResult(filteredName, null, categories, series, false, null);
   }
 
+  /**
+   * Checks if the given filtered name contains anniversary keywords (10th or 20th) and extracts
+   * them if found. This method identifies anniversary editions of figurines and removes the
+   * anniversary keywords from the name while preserving the anniversary information.
+   *
+   * @param filteredName the name to analyze for anniversary keywords
+   * @return an AttributeExtractionResult containing the processed name (with anniversary keywords
+   *     removed if found), null lineup, categories and series, a false found flag, and the detected
+   *     Anniversary enum value (A_10 or A_20) or null if no anniversary keywords were found
+   */
   private AttributeExtractionResult containsAnniversary(String filteredName) {
     String[] keywords10Anniversary = {_10TH};
     Anniversary anniversary = null;
@@ -268,7 +313,7 @@ public class FigurineMatchingService {
       anniversary = Anniversary.A_20;
       filteredName = removeWordsAndCleanup(filteredName, keywords20Anniversary);
     }
-    return new AttributeExtractionResult(filteredName, null, null, false, anniversary);
+    return new AttributeExtractionResult(filteredName, null, null, null, false, anniversary);
   }
 
   /**
@@ -286,6 +331,6 @@ public class FigurineMatchingService {
     boolean found = containsAnyWords(filteredName, attributes);
     String resultName = found ? removeWordsAndCleanup(filteredName, attributes) : filteredName;
 
-    return new AttributeExtractionResult(resultName, null, null, found, null);
+    return new AttributeExtractionResult(resultName, null, null, null, found, null);
   }
 }

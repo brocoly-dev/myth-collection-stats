@@ -107,8 +107,13 @@ public class TextProcessingUtils {
       return false;
     }
     for (String word : someWords) {
-      if (toBeTested.toLowerCase().contains(word.toLowerCase())) {
-        return true;
+      int initIndex = toBeTested.toLowerCase().indexOf(word.toLowerCase());
+      if (initIndex == 0
+          || (initIndex > 0 && toBeTested.toLowerCase().charAt(initIndex - 1) == ' ')) {
+        int endIndex = initIndex + word.length();
+        if (endIndex == toBeTested.length() || toBeTested.toLowerCase().charAt(endIndex) == ' ') {
+          return true;
+        }
       }
     }
     return false;
