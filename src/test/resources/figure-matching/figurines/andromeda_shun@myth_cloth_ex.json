@@ -1,9 +1,17 @@
 {
-  "distributionJPY" : null,
+  "distributionJPY" : {
+    "distributor" : null,
+    "basePrice" : 27000,
+    "finalPrice" : null,
+    "firstAnnouncementDate" : "2025-06-23",
+    "preOrderDate" : "2025-07-01",
+    "releaseDate" : "2025-12-01",
+    "releaseDateConfirmed" : false
+  },
   "distributionMXN" : null,
-  "tamashiiUrl" : "",
-  "distributionChannel" : null,
-  "officialImages" : [ "https://imagizer.imageshack.com/img924/4647/beyAuJ.jpg" ],
+  "tamashiiUrl" : "https://tamashiiweb.com/item/15429",
+  "distributionChannel" : "STORES",
+  "officialImages" : [ "https://imagizer.imageshack.com/img924/3430/LYgVl8.jpg", "https://imagizer.imageshack.com/img922/3557/070u3k.jpg", "https://imagizer.imageshack.com/img922/2720/1uztJM.jpg", "https://imagizer.imageshack.com/img924/2820/bUKcFp.jpg", "https://imagizer.imageshack.com/img922/7586/297W8z.jpg" ],
   "otherImages" : null,
   "remarks" : "",
   "baseName" : "Andromeda Shun",

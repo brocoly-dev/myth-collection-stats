@@ -13,7 +13,7 @@
   "distributionChannel" : "WS",
   "officialImages" : [ "https://imagizer.imageshack.com/img923/9343/H5ieSR.jpg", "https://imagizer.imageshack.com/img922/9260/HCelYe.jpg", "https://imagizer.imageshack.com/img924/1816/oHG9st.jpg", "https://imagizer.imageshack.com/img923/4880/A5b5IH.jpg", "https://imagizer.imageshack.com/img922/1268/wqBMCY.jpg", "https://imagizer.imageshack.com/img922/4303/QhprNT.jpg", "https://imagizer.imageshack.com/img924/6379/ecqDUG.jpg", "https://imagizer.imageshack.com/img923/5351/PmjzRu.jpg", "https://imagizer.imageshack.com/img924/7234/VklNk0.jpg" ],
   "otherImages" : null,
-  "remarks" : "",
+  "remarks" : "~30th Anniversary~",
   "baseName" : "Pisces Aphrodite",
   "displayableName" : null,
   "lineUp" : "MYTH_CLOTH_EX",
@@ -30,6 +30,6 @@
   "hk" : false,
   "comic" : false,
   "set" : false,
-  "anniversary" : null,
+  "anniversary" : "A_30",
   "restocks" : null
 }

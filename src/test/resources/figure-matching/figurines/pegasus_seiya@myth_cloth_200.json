@@ -30,6 +30,6 @@
   "hk" : false,
   "comic" : false,
   "set" : false,
-  "anniversary" : null,
+  "anniversary" : "A_30",
   "restocks" : null
 }

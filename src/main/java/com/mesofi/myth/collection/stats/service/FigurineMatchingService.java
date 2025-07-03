@@ -36,6 +36,7 @@ public class FigurineMatchingService {
   private static final String FINAL_BRONZE_CLOTH = "Final Bronze Cloth";
   private static final String _10TH = "10th";
   private static final String _20TH = "20th";
+  private static final String _30TH = "30th";
 
   /** The statistics properties configuration used for figurine matching operations. */
   private final StatsProp statsProp;
@@ -139,7 +140,13 @@ public class FigurineMatchingService {
                 })
             .filter(f -> f.getSeries() == seriesFound)
             .filter(f -> f.isRevival() == isRevival)
-            .filter(f -> f.isOce() == isOce)
+            .filter(
+                f -> {
+                  if (isOce) {
+                    return f.isOce();
+                  }
+                  return true;
+                })
             .filter(f -> f.isGolden() == golden)
             .filter(f -> f.isSet() == set)
             .filter(f -> f.isHk() == hk)
@@ -312,6 +319,11 @@ public class FigurineMatchingService {
     if (containsAnyWords(filteredName, keywords20Anniversary)) {
       anniversary = Anniversary.A_20;
       filteredName = removeWordsAndCleanup(filteredName, keywords20Anniversary);
+    }
+    String[] keywords30Anniversary = {_30TH};
+    if (containsAnyWords(filteredName, keywords30Anniversary)) {
+      anniversary = Anniversary.A_30;
+      filteredName = removeWordsAndCleanup(filteredName, keywords30Anniversary);
     }
     return new AttributeExtractionResult(filteredName, null, null, null, false, anniversary);
   }
